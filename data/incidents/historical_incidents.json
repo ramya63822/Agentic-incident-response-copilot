@@ -1,0 +1,14 @@
+[
+  {
+    "incident_id": "INC-SAMPLE-001",
+    "title": "Payment API database connection timeouts",
+    "summary": "A fictional test incident with payment failures and database connection timeout messages.",
+    "known_cause": "For the sample scenario, the database connection pool was exhausted.",
+    "evidence": [
+      "Repeated database connection timeout messages",
+      "Payment endpoint returned HTTP 500",
+      "Latency increased before request failures"
+    ],
+    "resolution": "An engineer confirmed pool exhaustion and applied an approved configuration fix."
+  }
+]
