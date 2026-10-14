@@ -2,16 +2,31 @@
 import streamlit as st
 
 from incident_copilot.log_parser import analyze_log_text
+from streamlit_autorefresh import st_autorefresh
+from datetime import datetime
 from incident_copilot.sample_data import load_sample_log
 from incident_copilot.monitor import (
     SAMPLE_ALERT_LOGS,
     check_for_incident,
+    load_payment_api_logs,
 )
 
 st.set_page_config(
     page_title="Agentic Incident Response Copilot",
     page_icon="🔎",
     layout="wide",
+)
+# Refresh the dashboard every 3 seconds
+refresh_count = st_autorefresh(
+    interval=3000,
+    limit=None,
+    key="incident_monitor_refresh",
+)
+
+st.info(f"Dashboard refresh count: {refresh_count}")
+st.caption(
+    f"Dashboard last rerun: "
+    f"{datetime.now().astimezone().strftime('%H:%M:%S')}"
 )
 
 st.title("🔎 Agentic Incident Response Copilot")
@@ -23,43 +38,35 @@ st.write(
     "rule-based log analysis, and simulated monitoring."
 )
 
+
+
 # --------------------------------------------------
-# 1. Simulated monitoring
+# 1. Automatic Incident Monitoring
 # --------------------------------------------------
 
 st.divider()
 st.subheader("1. Automatic Incident Monitoring")
 
-st.write(
-    "Simulate a monitoring check against incoming service logs. "
-    "The detector raises an incident when the configured error threshold "
-    "is reached within the time window."
+st.caption(
+    "Dashboard refreshes every 3 seconds and checks the latest "
+    "Payment API logs automatically."
 )
 
-monitor_log_text = st.text_area(
-    "Incoming monitoring logs",
-    value=SAMPLE_ALERT_LOGS,
-    height=160,
-    key="monitor_log_text",
-    help="These are simulated logs. Replace them with non-sensitive test logs if needed.",
-)
+log_text = load_payment_api_logs()
 
-if st.button("Check incoming logs", type="primary"):
-    st.session_state["monitor_result"] = check_for_incident(
-        monitor_log_text
-    )
-    st.session_state["monitor_checked"] = True
-
-if st.session_state.get("monitor_checked", False):
-    monitor_result = st.session_state.get("monitor_result")
+if log_text.strip():
+    monitor_result = check_for_incident(log_text)
 
     if monitor_result:
-        st.success("Incident detected!")
+        st.error("Incident detected!")
 
         m1, m2, m3 = st.columns(3)
         m1.metric("Service", monitor_result["service"])
         m2.metric("Errors detected", monitor_result["error_count"])
-        m3.metric("Detection window", f'{monitor_result["window_seconds"]} sec')
+        m3.metric(
+            "Detection window",
+            f'{monitor_result["window_seconds"]} sec',
+        )
 
         st.markdown(f"### {monitor_result['title']}")
         st.warning(f"Severity: {monitor_result['severity']}")
@@ -70,13 +77,15 @@ if st.session_state.get("monitor_checked", False):
             st.code(line, language="text")
 
         st.caption(
-            "The detector found an error pattern. This is not a confirmed root cause."
+            "The detector found an error pattern. "
+            "This is not a confirmed root cause."
         )
     else:
-        st.info(
-            "No incident detected in this check. "
-            "The configured error threshold was not reached."
-        )
+        st.info("No incident detected in the current logs.")
+else:
+    st.info(
+        "Waiting for Payment API logs. Start the API and traffic simulator."
+    )
 
 # --------------------------------------------------
 # 2. Manual incident intake

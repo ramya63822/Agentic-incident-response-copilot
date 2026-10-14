@@ -2,3 +2,5 @@ streamlit
 openai
 python-dotenv
 pytest
+fastapi
+uvicorn
