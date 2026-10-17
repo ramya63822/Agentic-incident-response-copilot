@@ -62,7 +62,7 @@ def detect_incident(
 
     errors.sort(key=lambda item: item["timestamp"])
     left = 0
-
+    latest_incident = None
     for right, current in enumerate(errors):
         while (
             current["timestamp"] - errors[left]["timestamp"]
@@ -76,14 +76,18 @@ def detect_incident(
             services = sorted({
                 item["service"] for item in window_errors
             })
-            service = services[0] if len(services) == 1 else "multiple services"
+            service = (
+                services[0]
+                if len(services) == 1
+                else "multiple services"
+            )
 
             critical_found = any(
                 item["level"] in {"CRITICAL", "FATAL"}
                 for item in window_errors
             )
 
-            return {
+            latest_incident = {
                 "title": f"Repeated errors detected in {service}",
                 "severity": "Critical" if critical_found else "High",
                 "service": service,
@@ -100,4 +104,5 @@ def detect_incident(
                 "last_seen": current["timestamp"].isoformat(),
             }
 
-    return None
+
+    return latest_incident 

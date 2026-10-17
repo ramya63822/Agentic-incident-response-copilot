@@ -2066,3 +2066,1119 @@
 2026-10-27T17:07:32Z ERROR payment-api request failed status=500 route=/payments request_id=5a31047e-f246-4949-84a9-b498e5b8a1b7 reason=simulated_failure amount=500.00
 2026-10-27T17:07:34Z INFO payment-api request completed status=200 route=/payments request_id=bca81d65-5191-4bd5-aaa3-5aae8047b4c5 amount=500.00
 2026-10-27T17:07:36Z INFO payment-api request completed status=200 route=/payments request_id=1287fbd7-d85d-4706-a75d-f6fdaa1278fe amount=500.00
+2026-10-29T14:22:04Z INFO payment-api request completed status=200 route=/payments request_id=e392ae3d-86c6-4ff9-85ca-4e29965e7181 amount=500.00
+2026-10-29T14:22:06Z INFO payment-api request completed status=200 route=/payments request_id=d09a9b79-bf43-43b7-a291-b12bc7453d50 amount=500.00
+2026-10-29T14:22:08Z INFO payment-api request completed status=200 route=/payments request_id=50c8e894-47f9-45e8-8f9f-e2d1c835820c amount=500.00
+2026-10-29T14:22:10Z INFO payment-api request completed status=200 route=/payments request_id=50e3ec62-ba27-4027-b6cf-0782e834d44d amount=500.00
+2026-10-29T14:22:12Z INFO payment-api request completed status=200 route=/payments request_id=caa45f42-4c59-4c59-9b73-6e27c9856850 amount=500.00
+2026-10-29T14:22:14Z ERROR payment-api request failed status=500 route=/payments request_id=35e32425-6331-415b-8903-295a458d56ce reason=simulated_failure amount=500.00
+2026-10-29T14:22:16Z ERROR payment-api request failed status=500 route=/payments request_id=fa840a32-5822-4da5-a1b0-5ea4c53a641d reason=simulated_failure amount=500.00
+2026-10-29T14:22:18Z ERROR payment-api request failed status=500 route=/payments request_id=41fc1e2f-77d8-45ef-939f-de86a270a072 reason=simulated_failure amount=500.00
+2026-10-29T14:22:20Z INFO payment-api request completed status=200 route=/payments request_id=8dcb96da-b735-4dc1-9ab6-6e08566bc866 amount=500.00
+2026-10-29T14:22:22Z INFO payment-api request completed status=200 route=/payments request_id=3ae7deec-3226-4cb8-a336-9360ed4b6f0e amount=500.00
+2026-10-29T14:22:24Z INFO payment-api request completed status=200 route=/payments request_id=f0ca082d-3a2c-4610-9d2e-4d3860db3cab amount=500.00
+2026-10-29T14:22:26Z INFO payment-api request completed status=200 route=/payments request_id=c8f9e9ce-80fc-471c-b7f3-bfc557560c18 amount=500.00
+2026-10-29T14:22:28Z INFO payment-api request completed status=200 route=/payments request_id=06fe6de1-2c75-484a-b65a-2a70857607eb amount=500.00
+2026-10-29T14:22:30Z ERROR payment-api request failed status=500 route=/payments request_id=8532e40f-0990-421d-ac60-545bfc3bda75 reason=simulated_failure amount=500.00
+2026-10-29T14:22:32Z ERROR payment-api request failed status=500 route=/payments request_id=754c3f80-5a75-4eed-a2c6-15033bce1a12 reason=simulated_failure amount=500.00
+2026-10-29T14:22:34Z ERROR payment-api request failed status=500 route=/payments request_id=fda9dda6-86b1-4711-a5da-fb3e8be3d3f9 reason=simulated_failure amount=500.00
+2026-10-29T14:22:36Z INFO payment-api request completed status=200 route=/payments request_id=7c71a92c-929e-4a36-a745-2bffcfcbf979 amount=500.00
+2026-10-29T14:22:38Z INFO payment-api request completed status=200 route=/payments request_id=12bde256-728c-4a7e-badf-c2d154e8848d amount=500.00
+2026-10-29T14:22:40Z INFO payment-api request completed status=200 route=/payments request_id=8dde1fa8-8540-4b97-8a71-676bef217ba8 amount=500.00
+2026-10-29T14:22:42Z INFO payment-api request completed status=200 route=/payments request_id=7a15fa4e-8054-4fa6-b577-a67e471e59d4 amount=500.00
+2026-10-29T14:22:44Z INFO payment-api request completed status=200 route=/payments request_id=c0fb40c7-3991-4569-bf80-b9816861d513 amount=500.00
+2026-10-29T14:22:46Z ERROR payment-api request failed status=500 route=/payments request_id=604651f5-d016-4cfa-8372-cfc7eab076fb reason=simulated_failure amount=500.00
+2026-10-29T14:22:48Z ERROR payment-api request failed status=500 route=/payments request_id=d9e16ae8-c530-4d79-a4c0-b247715ccd14 reason=simulated_failure amount=500.00
+2026-10-29T14:22:50Z ERROR payment-api request failed status=500 route=/payments request_id=42ff14d1-9a33-4733-954e-56876c50bccd reason=simulated_failure amount=500.00
+2026-10-29T14:22:52Z INFO payment-api request completed status=200 route=/payments request_id=f68e71f5-7036-4df8-9143-41f4cd27eefd amount=500.00
+2026-10-29T14:22:54Z INFO payment-api request completed status=200 route=/payments request_id=37df457f-9880-4caf-a37e-c2c135b6e098 amount=500.00
+2026-10-29T14:22:56Z INFO payment-api request completed status=200 route=/payments request_id=66645a30-f63e-40d1-bc85-51856e5b2086 amount=500.00
+2026-10-29T14:22:58Z INFO payment-api request completed status=200 route=/payments request_id=e0485bca-1bda-457d-985c-e0b2af884f93 amount=500.00
+2026-10-29T14:23:00Z INFO payment-api request completed status=200 route=/payments request_id=1ffb9e63-a906-4371-a6fd-805b329c61a2 amount=500.00
+2026-10-29T14:23:02Z ERROR payment-api request failed status=500 route=/payments request_id=a55941f8-48fc-4b4a-83ab-f6c3388c133d reason=simulated_failure amount=500.00
+2026-10-29T14:23:04Z ERROR payment-api request failed status=500 route=/payments request_id=4a76b2aa-09cd-4261-b250-bd96e8519ed0 reason=simulated_failure amount=500.00
+2026-10-29T14:23:06Z ERROR payment-api request failed status=500 route=/payments request_id=2416b814-c144-42d2-ae4d-f628af8ff21e reason=simulated_failure amount=500.00
+2026-10-29T14:23:08Z INFO payment-api request completed status=200 route=/payments request_id=bbd74588-aa78-4e9b-81eb-122055a4a8e4 amount=500.00
+2026-10-29T14:23:10Z INFO payment-api request completed status=200 route=/payments request_id=5080dcc2-b0d4-473d-ab91-e1add144b386 amount=500.00
+2026-10-29T14:23:12Z INFO payment-api request completed status=200 route=/payments request_id=5cd96655-fcb1-4b3e-8547-c95618ac4b6e amount=500.00
+2026-10-29T14:23:14Z INFO payment-api request completed status=200 route=/payments request_id=483b2c52-d4f0-4727-978b-d1c4df568db6 amount=500.00
+2026-10-29T14:23:16Z INFO payment-api request completed status=200 route=/payments request_id=10991eb0-2921-416a-9ff7-2581fb071c8c amount=500.00
+2026-10-29T14:23:18Z ERROR payment-api request failed status=500 route=/payments request_id=39a8b7a0-78bd-46af-a46a-0b246a1c3c9b reason=simulated_failure amount=500.00
+2026-10-29T14:23:21Z ERROR payment-api request failed status=500 route=/payments request_id=427607b3-db69-460d-879e-90d181ce940a reason=simulated_failure amount=500.00
+2026-10-29T14:23:23Z ERROR payment-api request failed status=500 route=/payments request_id=22bd1aa8-10df-484b-abf1-6cc6b46c6182 reason=simulated_failure amount=500.00
+2026-10-29T14:23:25Z INFO payment-api request completed status=200 route=/payments request_id=4b342644-3483-4bc5-b4aa-e43c188348a4 amount=500.00
+2026-10-29T14:23:27Z INFO payment-api request completed status=200 route=/payments request_id=3160204a-9854-49ae-8b69-f1f88667c559 amount=500.00
+2026-10-29T14:23:29Z INFO payment-api request completed status=200 route=/payments request_id=e393159e-c013-403d-bb85-5603bbb64b05 amount=500.00
+2026-10-29T14:23:31Z INFO payment-api request completed status=200 route=/payments request_id=8c27006d-5464-4f51-b299-34495e33455f amount=500.00
+2026-10-29T14:23:33Z INFO payment-api request completed status=200 route=/payments request_id=57d146ce-c08c-4dbe-aef4-b9c81ab08e99 amount=500.00
+2026-10-29T14:23:35Z ERROR payment-api request failed status=500 route=/payments request_id=b6d321c5-b780-433c-a19c-bb5eb92dc0f6 reason=simulated_failure amount=500.00
+2026-10-29T14:23:37Z ERROR payment-api request failed status=500 route=/payments request_id=5c51b0f0-6d3f-4c84-96ff-95b2785a8841 reason=simulated_failure amount=500.00
+2026-10-29T14:23:39Z ERROR payment-api request failed status=500 route=/payments request_id=7a0e12c1-e78b-4f50-9449-aadc0cc36efb reason=simulated_failure amount=500.00
+2026-10-29T14:23:41Z INFO payment-api request completed status=200 route=/payments request_id=c7330f2a-3c69-42cc-82d6-46aa5567411c amount=500.00
+2026-10-29T14:26:55Z INFO payment-api request completed status=200 route=/payments request_id=922bef8d-74de-47c8-9ccb-dbcde8aca45b amount=500.00
+2026-10-29T14:26:57Z INFO payment-api request completed status=200 route=/payments request_id=421fdc75-12dd-49da-996c-c0f80ff674cf amount=500.00
+2026-10-29T14:26:59Z INFO payment-api request completed status=200 route=/payments request_id=d32c28e1-9899-43b7-9a01-6ef2dd6082e3 amount=500.00
+2026-10-29T14:27:01Z INFO payment-api request completed status=200 route=/payments request_id=3ca3f95c-80b4-4973-aab1-19acf7b8face amount=500.00
+2026-10-29T14:27:03Z INFO payment-api request completed status=200 route=/payments request_id=880c099a-d538-4b84-8acb-5d9f72080eb2 amount=500.00
+2026-10-29T14:27:05Z ERROR payment-api request failed status=500 route=/payments request_id=7b122a9d-ad41-4206-bde9-ee8fcd5fe0d7 reason=simulated_failure amount=500.00
+2026-10-29T14:27:07Z ERROR payment-api request failed status=500 route=/payments request_id=e9d32f4b-899f-45fa-8c7d-6fba083daf83 reason=simulated_failure amount=500.00
+2026-10-29T14:27:09Z ERROR payment-api request failed status=500 route=/payments request_id=921453bb-ab1d-4621-9a34-9b533221945b reason=simulated_failure amount=500.00
+2026-10-29T14:27:11Z INFO payment-api request completed status=200 route=/payments request_id=82d4c74a-67ab-4ed6-937d-c36147e12c32 amount=500.00
+2026-10-29T14:27:13Z INFO payment-api request completed status=200 route=/payments request_id=b4414b0a-63cd-4cd4-ade3-479175cd5824 amount=500.00
+2026-10-29T14:27:15Z INFO payment-api request completed status=200 route=/payments request_id=ad7ed84b-8851-4075-be47-010d445b6ce7 amount=500.00
+2026-10-29T14:27:17Z INFO payment-api request completed status=200 route=/payments request_id=b22da28b-284a-451c-868f-6d4461e15d61 amount=500.00
+2026-10-29T14:27:19Z INFO payment-api request completed status=200 route=/payments request_id=7d5606aa-977c-4857-b912-3de1ba71fb52 amount=500.00
+2026-10-29T14:27:21Z ERROR payment-api request failed status=500 route=/payments request_id=6b229426-a7ef-40f6-bb7a-f6670ad7c09b reason=simulated_failure amount=500.00
+2026-10-29T14:27:23Z ERROR payment-api request failed status=500 route=/payments request_id=dd25e1a2-ffa2-44c1-86dd-7a13fd588bfa reason=simulated_failure amount=500.00
+2026-10-29T15:12:51Z INFO payment-api request completed status=200 route=/payments request_id=c5ce8497-8700-4911-9751-5340fe96489e amount=500.00
+2026-10-29T15:12:53Z INFO payment-api request completed status=200 route=/payments request_id=45cb1a6a-bfee-4b2b-a6ab-5ba6f1665c5d amount=500.00
+2026-10-29T15:12:55Z INFO payment-api request completed status=200 route=/payments request_id=5eb38552-3f04-4210-8ac1-2cbac9612965 amount=500.00
+2026-10-29T15:12:57Z INFO payment-api request completed status=200 route=/payments request_id=4283b38d-59ee-4d05-9ff8-d6257042db60 amount=500.00
+2026-10-29T15:12:59Z INFO payment-api request completed status=200 route=/payments request_id=9c31f44e-fb31-4e6c-afe7-9aad0e0e334b amount=500.00
+2026-10-29T15:13:01Z ERROR payment-api request failed status=500 route=/payments request_id=2519cb27-9a79-4f86-81e5-4d5943f44ff0 reason=simulated_failure amount=500.00
+2026-10-29T15:13:03Z ERROR payment-api request failed status=500 route=/payments request_id=830eb33d-9cf2-4f42-9a27-42863c78ac25 reason=simulated_failure amount=500.00
+2026-10-29T15:13:05Z ERROR payment-api request failed status=500 route=/payments request_id=d9ad3e32-f163-4c81-9537-01bc126560a6 reason=simulated_failure amount=500.00
+2026-10-29T15:13:07Z INFO payment-api request completed status=200 route=/payments request_id=c8297013-42b5-4c54-935a-f47448abd7ed amount=500.00
+2026-10-29T15:13:09Z INFO payment-api request completed status=200 route=/payments request_id=17c1cf2a-5dd8-45ac-87c7-1db87806a045 amount=500.00
+2026-10-29T15:13:11Z INFO payment-api request completed status=200 route=/payments request_id=60613712-76b4-4f32-a906-6f0334874752 amount=500.00
+2026-10-29T15:13:13Z INFO payment-api request completed status=200 route=/payments request_id=903ae12e-7b1b-4236-b8d5-a5a6a8cf2595 amount=500.00
+2026-10-29T15:13:15Z INFO payment-api request completed status=200 route=/payments request_id=bd026ba8-aabf-438f-9162-8f6e5d82d964 amount=500.00
+2026-10-29T15:13:17Z ERROR payment-api request failed status=500 route=/payments request_id=809ae195-8e90-48c0-a11e-03fc2f462e5a reason=simulated_failure amount=500.00
+2026-10-29T15:13:19Z ERROR payment-api request failed status=500 route=/payments request_id=a4ddefe6-ff76-43aa-ac13-2aeb72c171fa reason=simulated_failure amount=500.00
+2026-10-29T15:13:21Z ERROR payment-api request failed status=500 route=/payments request_id=3cb23bf1-f290-4aa9-8464-976719084fe6 reason=simulated_failure amount=500.00
+2026-10-29T15:13:24Z INFO payment-api request completed status=200 route=/payments request_id=8deea35e-9d51-48ab-9da3-859c0a0b6d8d amount=500.00
+2026-10-29T15:13:26Z INFO payment-api request completed status=200 route=/payments request_id=c5fbf869-c574-49c2-a458-886b6c872e02 amount=500.00
+2026-10-29T15:13:28Z INFO payment-api request completed status=200 route=/payments request_id=6b645e6a-8912-4b8c-b1dd-47dc8ed43b29 amount=500.00
+2026-10-29T15:13:30Z INFO payment-api request completed status=200 route=/payments request_id=f23edf9b-7a9d-4005-a759-567c0e10a87e amount=500.00
+2026-10-29T15:13:32Z INFO payment-api request completed status=200 route=/payments request_id=20b408e5-6361-4e0e-8619-b0da3341425f amount=500.00
+2026-10-29T15:13:34Z ERROR payment-api request failed status=500 route=/payments request_id=ef0ef288-3f46-4540-96d2-7e2844b927e3 reason=simulated_failure amount=500.00
+2026-10-29T15:13:36Z ERROR payment-api request failed status=500 route=/payments request_id=4750177e-116c-4f51-895e-b06db1e5eeaa reason=simulated_failure amount=500.00
+2026-10-29T15:13:38Z ERROR payment-api request failed status=500 route=/payments request_id=186f855f-dc24-4435-ad5b-6b3b7c0c1477 reason=simulated_failure amount=500.00
+2026-10-29T15:13:40Z INFO payment-api request completed status=200 route=/payments request_id=d9050b5b-eb3e-4889-8b47-577d6eee8e4f amount=500.00
+2026-10-29T15:13:42Z INFO payment-api request completed status=200 route=/payments request_id=647905b3-42bd-4374-a5ab-8bff49fd0ef4 amount=500.00
+2026-10-29T15:13:44Z INFO payment-api request completed status=200 route=/payments request_id=90a632c4-9582-46a5-9c93-e9fb36c66640 amount=500.00
+2026-10-29T15:13:46Z INFO payment-api request completed status=200 route=/payments request_id=86938a08-e266-4cf4-bbeb-3929567a81d8 amount=500.00
+2026-10-29T15:13:48Z INFO payment-api request completed status=200 route=/payments request_id=8107e6ba-d69c-476c-9b3e-d845c2f8915b amount=500.00
+2026-10-29T15:13:50Z ERROR payment-api request failed status=500 route=/payments request_id=0e74c24c-de23-4d76-a7fa-b1db40cd7106 reason=simulated_failure amount=500.00
+2026-10-29T15:13:52Z ERROR payment-api request failed status=500 route=/payments request_id=bc86e1f8-ac48-4f09-a935-1df66f98e04b reason=simulated_failure amount=500.00
+2026-10-29T15:13:54Z ERROR payment-api request failed status=500 route=/payments request_id=a6cb5e7c-81a9-4ef2-a42a-93e4f3cb74af reason=simulated_failure amount=500.00
+2026-10-29T15:13:56Z INFO payment-api request completed status=200 route=/payments request_id=3df6a9c9-a0dd-47d9-a093-764dd7caaafd amount=500.00
+2026-10-29T15:13:58Z INFO payment-api request completed status=200 route=/payments request_id=f5850fb8-4224-41a9-9840-322c5a5d1910 amount=500.00
+2026-10-29T15:14:00Z INFO payment-api request completed status=200 route=/payments request_id=bd82b1c5-d347-403c-92a1-323f2153ee01 amount=500.00
+2026-10-29T15:14:02Z INFO payment-api request completed status=200 route=/payments request_id=0ffe08c0-80e2-45cb-b887-efdd540f18d1 amount=500.00
+2026-10-29T15:14:04Z INFO payment-api request completed status=200 route=/payments request_id=9ab36b78-a6ee-4b09-af67-9aeb5473939c amount=500.00
+2026-10-29T15:14:06Z ERROR payment-api request failed status=500 route=/payments request_id=59089dde-18cb-40f8-8687-a82ee5194bb4 reason=simulated_failure amount=500.00
+2026-10-29T15:14:08Z ERROR payment-api request failed status=500 route=/payments request_id=02964666-b5cd-477f-b581-8abaa4e1a073 reason=simulated_failure amount=500.00
+2026-10-29T15:14:10Z ERROR payment-api request failed status=500 route=/payments request_id=272164a7-1aee-4431-be24-6c05029490f3 reason=simulated_failure amount=500.00
+2026-10-29T15:14:12Z INFO payment-api request completed status=200 route=/payments request_id=8a2e7b82-aef1-4b38-b69c-6ec8c42f2975 amount=500.00
+2026-10-29T15:14:14Z INFO payment-api request completed status=200 route=/payments request_id=066155bc-79b7-4b93-b48e-143ac1c46938 amount=500.00
+2026-10-29T15:14:16Z INFO payment-api request completed status=200 route=/payments request_id=5427d9ab-7cad-4cba-963c-251cb0356ec8 amount=500.00
+2026-10-29T15:14:18Z INFO payment-api request completed status=200 route=/payments request_id=ae02660f-be23-476a-8768-a8e01f1abffe amount=500.00
+2026-10-29T15:14:20Z INFO payment-api request completed status=200 route=/payments request_id=0fcd9f7e-c804-4045-8648-6a78e6edfba6 amount=500.00
+2026-10-29T15:14:22Z ERROR payment-api request failed status=500 route=/payments request_id=bac1cfc2-5f71-4b5e-8859-a8e162a92cec reason=simulated_failure amount=500.00
+2026-10-29T15:14:24Z ERROR payment-api request failed status=500 route=/payments request_id=947f1bb5-3cf7-4a59-b4c3-907e92b4214f reason=simulated_failure amount=500.00
+2026-10-29T15:14:26Z ERROR payment-api request failed status=500 route=/payments request_id=6ebde7ee-dd5a-4023-b9f2-af05a19bf7c3 reason=simulated_failure amount=500.00
+2026-10-29T15:14:28Z INFO payment-api request completed status=200 route=/payments request_id=88d21b89-b4ac-4502-a06f-a705328a3be0 amount=500.00
+2026-10-29T15:14:30Z INFO payment-api request completed status=200 route=/payments request_id=dbb4a733-92e4-4675-9b5a-feb39ed38a1b amount=500.00
+2026-10-29T15:14:32Z INFO payment-api request completed status=200 route=/payments request_id=6c18d6a9-6154-418d-8730-b0339c4dcaca amount=500.00
+2026-10-29T15:14:34Z INFO payment-api request completed status=200 route=/payments request_id=b0c5c743-91e1-4ecc-b8d6-08643b21b762 amount=500.00
+2026-10-29T15:14:36Z INFO payment-api request completed status=200 route=/payments request_id=63ca9629-c3f9-423d-9567-8686f2acd9df amount=500.00
+2026-10-29T15:14:38Z ERROR payment-api request failed status=500 route=/payments request_id=661114c8-1ac9-451e-8a49-8991fcf67a27 reason=simulated_failure amount=500.00
+2026-10-29T15:14:40Z ERROR payment-api request failed status=500 route=/payments request_id=0a5ef106-d126-4dd5-9610-b8ccbca66da1 reason=simulated_failure amount=500.00
+2026-10-29T15:14:42Z ERROR payment-api request failed status=500 route=/payments request_id=8eb8a8de-59dd-4dff-abb1-bb4918f2b708 reason=simulated_failure amount=500.00
+2026-10-29T15:14:44Z INFO payment-api request completed status=200 route=/payments request_id=9021d4b8-e31e-4867-b5ba-8ce897d3e417 amount=500.00
+2026-10-29T15:14:46Z INFO payment-api request completed status=200 route=/payments request_id=8c7d63a6-a610-418d-89fc-51fdea42614b amount=500.00
+2026-10-29T15:14:48Z INFO payment-api request completed status=200 route=/payments request_id=1ff9c338-1ce9-44af-b5c7-6a8d93d6457a amount=500.00
+2026-10-29T15:14:50Z INFO payment-api request completed status=200 route=/payments request_id=9038241e-29f6-45e4-bb92-656084c918f5 amount=500.00
+2026-10-29T15:14:52Z INFO payment-api request completed status=200 route=/payments request_id=d870921a-a730-4974-ac7c-dff8220c26e0 amount=500.00
+2026-10-29T15:14:54Z ERROR payment-api request failed status=500 route=/payments request_id=cde8ae83-935a-47d3-ad22-9edf65dc1bf2 reason=simulated_failure amount=500.00
+2026-10-29T15:14:56Z ERROR payment-api request failed status=500 route=/payments request_id=f876f539-fc3a-40c0-b49b-e998374f6ad1 reason=simulated_failure amount=500.00
+2026-10-29T15:14:58Z ERROR payment-api request failed status=500 route=/payments request_id=8bdade16-6c8c-4c4d-abcb-748300812e33 reason=simulated_failure amount=500.00
+2026-10-29T15:15:00Z INFO payment-api request completed status=200 route=/payments request_id=3709311a-1a68-429f-bd22-79c57897b4fe amount=500.00
+2026-10-29T15:15:02Z INFO payment-api request completed status=200 route=/payments request_id=1cfd9208-e125-4dd5-acc9-3a37791d8cb3 amount=500.00
+2026-10-29T15:15:04Z INFO payment-api request completed status=200 route=/payments request_id=10851af4-c67f-43f1-ab3c-1ec779792d25 amount=500.00
+2026-10-29T15:15:06Z INFO payment-api request completed status=200 route=/payments request_id=1ed51e83-7739-431f-bccf-ce319f962c68 amount=500.00
+2026-10-29T15:15:08Z INFO payment-api request completed status=200 route=/payments request_id=22809b39-b6d1-4159-9a17-b5c963e6c2fa amount=500.00
+2026-10-29T15:15:10Z ERROR payment-api request failed status=500 route=/payments request_id=fae4d2f6-452c-4cfd-bb88-b29719780dc4 reason=simulated_failure amount=500.00
+2026-10-29T15:15:12Z ERROR payment-api request failed status=500 route=/payments request_id=c03f8a39-0000-4d69-b91d-92d0e9f42792 reason=simulated_failure amount=500.00
+2026-10-29T15:15:14Z ERROR payment-api request failed status=500 route=/payments request_id=e55dfad6-0d73-4d72-8434-6c360048927f reason=simulated_failure amount=500.00
+2026-10-29T15:15:16Z INFO payment-api request completed status=200 route=/payments request_id=85510820-f2d9-4ba9-bfb7-afcdad117afb amount=500.00
+2026-10-29T15:15:18Z INFO payment-api request completed status=200 route=/payments request_id=9a6da187-defd-45b2-8700-284be64d625e amount=500.00
+2026-10-29T15:15:20Z INFO payment-api request completed status=200 route=/payments request_id=30c64b1d-9d36-4586-8cd6-9a44e349d7e1 amount=500.00
+2026-10-29T15:15:22Z INFO payment-api request completed status=200 route=/payments request_id=80f6abb4-84eb-437f-a69f-d654b61536bf amount=500.00
+2026-10-29T15:15:24Z INFO payment-api request completed status=200 route=/payments request_id=0063a32f-c235-45d1-83a7-4816da564a5a amount=500.00
+2026-10-29T15:15:26Z ERROR payment-api request failed status=500 route=/payments request_id=586c5aa4-93cd-4c00-8c59-34e79775f11e reason=simulated_failure amount=500.00
+2026-10-29T15:15:28Z ERROR payment-api request failed status=500 route=/payments request_id=1c2df62a-bbf7-4786-8c5e-8068fa215d15 reason=simulated_failure amount=500.00
+2026-10-29T15:15:30Z ERROR payment-api request failed status=500 route=/payments request_id=02adb23a-0441-4e1d-bed5-61b197f001c3 reason=simulated_failure amount=500.00
+2026-10-29T15:15:32Z INFO payment-api request completed status=200 route=/payments request_id=96199cdc-46b5-4044-a1d2-f49092c18997 amount=500.00
+2026-10-29T15:15:34Z INFO payment-api request completed status=200 route=/payments request_id=9a535815-6c4b-46cb-9d39-c9d2731e1825 amount=500.00
+2026-10-29T15:15:36Z INFO payment-api request completed status=200 route=/payments request_id=7c46f61c-85d1-4776-943d-3b890ae10f1e amount=500.00
+2026-10-29T15:15:38Z INFO payment-api request completed status=200 route=/payments request_id=bb1e04c5-97b2-4f33-be16-c717fc5c7ef3 amount=500.00
+2026-10-29T15:15:40Z INFO payment-api request completed status=200 route=/payments request_id=630b041a-214d-44f2-9b4b-0767143b2649 amount=500.00
+2026-10-29T15:15:42Z ERROR payment-api request failed status=500 route=/payments request_id=5a478215-9e97-4c86-9c72-e0a7848a3cb5 reason=simulated_failure amount=500.00
+2026-10-29T15:15:44Z ERROR payment-api request failed status=500 route=/payments request_id=38a041df-8d5e-4e99-8858-727d3df8850f reason=simulated_failure amount=500.00
+2026-10-29T15:15:46Z ERROR payment-api request failed status=500 route=/payments request_id=96a76796-9983-4fe6-9e77-1a6024191dda reason=simulated_failure amount=500.00
+2026-10-29T15:15:48Z INFO payment-api request completed status=200 route=/payments request_id=fa217341-5ef6-407f-a926-0ff3c9d802eb amount=500.00
+2026-10-29T15:15:50Z INFO payment-api request completed status=200 route=/payments request_id=f98de947-1d8b-4598-8914-bf2d327107ab amount=500.00
+2026-10-29T15:15:52Z INFO payment-api request completed status=200 route=/payments request_id=6d2aa05d-5c3e-4b91-8be2-13151698d24e amount=500.00
+2026-10-29T15:15:54Z INFO payment-api request completed status=200 route=/payments request_id=9264934f-02ed-46e3-be05-16fcf4807a57 amount=500.00
+2026-10-29T15:15:56Z INFO payment-api request completed status=200 route=/payments request_id=b3fee658-4ea4-4727-8da8-419b250a7854 amount=500.00
+2026-10-29T15:15:58Z ERROR payment-api request failed status=500 route=/payments request_id=c3184f6e-3a00-4b1e-b311-c6fc58c894d7 reason=simulated_failure amount=500.00
+2026-10-29T15:16:00Z ERROR payment-api request failed status=500 route=/payments request_id=d9ae7ef9-9d01-4341-8637-7adec706c250 reason=simulated_failure amount=500.00
+2026-10-29T15:16:02Z ERROR payment-api request failed status=500 route=/payments request_id=ecb555ae-d464-40b2-ae0b-127c2f7f1d13 reason=simulated_failure amount=500.00
+2026-10-29T15:16:04Z INFO payment-api request completed status=200 route=/payments request_id=c35ce05e-5cb3-480a-9d90-53464a168a00 amount=500.00
+2026-10-29T15:16:06Z INFO payment-api request completed status=200 route=/payments request_id=2ee613b5-4d86-41f9-9890-ec42b1ce9592 amount=500.00
+2026-10-29T15:16:08Z INFO payment-api request completed status=200 route=/payments request_id=e4f6fbfb-eefe-4aca-9e8b-796c7d845c5f amount=500.00
+2026-10-29T15:16:10Z INFO payment-api request completed status=200 route=/payments request_id=2ac9180e-f7ea-4507-9070-4b4fc460f2fc amount=500.00
+2026-10-29T15:16:12Z INFO payment-api request completed status=200 route=/payments request_id=11a1258a-94e1-4ee0-8f10-6dc4229d63ba amount=500.00
+2026-10-29T15:16:15Z ERROR payment-api request failed status=500 route=/payments request_id=9eeb99de-1334-46a8-af31-c4eaf1f85b9c reason=simulated_failure amount=500.00
+2026-10-29T15:16:17Z ERROR payment-api request failed status=500 route=/payments request_id=19d505cd-9ad9-45c1-8bd0-3869a1cce908 reason=simulated_failure amount=500.00
+2026-10-29T15:16:19Z ERROR payment-api request failed status=500 route=/payments request_id=ef8939f0-1b0f-4009-9d2f-8fdc5f697e5a reason=simulated_failure amount=500.00
+2026-10-29T15:16:21Z INFO payment-api request completed status=200 route=/payments request_id=59ef422c-7fcc-4fc5-9e40-4b3c91b69e43 amount=500.00
+2026-10-29T15:16:23Z INFO payment-api request completed status=200 route=/payments request_id=19c519ab-af72-4012-ae58-e8b75aa01716 amount=500.00
+2026-10-29T15:16:25Z INFO payment-api request completed status=200 route=/payments request_id=1e9db886-9cc2-4a8e-b06d-e6bc21b79a9f amount=500.00
+2026-10-29T15:16:27Z INFO payment-api request completed status=200 route=/payments request_id=60485825-e766-437d-a916-42b418e14663 amount=500.00
+2026-10-29T15:16:29Z INFO payment-api request completed status=200 route=/payments request_id=89b1c2ff-9759-4dc2-968a-ad9774eb4c99 amount=500.00
+2026-10-29T15:16:31Z ERROR payment-api request failed status=500 route=/payments request_id=5bcfbbf8-e2b5-45e3-a8d6-b5f9ff35f935 reason=simulated_failure amount=500.00
+2026-10-29T15:16:33Z ERROR payment-api request failed status=500 route=/payments request_id=97ada9f0-87fb-4217-b1fb-3ac55195594f reason=simulated_failure amount=500.00
+2026-10-29T15:16:35Z ERROR payment-api request failed status=500 route=/payments request_id=274b5919-b609-4bf4-b28b-6d98a4438e0c reason=simulated_failure amount=500.00
+2026-10-29T15:16:37Z INFO payment-api request completed status=200 route=/payments request_id=0b7cc937-6216-4dc8-92ba-25eb9ba01de8 amount=500.00
+2026-10-29T15:16:39Z INFO payment-api request completed status=200 route=/payments request_id=548a8178-c396-4c4f-af4e-e91947867684 amount=500.00
+2026-10-29T15:16:41Z INFO payment-api request completed status=200 route=/payments request_id=b0bc6266-7a68-4467-bfe0-9a2decf3187a amount=500.00
+2026-10-29T15:16:43Z INFO payment-api request completed status=200 route=/payments request_id=ca0b082b-112d-4192-9f6d-30a6154726be amount=500.00
+2026-10-29T15:16:45Z INFO payment-api request completed status=200 route=/payments request_id=0cdbf506-3f39-41de-8b14-3ee9b5e20ece amount=500.00
+2026-10-29T15:16:47Z ERROR payment-api request failed status=500 route=/payments request_id=a21fdd77-143a-4eb1-93e1-b4b5c190ea8b reason=simulated_failure amount=500.00
+2026-10-29T15:16:49Z ERROR payment-api request failed status=500 route=/payments request_id=b8ed816e-b4de-40fc-993c-9c6998004345 reason=simulated_failure amount=500.00
+2026-10-29T15:16:51Z ERROR payment-api request failed status=500 route=/payments request_id=57afffba-0c04-4be0-8e84-504caed8dcea reason=simulated_failure amount=500.00
+2026-10-29T15:16:53Z INFO payment-api request completed status=200 route=/payments request_id=853e4c34-3f1d-484b-8b57-52fc2dc5f244 amount=500.00
+2026-10-29T15:16:55Z INFO payment-api request completed status=200 route=/payments request_id=bdc95e24-1b7b-4d19-9a14-c441570bf40b amount=500.00
+2026-10-29T15:16:57Z INFO payment-api request completed status=200 route=/payments request_id=c1b3f29f-2b85-4593-ad2d-86ce68a61892 amount=500.00
+2026-10-29T15:16:59Z INFO payment-api request completed status=200 route=/payments request_id=e078200e-f41b-4031-ad08-03c01cd8ee5d amount=500.00
+2026-10-29T15:17:01Z INFO payment-api request completed status=200 route=/payments request_id=82f875cf-0031-4e34-b71a-48475179d4e2 amount=500.00
+2026-10-29T15:17:03Z ERROR payment-api request failed status=500 route=/payments request_id=8c996256-32e6-4695-8151-801f62e41f6c reason=simulated_failure amount=500.00
+2026-10-29T15:17:05Z ERROR payment-api request failed status=500 route=/payments request_id=02dc3d77-c5fd-4573-a59c-db696c55a6f9 reason=simulated_failure amount=500.00
+2026-10-29T15:17:07Z ERROR payment-api request failed status=500 route=/payments request_id=abb3cf38-00a6-4394-a0cb-5911e629911b reason=simulated_failure amount=500.00
+2026-10-29T15:17:09Z INFO payment-api request completed status=200 route=/payments request_id=4f80de2a-3c65-4fd1-8dda-cf7af2bb3f18 amount=500.00
+2026-10-29T15:17:11Z INFO payment-api request completed status=200 route=/payments request_id=ee719646-17e0-4a45-81a0-a4224da64344 amount=500.00
+2026-10-29T15:17:13Z INFO payment-api request completed status=200 route=/payments request_id=c9c15675-2c64-404d-a3f5-e093ff181a97 amount=500.00
+2026-10-29T15:17:15Z INFO payment-api request completed status=200 route=/payments request_id=dd4bb7e7-521d-473d-82be-61b247a1d4a1 amount=500.00
+2026-10-29T15:17:17Z INFO payment-api request completed status=200 route=/payments request_id=82b780c8-e081-4584-93a8-66188201fea6 amount=500.00
+2026-10-29T15:17:19Z ERROR payment-api request failed status=500 route=/payments request_id=969aade7-8ce8-4fc2-851d-a0ae605e41ac reason=simulated_failure amount=500.00
+2026-10-29T15:17:21Z ERROR payment-api request failed status=500 route=/payments request_id=452a712b-4b0a-46f8-bd98-39ab691722be reason=simulated_failure amount=500.00
+2026-10-29T15:17:23Z ERROR payment-api request failed status=500 route=/payments request_id=105ab65c-2c42-4a98-979a-27fb01e5d77c reason=simulated_failure amount=500.00
+2026-10-29T15:17:25Z INFO payment-api request completed status=200 route=/payments request_id=4f82eabc-8ac0-405f-9a8f-92c998c765b3 amount=500.00
+2026-10-29T15:17:27Z INFO payment-api request completed status=200 route=/payments request_id=20937e1d-eeac-45e4-863e-e4bc23bf9887 amount=500.00
+2026-10-29T15:17:29Z INFO payment-api request completed status=200 route=/payments request_id=88ce61b8-4922-4a30-a263-6e5d980a6de7 amount=500.00
+2026-10-29T15:17:31Z INFO payment-api request completed status=200 route=/payments request_id=75695fc6-178e-4e8e-8125-aa4b91204121 amount=500.00
+2026-10-29T15:17:33Z INFO payment-api request completed status=200 route=/payments request_id=53fab64e-7ddc-49c9-99ab-f0eaba291a7e amount=500.00
+2026-10-29T15:17:35Z ERROR payment-api request failed status=500 route=/payments request_id=11fecf6e-4629-4407-b09f-45ce4bbf6897 reason=simulated_failure amount=500.00
+2026-10-29T15:17:37Z ERROR payment-api request failed status=500 route=/payments request_id=b0b4aa10-d2d9-4ae9-8557-99902eb1105f reason=simulated_failure amount=500.00
+2026-10-29T15:17:39Z ERROR payment-api request failed status=500 route=/payments request_id=0193d542-529c-44f3-af86-666b920d2bb9 reason=simulated_failure amount=500.00
+2026-10-29T15:17:41Z INFO payment-api request completed status=200 route=/payments request_id=f040f3c2-753b-457b-a833-e1ffd449c361 amount=500.00
+2026-10-29T15:17:43Z INFO payment-api request completed status=200 route=/payments request_id=6f65090d-4b11-4049-b354-7e50936bd25f amount=500.00
+2026-10-29T15:17:45Z INFO payment-api request completed status=200 route=/payments request_id=bb528f9e-e338-4108-a488-d2453623fb2a amount=500.00
+2026-10-29T15:17:47Z INFO payment-api request completed status=200 route=/payments request_id=aea2904e-68f6-4d86-8014-d3e912d43fe6 amount=500.00
+2026-10-29T15:17:49Z INFO payment-api request completed status=200 route=/payments request_id=56fb301c-bc46-4b58-99dd-80c4639c0ce2 amount=500.00
+2026-10-29T15:17:51Z ERROR payment-api request failed status=500 route=/payments request_id=ae73ff98-ec82-4bf2-806f-e02e506595df reason=simulated_failure amount=500.00
+2026-10-29T15:17:53Z ERROR payment-api request failed status=500 route=/payments request_id=028e0278-8ee9-4517-804f-abf3b73e6e36 reason=simulated_failure amount=500.00
+2026-10-29T15:17:55Z ERROR payment-api request failed status=500 route=/payments request_id=944a13d0-0879-4694-9b59-0d49a3e04825 reason=simulated_failure amount=500.00
+2026-10-29T15:17:57Z INFO payment-api request completed status=200 route=/payments request_id=fcde5517-9247-4318-b5a8-14bd6a27f183 amount=500.00
+2026-10-29T15:17:59Z INFO payment-api request completed status=200 route=/payments request_id=9ae1f496-92fe-49de-9d20-a315dd7842cb amount=500.00
+2026-10-29T15:18:01Z INFO payment-api request completed status=200 route=/payments request_id=ee11e631-dd0a-4d3f-b5db-f18a605c5e2c amount=500.00
+2026-10-29T15:18:03Z INFO payment-api request completed status=200 route=/payments request_id=86ed435b-712e-407f-b4ad-0bf4ded659c7 amount=500.00
+2026-10-29T15:18:05Z INFO payment-api request completed status=200 route=/payments request_id=c7425b93-7476-46b7-bfc6-ff97136b80ce amount=500.00
+2026-10-29T15:18:07Z ERROR payment-api request failed status=500 route=/payments request_id=088a8d22-5a00-44a5-81dd-55a0d42f065e reason=simulated_failure amount=500.00
+2026-10-29T15:18:09Z ERROR payment-api request failed status=500 route=/payments request_id=c63a9e84-cb65-41aa-8c39-b4e2830534ad reason=simulated_failure amount=500.00
+2026-10-29T15:18:11Z ERROR payment-api request failed status=500 route=/payments request_id=f05bcb15-6d83-4b22-9589-de27c9ba56e8 reason=simulated_failure amount=500.00
+2026-10-29T15:18:13Z INFO payment-api request completed status=200 route=/payments request_id=8d3d7c7a-0d71-43ae-ba1a-be6d2cf6537c amount=500.00
+2026-10-29T15:18:15Z INFO payment-api request completed status=200 route=/payments request_id=fa8d9472-80dd-4124-8107-294f520066a1 amount=500.00
+2026-10-29T15:18:17Z INFO payment-api request completed status=200 route=/payments request_id=7f5385eb-eb2f-46e0-849f-c966723f6c37 amount=500.00
+2026-10-29T15:18:19Z INFO payment-api request completed status=200 route=/payments request_id=5142dc8d-a44c-4e8d-99f9-958f86d2dba0 amount=500.00
+2026-10-29T15:18:21Z INFO payment-api request completed status=200 route=/payments request_id=29f819c7-1296-417c-a077-8560edc8c8e9 amount=500.00
+2026-10-29T15:18:23Z ERROR payment-api request failed status=500 route=/payments request_id=689a22e6-b0fe-403f-80c4-460928972d72 reason=simulated_failure amount=500.00
+2026-10-29T15:18:25Z ERROR payment-api request failed status=500 route=/payments request_id=f6197993-5ba8-4a9c-8176-aa9f7fe3299c reason=simulated_failure amount=500.00
+2026-10-29T15:18:27Z ERROR payment-api request failed status=500 route=/payments request_id=b4395233-ca44-462e-ad2c-89694b4bb037 reason=simulated_failure amount=500.00
+2026-10-29T15:18:29Z INFO payment-api request completed status=200 route=/payments request_id=e35c1488-135f-41f3-b5a6-4defcc936f75 amount=500.00
+2026-10-29T15:18:31Z INFO payment-api request completed status=200 route=/payments request_id=406c197d-2508-4da8-bd77-515c407f93db amount=500.00
+2026-10-29T15:18:33Z INFO payment-api request completed status=200 route=/payments request_id=0eaebc77-920b-4525-8094-cea4476c0020 amount=500.00
+2026-10-29T15:18:35Z INFO payment-api request completed status=200 route=/payments request_id=21a099a2-17ae-4d21-9d70-3a2ae78caeda amount=500.00
+2026-10-29T15:18:37Z INFO payment-api request completed status=200 route=/payments request_id=a3891cd0-b0d5-428f-a62a-3f52f1efd08f amount=500.00
+2026-10-29T15:18:39Z ERROR payment-api request failed status=500 route=/payments request_id=89052997-3110-43b0-93a3-afedab6cec79 reason=simulated_failure amount=500.00
+2026-10-29T15:18:41Z ERROR payment-api request failed status=500 route=/payments request_id=52514c1e-5e34-41c5-8fe4-698fcc7db31a reason=simulated_failure amount=500.00
+2026-10-29T15:18:43Z ERROR payment-api request failed status=500 route=/payments request_id=e2fdb805-9546-4af8-a2ec-389bc7cf4287 reason=simulated_failure amount=500.00
+2026-10-29T15:18:45Z INFO payment-api request completed status=200 route=/payments request_id=9c2cd94e-2cbf-4503-9a1b-c6df9727a63d amount=500.00
+2026-10-29T15:18:47Z INFO payment-api request completed status=200 route=/payments request_id=49843960-0ea5-4605-8c16-748fe1b396d4 amount=500.00
+2026-10-29T15:18:49Z INFO payment-api request completed status=200 route=/payments request_id=3eedcbd4-bfd1-4281-8714-6a06566d6554 amount=500.00
+2026-10-29T15:18:51Z INFO payment-api request completed status=200 route=/payments request_id=36313324-afae-4fad-944c-fb6ddb64cf49 amount=500.00
+2026-10-29T15:18:53Z INFO payment-api request completed status=200 route=/payments request_id=a04ca429-bb5e-4a47-9dd4-bc6089d49769 amount=500.00
+2026-10-29T15:18:55Z ERROR payment-api request failed status=500 route=/payments request_id=88dbb646-4613-4a5b-b188-9dc3d4f507b6 reason=simulated_failure amount=500.00
+2026-10-29T15:18:57Z ERROR payment-api request failed status=500 route=/payments request_id=113091f1-91b9-40a4-88da-26be8f30a8f6 reason=simulated_failure amount=500.00
+2026-10-29T15:18:59Z ERROR payment-api request failed status=500 route=/payments request_id=141ad632-64fd-4a16-ae1d-d2428cdea3d5 reason=simulated_failure amount=500.00
+2026-10-29T15:19:01Z INFO payment-api request completed status=200 route=/payments request_id=fdbd9733-0113-42fd-8b63-25eb6ac0c64c amount=500.00
+2026-10-29T15:19:03Z INFO payment-api request completed status=200 route=/payments request_id=3861f7dd-bda3-43e4-95ae-877e67f349df amount=500.00
+2026-10-29T15:19:05Z INFO payment-api request completed status=200 route=/payments request_id=a920882f-3c1f-421f-bd68-7812baca8aa6 amount=500.00
+2026-10-29T15:19:07Z INFO payment-api request completed status=200 route=/payments request_id=bf49af12-76ce-4f1e-b3f9-f375aa958db3 amount=500.00
+2026-10-29T15:19:09Z INFO payment-api request completed status=200 route=/payments request_id=0635797c-adaa-486a-aeda-2843a04f2d2c amount=500.00
+2026-10-29T15:19:11Z ERROR payment-api request failed status=500 route=/payments request_id=5a606b45-4a86-434c-a64f-07af19ebc0ff reason=simulated_failure amount=500.00
+2026-10-29T15:19:13Z ERROR payment-api request failed status=500 route=/payments request_id=cc59801f-d7f2-4760-8c8a-9eaf5a57be2e reason=simulated_failure amount=500.00
+2026-10-29T15:19:15Z ERROR payment-api request failed status=500 route=/payments request_id=d60f987d-dd11-4495-b810-043f62936707 reason=simulated_failure amount=500.00
+2026-10-29T15:19:17Z INFO payment-api request completed status=200 route=/payments request_id=ff12386f-715b-4bfb-ad8c-cfd7c86481a7 amount=500.00
+2026-10-29T15:19:19Z INFO payment-api request completed status=200 route=/payments request_id=fca3972e-8d28-4063-b4a0-d447793193a9 amount=500.00
+2026-10-29T15:19:21Z INFO payment-api request completed status=200 route=/payments request_id=95d6272d-d13d-4b4d-adcc-71b59412c400 amount=500.00
+2026-10-29T15:19:23Z INFO payment-api request completed status=200 route=/payments request_id=6c760c2f-ed3a-4e9d-8f12-a42f5f72776a amount=500.00
+2026-10-29T15:19:25Z INFO payment-api request completed status=200 route=/payments request_id=51af4143-c4c9-4c2f-9810-f60e3deb1126 amount=500.00
+2026-10-29T15:19:27Z ERROR payment-api request failed status=500 route=/payments request_id=37cdcdea-9bef-4ca5-852c-b2b1e9bf3526 reason=simulated_failure amount=500.00
+2026-10-29T15:19:29Z ERROR payment-api request failed status=500 route=/payments request_id=29728d11-411f-45ae-a665-cdbed5d5cb22 reason=simulated_failure amount=500.00
+2026-10-29T15:19:31Z ERROR payment-api request failed status=500 route=/payments request_id=beb4e718-5521-494f-b72b-502f56b321b4 reason=simulated_failure amount=500.00
+2026-10-29T15:19:33Z INFO payment-api request completed status=200 route=/payments request_id=c2cc40a5-2a12-4791-a569-8b62501f84e2 amount=500.00
+2026-10-29T15:19:35Z INFO payment-api request completed status=200 route=/payments request_id=fafbeb75-9d59-4764-8da4-940233af922a amount=500.00
+2026-10-29T15:30:27Z INFO payment-api request completed status=200 route=/payments request_id=91438c1f-9f1b-4660-bf11-0c51d7f8d527 amount=500.00
+2026-10-29T15:30:29Z INFO payment-api request completed status=200 route=/payments request_id=7a8b7838-0aaf-4ef6-8bbc-33c649c34a59 amount=500.00
+2026-10-29T15:30:31Z INFO payment-api request completed status=200 route=/payments request_id=83cd43a3-eeb8-42dd-a9c2-1d99e12dd80e amount=500.00
+2026-10-29T15:30:33Z INFO payment-api request completed status=200 route=/payments request_id=d9ae9da1-7a76-4223-b536-087cca03ee81 amount=500.00
+2026-10-29T15:30:35Z INFO payment-api request completed status=200 route=/payments request_id=b2582f80-a222-491b-a502-7f29c94c5186 amount=500.00
+2026-10-29T15:30:37Z ERROR payment-api request failed status=500 route=/payments request_id=3b900fae-34aa-4541-b8c3-58836b28f96f reason=simulated_failure amount=500.00
+2026-10-29T15:30:39Z ERROR payment-api request failed status=500 route=/payments request_id=305e7209-9315-4951-a3e0-cd1264da9ed6 reason=simulated_failure amount=500.00
+2026-10-29T15:30:41Z ERROR payment-api request failed status=500 route=/payments request_id=d3b12ab1-3f4f-4f26-b34b-68b4c08b744b reason=simulated_failure amount=500.00
+2026-10-29T15:30:43Z INFO payment-api request completed status=200 route=/payments request_id=dfc00448-8fc3-4bb7-9632-b1766e73abda amount=500.00
+2026-10-29T15:30:45Z INFO payment-api request completed status=200 route=/payments request_id=f8c6cb15-27ad-4e93-8491-5a0fe3766c62 amount=500.00
+2026-10-29T15:30:47Z INFO payment-api request completed status=200 route=/payments request_id=0e6996a9-0e17-4661-8bf0-6081026fdbf3 amount=500.00
+2026-10-29T15:30:49Z INFO payment-api request completed status=200 route=/payments request_id=40ee082a-cc17-4e60-9352-5898915c1038 amount=500.00
+2026-10-29T15:30:51Z INFO payment-api request completed status=200 route=/payments request_id=19ffe86c-7b37-4ca4-b769-2ce7136a68fb amount=500.00
+2026-10-29T15:30:53Z ERROR payment-api request failed status=500 route=/payments request_id=84ff2c64-e470-4241-a8cf-06c6859b9509 reason=simulated_failure amount=500.00
+2026-10-29T15:30:55Z ERROR payment-api request failed status=500 route=/payments request_id=ba7b6238-99b2-424b-adb1-6de89e8c6dd3 reason=simulated_failure amount=500.00
+2026-10-29T15:30:57Z ERROR payment-api request failed status=500 route=/payments request_id=35c3bd03-a110-44b0-af42-8bab7b1a69bd reason=simulated_failure amount=500.00
+2026-10-29T15:30:59Z INFO payment-api request completed status=200 route=/payments request_id=ec9cfb6d-56e8-4aad-a12f-a637dcc701a2 amount=500.00
+2026-10-29T15:31:01Z INFO payment-api request completed status=200 route=/payments request_id=11f0c87d-cbb2-40c3-beed-cadb44d452c5 amount=500.00
+2026-10-29T15:31:03Z INFO payment-api request completed status=200 route=/payments request_id=3eef8902-e72d-416c-a509-dee287850f16 amount=500.00
+2026-10-29T15:31:05Z INFO payment-api request completed status=200 route=/payments request_id=79fa6877-bf59-4631-bd10-979e6735a7d4 amount=500.00
+2026-10-29T15:31:07Z INFO payment-api request completed status=200 route=/payments request_id=83c920fc-e330-40a6-a2c8-f915f34eabbe amount=500.00
+2026-10-29T15:31:09Z ERROR payment-api request failed status=500 route=/payments request_id=19696608-865e-4413-8101-c196c5ff5b3a reason=simulated_failure amount=500.00
+2026-10-29T15:31:11Z ERROR payment-api request failed status=500 route=/payments request_id=5b897d17-8b50-47da-ba39-1843ccb57319 reason=simulated_failure amount=500.00
+2026-10-29T15:31:13Z ERROR payment-api request failed status=500 route=/payments request_id=fd3cb1c3-e062-4947-a31a-934ad40cb229 reason=simulated_failure amount=500.00
+2026-10-29T15:31:15Z INFO payment-api request completed status=200 route=/payments request_id=4d8e37df-75b8-4db2-99f0-1095b4b28601 amount=500.00
+2026-10-29T15:31:17Z INFO payment-api request completed status=200 route=/payments request_id=6b4270f6-73b5-4d27-875f-564927ab5503 amount=500.00
+2026-10-29T15:31:19Z INFO payment-api request completed status=200 route=/payments request_id=9456e396-2234-4794-a16b-8a564ebd2f89 amount=500.00
+2026-10-29T15:31:21Z INFO payment-api request completed status=200 route=/payments request_id=f977dbf8-c504-42b1-b730-8b67dcd42e6a amount=500.00
+2026-10-29T15:31:23Z INFO payment-api request completed status=200 route=/payments request_id=1843d419-e04e-4acf-a118-b8a2c2831c18 amount=500.00
+2026-10-29T15:31:25Z ERROR payment-api request failed status=500 route=/payments request_id=3d0f78ab-66ad-4b64-8ea0-1bf7cd368707 reason=simulated_failure amount=500.00
+2026-10-29T15:31:27Z ERROR payment-api request failed status=500 route=/payments request_id=54d9047b-b72b-4649-b396-b90569dce89c reason=simulated_failure amount=500.00
+2026-10-29T15:31:29Z ERROR payment-api request failed status=500 route=/payments request_id=132a1edb-b279-4a1f-be5b-bcf88a582126 reason=simulated_failure amount=500.00
+2026-10-29T15:31:31Z INFO payment-api request completed status=200 route=/payments request_id=0455ec4c-54d0-41d3-ab4a-5fd09838b619 amount=500.00
+2026-10-29T15:31:33Z INFO payment-api request completed status=200 route=/payments request_id=1ddd142c-ad83-4f9a-8667-5a0a826b59b0 amount=500.00
+2026-10-29T15:31:35Z INFO payment-api request completed status=200 route=/payments request_id=36e3457e-e316-4276-92b4-e6a25b1fa51f amount=500.00
+2026-10-29T15:31:37Z INFO payment-api request completed status=200 route=/payments request_id=cd45db3d-82a7-461f-abea-1fafaeef0a37 amount=500.00
+2026-10-29T15:31:39Z INFO payment-api request completed status=200 route=/payments request_id=a1ceae62-7d95-426f-9c6a-43e31912e7ec amount=500.00
+2026-10-29T15:31:41Z ERROR payment-api request failed status=500 route=/payments request_id=fed96a75-a08e-4118-8f0f-df7a5851e21b reason=simulated_failure amount=500.00
+2026-10-29T15:31:43Z ERROR payment-api request failed status=500 route=/payments request_id=f104f7aa-7d33-438e-8dab-9771e2d4dbdc reason=simulated_failure amount=500.00
+2026-10-29T15:31:45Z ERROR payment-api request failed status=500 route=/payments request_id=0cd2eafc-29a1-4a15-a65f-9e78c96c5998 reason=simulated_failure amount=500.00
+2026-10-29T15:31:47Z INFO payment-api request completed status=200 route=/payments request_id=df2fa392-40e3-4267-9b3f-42653ab7d96e amount=500.00
+2026-10-29T15:31:49Z INFO payment-api request completed status=200 route=/payments request_id=ff84ec07-efbd-48f7-ae6d-30853aefd743 amount=500.00
+2026-10-29T15:31:51Z INFO payment-api request completed status=200 route=/payments request_id=f8535fa7-7c9b-4bd6-9812-58f6f9f3045c amount=500.00
+2026-10-29T15:31:54Z INFO payment-api request completed status=200 route=/payments request_id=6d3a3f70-cd61-41d1-b30c-650b6ecea0dc amount=500.00
+2026-10-29T15:31:56Z INFO payment-api request completed status=200 route=/payments request_id=bc869076-eb2e-47f7-b947-6676edcd3208 amount=500.00
+2026-10-29T15:31:58Z ERROR payment-api request failed status=500 route=/payments request_id=e13a56c7-1546-42b1-99a7-0eb963909487 reason=simulated_failure amount=500.00
+2026-10-29T15:32:00Z ERROR payment-api request failed status=500 route=/payments request_id=e83da7f2-ceee-4dc5-a83c-380e0f0529b1 reason=simulated_failure amount=500.00
+2026-10-29T15:32:02Z ERROR payment-api request failed status=500 route=/payments request_id=c6323ccf-faf9-4611-936e-ff890bfd508e reason=simulated_failure amount=500.00
+2026-10-29T15:32:04Z INFO payment-api request completed status=200 route=/payments request_id=0cdb6791-423d-427a-8058-fdbfa33b4956 amount=500.00
+2026-10-29T15:32:06Z INFO payment-api request completed status=200 route=/payments request_id=6ac83115-1553-4f87-a61b-74925a4ab7eb amount=500.00
+2026-10-29T15:32:08Z INFO payment-api request completed status=200 route=/payments request_id=5fc1de5d-4b01-4e4f-be3b-6c4088b26a2e amount=500.00
+2026-10-29T15:32:10Z INFO payment-api request completed status=200 route=/payments request_id=78010192-f1c7-4ea5-b215-49dd4d9f3ec7 amount=500.00
+2026-10-29T15:32:12Z INFO payment-api request completed status=200 route=/payments request_id=49b0ad81-babd-4eb2-a818-62c8df97b95e amount=500.00
+2026-10-29T15:32:14Z ERROR payment-api request failed status=500 route=/payments request_id=55aaabf4-6447-478b-a0a0-f47682e5b8d5 reason=simulated_failure amount=500.00
+2026-10-29T15:32:16Z ERROR payment-api request failed status=500 route=/payments request_id=b15ff917-87b9-44e4-8b15-881429ed991a reason=simulated_failure amount=500.00
+2026-10-29T15:32:18Z ERROR payment-api request failed status=500 route=/payments request_id=8efce284-239f-463c-8e92-b6592834854d reason=simulated_failure amount=500.00
+2026-10-29T15:32:20Z INFO payment-api request completed status=200 route=/payments request_id=e83bf22b-7717-4dfa-bf61-abdb80e2e5b2 amount=500.00
+2026-10-29T15:32:22Z INFO payment-api request completed status=200 route=/payments request_id=36dd03dd-265a-45a1-97ea-356a7c8bfaec amount=500.00
+2026-10-29T15:32:24Z INFO payment-api request completed status=200 route=/payments request_id=ef6f51ee-86e4-4f73-81a2-72502838ffdf amount=500.00
+2026-10-29T15:32:26Z INFO payment-api request completed status=200 route=/payments request_id=0ea8ced1-016a-4023-b4df-d32149dd274f amount=500.00
+2026-10-29T15:32:28Z INFO payment-api request completed status=200 route=/payments request_id=1958bc75-59ea-480b-bf2a-a150aef633f2 amount=500.00
+2026-10-29T15:32:30Z ERROR payment-api request failed status=500 route=/payments request_id=ea20661e-d3bc-47fb-bd6b-9666ebce314b reason=simulated_failure amount=500.00
+2026-10-29T15:32:32Z ERROR payment-api request failed status=500 route=/payments request_id=3d0626f8-0681-4f4a-8e4a-11a1a28d243f reason=simulated_failure amount=500.00
+2026-10-29T15:32:34Z ERROR payment-api request failed status=500 route=/payments request_id=4e8549f2-ad2e-408f-afcc-5a3d5b08fe47 reason=simulated_failure amount=500.00
+2026-10-29T15:32:36Z INFO payment-api request completed status=200 route=/payments request_id=3cc70efa-08be-44f9-813b-9fd984a00e99 amount=500.00
+2026-10-29T15:32:38Z INFO payment-api request completed status=200 route=/payments request_id=bddd6814-4587-4374-8ece-05c5bb241af2 amount=500.00
+2026-10-29T15:32:40Z INFO payment-api request completed status=200 route=/payments request_id=a0b3deae-c6e2-4f6f-905b-b925e2bc1f0e amount=500.00
+2026-10-29T15:32:42Z INFO payment-api request completed status=200 route=/payments request_id=858193bf-0eae-49d2-bdf6-630a818c6b8a amount=500.00
+2026-10-29T15:32:44Z INFO payment-api request completed status=200 route=/payments request_id=1d49e605-7a30-4518-9e53-abf6f6b728c9 amount=500.00
+2026-10-29T15:32:46Z ERROR payment-api request failed status=500 route=/payments request_id=56a7eb6e-5fdd-4f1e-a6c7-c019c7684b75 reason=simulated_failure amount=500.00
+2026-10-29T15:32:48Z ERROR payment-api request failed status=500 route=/payments request_id=5b450c25-62b8-4c68-81f5-1d59fc946005 reason=simulated_failure amount=500.00
+2026-10-29T15:32:50Z ERROR payment-api request failed status=500 route=/payments request_id=325e985a-97c7-4fc4-8d2d-d45d1c0b97d4 reason=simulated_failure amount=500.00
+2026-10-29T15:32:52Z INFO payment-api request completed status=200 route=/payments request_id=00e384f1-be7d-48c6-b695-1e7bf9fe9882 amount=500.00
+2026-10-29T15:32:54Z INFO payment-api request completed status=200 route=/payments request_id=0e363c96-dd9c-4551-a52d-bab71fdc0a96 amount=500.00
+2026-10-29T15:32:56Z INFO payment-api request completed status=200 route=/payments request_id=c83fb417-08d5-4b24-a12a-37ac25219d05 amount=500.00
+2026-10-29T15:32:58Z INFO payment-api request completed status=200 route=/payments request_id=81a3590a-3066-4bda-9b54-4b9b677270ed amount=500.00
+2026-10-29T15:33:00Z INFO payment-api request completed status=200 route=/payments request_id=0eeb6e2d-37c1-464d-9ff8-f50cb2502d03 amount=500.00
+2026-10-29T15:33:02Z ERROR payment-api request failed status=500 route=/payments request_id=82290e52-483b-4b32-9bdf-4fb34830821f reason=simulated_failure amount=500.00
+2026-10-29T15:33:04Z ERROR payment-api request failed status=500 route=/payments request_id=500d543c-64ec-404c-9cec-157d975cce05 reason=simulated_failure amount=500.00
+2026-10-29T15:33:06Z ERROR payment-api request failed status=500 route=/payments request_id=10d452ef-04b3-4079-bfcb-a86348dca022 reason=simulated_failure amount=500.00
+2026-10-29T15:33:08Z INFO payment-api request completed status=200 route=/payments request_id=cabafd17-7f35-4a40-96d1-706a91207593 amount=500.00
+2026-10-29T15:33:10Z INFO payment-api request completed status=200 route=/payments request_id=795d0815-6e69-47ef-8aaf-1d306e3a280f amount=500.00
+2026-10-29T15:33:12Z INFO payment-api request completed status=200 route=/payments request_id=4304f1be-0b02-42b7-bee0-ba48a9602330 amount=500.00
+2026-10-29T15:33:14Z INFO payment-api request completed status=200 route=/payments request_id=7cd06288-94a9-49df-8efe-5891fffc40db amount=500.00
+2026-10-29T15:33:16Z INFO payment-api request completed status=200 route=/payments request_id=02e2e35c-39ff-4443-9140-d16fbfdadb8d amount=500.00
+2026-10-29T15:33:18Z ERROR payment-api request failed status=500 route=/payments request_id=af513d2f-63f1-484f-b36c-d7bf0e099a07 reason=simulated_failure amount=500.00
+2026-10-29T15:33:20Z ERROR payment-api request failed status=500 route=/payments request_id=0f00dc04-fd89-4870-8eb1-cccce6fc0c02 reason=simulated_failure amount=500.00
+2026-10-29T15:33:22Z ERROR payment-api request failed status=500 route=/payments request_id=af9773c2-ba82-4be7-8915-0818552004c6 reason=simulated_failure amount=500.00
+2026-10-29T15:33:24Z INFO payment-api request completed status=200 route=/payments request_id=65c3aaee-31f6-450c-90a4-30ae1b2e1a85 amount=500.00
+2026-10-29T15:33:26Z INFO payment-api request completed status=200 route=/payments request_id=7a96cd73-e03a-471f-834c-4142bca658ed amount=500.00
+2026-10-29T15:33:28Z INFO payment-api request completed status=200 route=/payments request_id=fe161701-a2ce-4431-80b7-f4649a081e59 amount=500.00
+2026-10-29T15:33:30Z INFO payment-api request completed status=200 route=/payments request_id=64bbbb07-d081-4ca1-9eaf-5db265250873 amount=500.00
+2026-10-29T15:33:32Z INFO payment-api request completed status=200 route=/payments request_id=f920fc12-afc3-4d4a-9136-f8bab9f9a767 amount=500.00
+2026-10-29T15:33:34Z ERROR payment-api request failed status=500 route=/payments request_id=91d819ce-b307-4116-9c6a-c8b0a9e5d65d reason=simulated_failure amount=500.00
+2026-10-29T15:33:36Z ERROR payment-api request failed status=500 route=/payments request_id=8bdb5e04-e7ed-4d3c-8a67-55f306ad5ec1 reason=simulated_failure amount=500.00
+2026-10-29T15:33:38Z ERROR payment-api request failed status=500 route=/payments request_id=29c44957-5f81-424c-b991-2965bba0f7ba reason=simulated_failure amount=500.00
+2026-10-29T15:33:40Z INFO payment-api request completed status=200 route=/payments request_id=aff92847-f2ff-4d66-aa93-a4577b95475a amount=500.00
+2026-10-29T15:33:42Z INFO payment-api request completed status=200 route=/payments request_id=5a962b62-f9cf-46c1-bb7d-57a5471ea3c6 amount=500.00
+2026-10-29T15:33:44Z INFO payment-api request completed status=200 route=/payments request_id=167774c8-dc13-40ca-a1ef-813608843158 amount=500.00
+2026-10-29T15:33:46Z INFO payment-api request completed status=200 route=/payments request_id=516ebbd2-e3c8-4d83-a9d9-de4c38c675c8 amount=500.00
+2026-10-29T15:33:48Z INFO payment-api request completed status=200 route=/payments request_id=0e29cd2e-ac21-4e9b-9eaf-86a72f881654 amount=500.00
+2026-10-29T15:33:50Z ERROR payment-api request failed status=500 route=/payments request_id=4fe7b689-8bfb-4f71-8ce0-301a2ef1b42c reason=simulated_failure amount=500.00
+2026-10-29T15:33:52Z ERROR payment-api request failed status=500 route=/payments request_id=1a71784e-9d07-452d-977d-3d52c7715c53 reason=simulated_failure amount=500.00
+2026-10-29T15:33:54Z ERROR payment-api request failed status=500 route=/payments request_id=5aa1cfd5-6243-4a07-b7eb-70e9b61736a3 reason=simulated_failure amount=500.00
+2026-10-29T15:33:56Z INFO payment-api request completed status=200 route=/payments request_id=8b0e62d2-aa26-4ee2-8b4f-c0e622adc32f amount=500.00
+2026-10-29T15:33:58Z INFO payment-api request completed status=200 route=/payments request_id=3a3c8d1f-4f75-40d3-8787-04ab66586d39 amount=500.00
+2026-10-29T15:34:00Z INFO payment-api request completed status=200 route=/payments request_id=e4a51f76-f2c3-4b14-88dd-a356d1260089 amount=500.00
+2026-10-29T15:34:02Z INFO payment-api request completed status=200 route=/payments request_id=3b0086a4-d7da-4d63-8da6-df59e118290d amount=500.00
+2026-10-29T15:34:04Z INFO payment-api request completed status=200 route=/payments request_id=9c3a0221-a1dc-4c2f-b161-e3997785a7d4 amount=500.00
+2026-10-29T15:34:06Z ERROR payment-api request failed status=500 route=/payments request_id=5ae41d8c-7761-42a2-94a0-f48d15712501 reason=simulated_failure amount=500.00
+2026-10-29T15:34:08Z ERROR payment-api request failed status=500 route=/payments request_id=8e2963f2-d2a6-421f-874f-4c8cbe9b83ce reason=simulated_failure amount=500.00
+2026-10-29T15:34:10Z ERROR payment-api request failed status=500 route=/payments request_id=3293c6da-f0ab-4551-afa4-f357245b1059 reason=simulated_failure amount=500.00
+2026-10-29T15:34:12Z INFO payment-api request completed status=200 route=/payments request_id=f3c72095-b7ce-499a-b0a4-780baada3230 amount=500.00
+2026-10-29T15:34:14Z INFO payment-api request completed status=200 route=/payments request_id=54aac658-581c-4130-8f46-f05467af3634 amount=500.00
+2026-10-29T15:34:16Z INFO payment-api request completed status=200 route=/payments request_id=447d5d52-f761-4a24-9cd5-ba48ffe9eeb3 amount=500.00
+2026-10-29T15:34:18Z INFO payment-api request completed status=200 route=/payments request_id=ab5386a6-798b-4aea-8165-7a5aa5db733f amount=500.00
+2026-10-29T15:34:20Z INFO payment-api request completed status=200 route=/payments request_id=c65c8db4-0eb0-4e02-a690-d71c7ba75516 amount=500.00
+2026-10-29T15:34:22Z ERROR payment-api request failed status=500 route=/payments request_id=3a70f0ca-2e3f-49a2-916d-0f8659cd11c8 reason=simulated_failure amount=500.00
+2026-10-29T15:34:24Z ERROR payment-api request failed status=500 route=/payments request_id=0665b27a-5b65-46af-99b6-e90385719f31 reason=simulated_failure amount=500.00
+2026-10-29T15:34:26Z ERROR payment-api request failed status=500 route=/payments request_id=f849da0c-2701-4111-97c0-6f313c2bfd9a reason=simulated_failure amount=500.00
+2026-10-29T15:34:28Z INFO payment-api request completed status=200 route=/payments request_id=6bf48558-9a6f-481d-9b3b-7cd0d48a1cd1 amount=500.00
+2026-10-29T15:34:30Z INFO payment-api request completed status=200 route=/payments request_id=bbe077de-c9e9-42d8-b7c8-2bfbbb850be7 amount=500.00
+2026-10-29T15:34:32Z INFO payment-api request completed status=200 route=/payments request_id=e9635d75-16c4-42ef-a45a-32247ba92f95 amount=500.00
+2026-10-29T15:34:34Z INFO payment-api request completed status=200 route=/payments request_id=57d805fd-97d9-4743-99f6-a00677c137f3 amount=500.00
+2026-10-29T15:34:36Z INFO payment-api request completed status=200 route=/payments request_id=8e508d49-d24c-46fc-9ad7-17bb11c91323 amount=500.00
+2026-10-29T15:34:38Z ERROR payment-api request failed status=500 route=/payments request_id=8dfc59f0-9fcd-4170-852b-3c6b6c5ab8c1 reason=simulated_failure amount=500.00
+2026-10-29T15:34:40Z ERROR payment-api request failed status=500 route=/payments request_id=da9ef671-fc2a-434d-9f33-808c5069c198 reason=simulated_failure amount=500.00
+2026-10-29T15:34:42Z ERROR payment-api request failed status=500 route=/payments request_id=60a07e91-5378-456a-8021-95f5b96ec81a reason=simulated_failure amount=500.00
+2026-10-29T15:34:44Z INFO payment-api request completed status=200 route=/payments request_id=d7eff63b-db13-4bae-8a2a-99f9cae72fc9 amount=500.00
+2026-10-29T15:34:46Z INFO payment-api request completed status=200 route=/payments request_id=1f9b9e1e-f2a8-4d57-a108-e7d8af0a9694 amount=500.00
+2026-10-29T15:34:48Z INFO payment-api request completed status=200 route=/payments request_id=a186ddf1-497a-42fc-a2e4-ecfbcf51691f amount=500.00
+2026-10-29T15:34:50Z INFO payment-api request completed status=200 route=/payments request_id=9552bad9-4688-4746-b5e7-b578a7bf3541 amount=500.00
+2026-10-29T15:34:52Z INFO payment-api request completed status=200 route=/payments request_id=c089b503-66a7-4e36-b125-2f24aa3dcd1d amount=500.00
+2026-10-29T15:34:54Z ERROR payment-api request failed status=500 route=/payments request_id=c32f6110-1076-4ae4-9d6a-8636556d3bbf reason=simulated_failure amount=500.00
+2026-10-29T15:34:56Z ERROR payment-api request failed status=500 route=/payments request_id=9a9ad9e6-3611-4107-b554-d907a25fb8d5 reason=simulated_failure amount=500.00
+2026-10-29T15:34:58Z ERROR payment-api request failed status=500 route=/payments request_id=9b35327b-80d5-43a1-a75d-092be3d542bf reason=simulated_failure amount=500.00
+2026-10-29T15:35:00Z INFO payment-api request completed status=200 route=/payments request_id=44221350-b1d1-46c7-9743-6754b95c6ef4 amount=500.00
+2026-10-29T15:35:02Z INFO payment-api request completed status=200 route=/payments request_id=2409d6d4-3c1a-4260-bff7-9bf0684fcbbf amount=500.00
+2026-10-29T15:35:04Z INFO payment-api request completed status=200 route=/payments request_id=5d34e089-d6e9-4bfb-9586-8cd5d2fec20a amount=500.00
+2026-10-29T15:35:06Z INFO payment-api request completed status=200 route=/payments request_id=43ebc5c5-5046-450d-936e-3ac3e0486fc5 amount=500.00
+2026-10-29T15:35:08Z INFO payment-api request completed status=200 route=/payments request_id=9430fac2-f30c-49af-9368-17ce2dd4ad0f amount=500.00
+2026-10-29T15:35:10Z ERROR payment-api request failed status=500 route=/payments request_id=4552de86-a60a-47c3-b593-8467026b635a reason=simulated_failure amount=500.00
+2026-10-29T15:35:12Z ERROR payment-api request failed status=500 route=/payments request_id=ade3a672-c742-4738-aaf4-11ac74539036 reason=simulated_failure amount=500.00
+2026-10-29T15:35:14Z ERROR payment-api request failed status=500 route=/payments request_id=7d36402b-0f6d-46eb-8062-124db32fe196 reason=simulated_failure amount=500.00
+2026-10-29T15:35:16Z INFO payment-api request completed status=200 route=/payments request_id=26481617-4c61-4c77-819d-bf96f450059e amount=500.00
+2026-10-29T15:35:18Z INFO payment-api request completed status=200 route=/payments request_id=87ddc2af-a303-4a44-b90a-92ff0c362d55 amount=500.00
+2026-10-29T15:35:20Z INFO payment-api request completed status=200 route=/payments request_id=25d83664-89c0-420c-b14c-6c0938e6012e amount=500.00
+2026-10-29T15:35:22Z INFO payment-api request completed status=200 route=/payments request_id=da29de3f-cd08-45aa-90d9-c4b8ab78907b amount=500.00
+2026-10-29T15:35:24Z INFO payment-api request completed status=200 route=/payments request_id=e98810a7-5067-48ad-8204-36b0c50aea2e amount=500.00
+2026-10-29T15:35:26Z ERROR payment-api request failed status=500 route=/payments request_id=dbc9dd06-76f9-4068-be1b-3ca9ef222556 reason=simulated_failure amount=500.00
+2026-10-29T15:35:28Z ERROR payment-api request failed status=500 route=/payments request_id=40f8b0b0-d908-4661-8a2d-0253249fea56 reason=simulated_failure amount=500.00
+2026-10-29T15:35:30Z ERROR payment-api request failed status=500 route=/payments request_id=41eea47a-6476-4465-b70d-acb29adfbe8e reason=simulated_failure amount=500.00
+2026-10-29T15:35:32Z INFO payment-api request completed status=200 route=/payments request_id=42e60029-7ff7-4bf8-8c29-fa530a0533ed amount=500.00
+2026-10-29T15:35:35Z INFO payment-api request completed status=200 route=/payments request_id=05f16783-efb3-4bfb-b742-9be32f94778d amount=500.00
+2026-10-29T15:35:37Z INFO payment-api request completed status=200 route=/payments request_id=dbaeaae2-48c6-49ee-81e0-2d2ff8b5421f amount=500.00
+2026-10-29T15:35:39Z INFO payment-api request completed status=200 route=/payments request_id=26c33431-2e45-427b-8ad0-5e00edfab9c2 amount=500.00
+2026-10-29T15:35:41Z INFO payment-api request completed status=200 route=/payments request_id=dea66462-d0c3-4f5a-ad4e-d5cdb76d5740 amount=500.00
+2026-10-29T15:35:43Z ERROR payment-api request failed status=500 route=/payments request_id=43846fd6-da39-4c8f-9cfe-41329ccc04c9 reason=simulated_failure amount=500.00
+2026-10-29T15:35:45Z ERROR payment-api request failed status=500 route=/payments request_id=154cd3f2-67b0-4c14-91f2-8741c633648e reason=simulated_failure amount=500.00
+2026-10-29T15:35:47Z ERROR payment-api request failed status=500 route=/payments request_id=c704464c-e2c7-4e94-9d7a-7d51675a0ced reason=simulated_failure amount=500.00
+2026-10-29T15:35:49Z INFO payment-api request completed status=200 route=/payments request_id=5a9a75f0-c63d-443a-a06a-cec05af21518 amount=500.00
+2026-10-29T15:35:51Z INFO payment-api request completed status=200 route=/payments request_id=92ab247e-bc12-48ef-8114-ad339db0e2d8 amount=500.00
+2026-10-29T15:35:53Z INFO payment-api request completed status=200 route=/payments request_id=e80cc23a-933e-4889-b132-94fda14e7e1f amount=500.00
+2026-10-29T15:35:55Z INFO payment-api request completed status=200 route=/payments request_id=c49d3f27-0239-45bc-982d-768a2dbc1e01 amount=500.00
+2026-10-29T15:35:57Z INFO payment-api request completed status=200 route=/payments request_id=bf13ab92-fb6e-4c06-94a6-342811395089 amount=500.00
+2026-10-29T15:35:59Z ERROR payment-api request failed status=500 route=/payments request_id=52d79a1c-a401-467f-8bb2-51121305c4e8 reason=simulated_failure amount=500.00
+2026-10-29T15:36:01Z ERROR payment-api request failed status=500 route=/payments request_id=6ed0a877-e859-48cc-8b58-5fa3be3c8a1e reason=simulated_failure amount=500.00
+2026-10-29T15:36:03Z ERROR payment-api request failed status=500 route=/payments request_id=71186b12-3286-427b-82f1-966612bf8e85 reason=simulated_failure amount=500.00
+2026-10-29T15:36:05Z INFO payment-api request completed status=200 route=/payments request_id=3ce83f0d-4b9c-4251-95eb-4e224941829c amount=500.00
+2026-10-29T15:36:07Z INFO payment-api request completed status=200 route=/payments request_id=1a7147dc-abba-4022-b345-da381ceea28b amount=500.00
+2026-10-29T15:36:09Z INFO payment-api request completed status=200 route=/payments request_id=35de8047-4748-4ef9-91cf-837d4459f101 amount=500.00
+2026-10-29T15:36:11Z INFO payment-api request completed status=200 route=/payments request_id=5c585aa9-2253-4a19-8ea9-140fb6f66345 amount=500.00
+2026-10-29T15:36:13Z INFO payment-api request completed status=200 route=/payments request_id=f145fddb-aa2e-408a-946a-0753b1347298 amount=500.00
+2026-10-29T15:36:15Z ERROR payment-api request failed status=500 route=/payments request_id=f8a7b0a9-ee13-42f7-a9d5-4949fe1674c3 reason=simulated_failure amount=500.00
+2026-10-29T15:36:17Z ERROR payment-api request failed status=500 route=/payments request_id=df961665-8507-4408-a7ec-07ade4931ed6 reason=simulated_failure amount=500.00
+2026-10-29T15:36:19Z ERROR payment-api request failed status=500 route=/payments request_id=19feca22-db4e-4cd7-afe4-6d466feecb53 reason=simulated_failure amount=500.00
+2026-10-29T15:36:21Z INFO payment-api request completed status=200 route=/payments request_id=da312a63-bc98-4f13-8d67-06aa359f9e0c amount=500.00
+2026-10-29T15:36:23Z INFO payment-api request completed status=200 route=/payments request_id=822f5ad3-8e13-4a2d-b450-97cf61cd3495 amount=500.00
+2026-10-29T15:36:25Z INFO payment-api request completed status=200 route=/payments request_id=262574cb-2d0c-4d50-a6e9-a657a6acb7aa amount=500.00
+2026-10-29T15:36:27Z INFO payment-api request completed status=200 route=/payments request_id=0d9a91ab-74b5-4a00-bbbf-1aa4ca49db00 amount=500.00
+2026-10-29T15:36:29Z INFO payment-api request completed status=200 route=/payments request_id=5449b8d8-d0eb-4808-ade6-0e11fb10432c amount=500.00
+2026-10-29T15:36:31Z ERROR payment-api request failed status=500 route=/payments request_id=e12402bc-c6a4-41be-a622-981c6ed583fa reason=simulated_failure amount=500.00
+2026-10-29T15:36:33Z ERROR payment-api request failed status=500 route=/payments request_id=c8bfa741-5b1d-4e18-9c00-591cdc4a3696 reason=simulated_failure amount=500.00
+2026-10-29T15:36:35Z ERROR payment-api request failed status=500 route=/payments request_id=0e29a663-bf64-4a5b-b2ff-51ebb0feb725 reason=simulated_failure amount=500.00
+2026-10-29T15:36:37Z INFO payment-api request completed status=200 route=/payments request_id=6e6098e5-5b7a-441d-8dc5-39453279f1d2 amount=500.00
+2026-10-29T15:36:39Z INFO payment-api request completed status=200 route=/payments request_id=97bee680-a32b-4ac1-8515-8f21a0fcf032 amount=500.00
+2026-10-29T15:36:41Z INFO payment-api request completed status=200 route=/payments request_id=16136e30-49e7-45e0-80ea-5095b146e1b1 amount=500.00
+2026-10-29T15:36:43Z INFO payment-api request completed status=200 route=/payments request_id=cebf8aa6-f136-442d-8fa2-b9777089c220 amount=500.00
+2026-10-29T15:36:45Z INFO payment-api request completed status=200 route=/payments request_id=7ec0ef57-e9a8-4f97-aeed-a271204aa433 amount=500.00
+2026-10-29T15:36:47Z ERROR payment-api request failed status=500 route=/payments request_id=710a6e08-b1d9-427c-830f-c25beaf2d77a reason=simulated_failure amount=500.00
+2026-10-29T15:36:49Z ERROR payment-api request failed status=500 route=/payments request_id=e2c2bffa-242e-4563-b175-6a7206cf09dc reason=simulated_failure amount=500.00
+2026-10-29T15:36:51Z ERROR payment-api request failed status=500 route=/payments request_id=f2ab01b5-fd52-4a72-9a49-d9970da7245d reason=simulated_failure amount=500.00
+2026-10-29T15:36:53Z INFO payment-api request completed status=200 route=/payments request_id=d1529aa6-cf96-4d24-ad0e-700e15d16f6d amount=500.00
+2026-10-29T15:36:55Z INFO payment-api request completed status=200 route=/payments request_id=2fb4630a-c9e0-4eb6-bbe4-05ad2537c5af amount=500.00
+2026-10-29T15:36:57Z INFO payment-api request completed status=200 route=/payments request_id=02ddb09e-f2fa-4793-bd7d-50c67285e455 amount=500.00
+2026-10-29T15:36:59Z INFO payment-api request completed status=200 route=/payments request_id=034e531c-17b7-47d9-b752-8fe80efefdf4 amount=500.00
+2026-10-29T15:37:01Z INFO payment-api request completed status=200 route=/payments request_id=0e06097d-6edc-491b-8580-8f844a6e1e56 amount=500.00
+2026-10-29T15:37:03Z ERROR payment-api request failed status=500 route=/payments request_id=7574b182-6001-4179-843c-3dfcfa19e6df reason=simulated_failure amount=500.00
+2026-10-29T15:37:05Z ERROR payment-api request failed status=500 route=/payments request_id=e387d40d-9228-4cdc-bab9-0ae15a97f629 reason=simulated_failure amount=500.00
+2026-10-29T15:37:07Z ERROR payment-api request failed status=500 route=/payments request_id=bd5aea49-ddfb-4112-9906-2ad0ea55443c reason=simulated_failure amount=500.00
+2026-10-29T15:37:09Z INFO payment-api request completed status=200 route=/payments request_id=95cf563f-54cb-4288-b362-d59aeb9ffc9b amount=500.00
+2026-10-29T15:37:11Z INFO payment-api request completed status=200 route=/payments request_id=5269f372-cfbb-4794-828f-aad0c2b0868c amount=500.00
+2026-10-29T15:37:13Z INFO payment-api request completed status=200 route=/payments request_id=5884688b-eb82-4119-85d2-073b5b31718e amount=500.00
+2026-10-29T15:37:15Z INFO payment-api request completed status=200 route=/payments request_id=2ca9d7a9-ef29-4028-b734-ee652f33768d amount=500.00
+2026-10-29T15:37:17Z INFO payment-api request completed status=200 route=/payments request_id=4d0bc80b-630e-4eb2-974e-29f8eb7e4767 amount=500.00
+2026-10-29T15:37:19Z ERROR payment-api request failed status=500 route=/payments request_id=b30d2d59-c3fc-429c-ab0a-4b4a7bb44be1 reason=simulated_failure amount=500.00
+2026-10-29T15:37:21Z ERROR payment-api request failed status=500 route=/payments request_id=7cd02dde-d86e-4dac-8fa0-4eb5c67d22f3 reason=simulated_failure amount=500.00
+2026-10-29T15:37:23Z ERROR payment-api request failed status=500 route=/payments request_id=5cbda885-6db5-4861-83a2-44f987698a0e reason=simulated_failure amount=500.00
+2026-10-29T15:37:25Z INFO payment-api request completed status=200 route=/payments request_id=927eb854-b3e9-4ac2-bae1-ced85724601e amount=500.00
+2026-10-29T15:37:27Z INFO payment-api request completed status=200 route=/payments request_id=9e4031e3-5d6e-4856-97c1-a8bf1b22c9fc amount=500.00
+2026-10-29T15:37:29Z INFO payment-api request completed status=200 route=/payments request_id=d54018c8-70ab-46a9-a49c-7abb8d3d3046 amount=500.00
+2026-10-29T15:37:31Z INFO payment-api request completed status=200 route=/payments request_id=7a553d6a-c13b-409b-acaa-457f6a9a1fae amount=500.00
+2026-10-29T15:37:33Z INFO payment-api request completed status=200 route=/payments request_id=7b39c919-af75-4481-a384-0f6b038a70a2 amount=500.00
+2026-10-29T15:37:35Z ERROR payment-api request failed status=500 route=/payments request_id=c3849d3a-dfc7-4b8a-9455-ea0a53541b2e reason=simulated_failure amount=500.00
+2026-10-29T15:37:37Z ERROR payment-api request failed status=500 route=/payments request_id=fc8ba4f8-6a25-4811-94d5-617ab45bbb49 reason=simulated_failure amount=500.00
+2026-10-29T15:37:39Z ERROR payment-api request failed status=500 route=/payments request_id=a68946d8-b481-4998-98ef-0dacc59b702b reason=simulated_failure amount=500.00
+2026-10-29T15:37:41Z INFO payment-api request completed status=200 route=/payments request_id=434f4bf2-7649-4d07-a4ae-42477e3d67a7 amount=500.00
+2026-10-29T15:37:43Z INFO payment-api request completed status=200 route=/payments request_id=79ab1b6a-f9c3-4e72-b102-1551513df6e9 amount=500.00
+2026-10-29T15:37:45Z INFO payment-api request completed status=200 route=/payments request_id=7692fc1a-4edf-42e3-b697-37bb209bb76e amount=500.00
+2026-10-29T15:37:47Z INFO payment-api request completed status=200 route=/payments request_id=8fb6cd95-4c76-4707-ba3d-a6d2d6855885 amount=500.00
+2026-10-29T15:37:49Z INFO payment-api request completed status=200 route=/payments request_id=aca1a60f-af99-4848-9c89-032b78587282 amount=500.00
+2026-10-29T15:37:51Z ERROR payment-api request failed status=500 route=/payments request_id=4bcbf29f-95d8-4ad1-84f4-b63aef218d3b reason=simulated_failure amount=500.00
+2026-10-29T15:37:53Z ERROR payment-api request failed status=500 route=/payments request_id=9a5bac01-caa8-47db-9b82-ba43fe713c13 reason=simulated_failure amount=500.00
+2026-10-29T15:37:55Z ERROR payment-api request failed status=500 route=/payments request_id=a3e4e3e5-a708-4d56-865f-343468963317 reason=simulated_failure amount=500.00
+2026-10-29T15:37:57Z INFO payment-api request completed status=200 route=/payments request_id=9ef7c0f1-23cd-45b4-ad3f-0c3206cc2984 amount=500.00
+2026-10-29T15:37:59Z INFO payment-api request completed status=200 route=/payments request_id=284c89eb-24ce-46c1-8efe-9bc77e05006d amount=500.00
+2026-10-29T15:38:01Z INFO payment-api request completed status=200 route=/payments request_id=71e1ded5-9a50-4d5c-8ac1-63054fc069d4 amount=500.00
+2026-10-29T15:38:03Z INFO payment-api request completed status=200 route=/payments request_id=b040f0bf-2f91-4d2a-80b0-f7a7fa7fbde8 amount=500.00
+2026-10-29T15:38:05Z INFO payment-api request completed status=200 route=/payments request_id=ee497425-333c-4457-b936-a72e433586e4 amount=500.00
+2026-10-29T15:38:07Z ERROR payment-api request failed status=500 route=/payments request_id=6b598682-4d86-498a-a1cf-88eadfa2b4d2 reason=simulated_failure amount=500.00
+2026-10-29T15:38:09Z ERROR payment-api request failed status=500 route=/payments request_id=68236a56-21c7-4ec0-b75d-9b09ea6f5ef4 reason=simulated_failure amount=500.00
+2026-10-29T15:38:11Z ERROR payment-api request failed status=500 route=/payments request_id=3422c24f-8b44-4345-8d8f-9d5594500b11 reason=simulated_failure amount=500.00
+2026-10-29T15:38:13Z INFO payment-api request completed status=200 route=/payments request_id=39656e45-9782-4dee-a3c4-c241442cecac amount=500.00
+2026-10-29T15:38:15Z INFO payment-api request completed status=200 route=/payments request_id=73f8c746-35b3-4b13-8a91-0839ee645d94 amount=500.00
+2026-10-29T15:38:17Z INFO payment-api request completed status=200 route=/payments request_id=ce113f05-7c61-4ce3-979b-23990e897b9e amount=500.00
+2026-10-29T15:38:19Z INFO payment-api request completed status=200 route=/payments request_id=b9695dbe-6b0e-40e1-9515-0c3de16d2d50 amount=500.00
+2026-10-29T15:38:21Z INFO payment-api request completed status=200 route=/payments request_id=295a6240-e34b-4fbf-8e8f-ec13bfab365d amount=500.00
+2026-10-29T15:38:23Z ERROR payment-api request failed status=500 route=/payments request_id=9ecbb03c-740f-4055-b629-57d4ce490037 reason=simulated_failure amount=500.00
+2026-10-29T15:38:25Z ERROR payment-api request failed status=500 route=/payments request_id=c4225af1-5f1b-499a-bf97-e2f1def5d37f reason=simulated_failure amount=500.00
+2026-10-29T15:38:27Z ERROR payment-api request failed status=500 route=/payments request_id=11ce6d00-5822-474f-bc48-2ac3277754e1 reason=simulated_failure amount=500.00
+2026-10-29T15:38:29Z INFO payment-api request completed status=200 route=/payments request_id=482638e3-62fb-4af0-b522-b3d9767fcc57 amount=500.00
+2026-10-29T15:38:31Z INFO payment-api request completed status=200 route=/payments request_id=2d824ae2-16d9-4c5c-81ee-a5245bb2810f amount=500.00
+2026-10-29T15:38:33Z INFO payment-api request completed status=200 route=/payments request_id=dbf19d27-9c63-417b-b300-d15d2870e015 amount=500.00
+2026-10-29T15:38:35Z INFO payment-api request completed status=200 route=/payments request_id=5d2e9b36-272d-4e5c-b2f8-3569f7e48e02 amount=500.00
+2026-10-29T15:38:37Z INFO payment-api request completed status=200 route=/payments request_id=b932e0c0-5738-4c9e-bc89-5b537c6a2e6d amount=500.00
+2026-10-29T15:38:39Z ERROR payment-api request failed status=500 route=/payments request_id=04d2302d-a03b-4d05-887b-a1e93f14299b reason=simulated_failure amount=500.00
+2026-10-29T15:38:41Z ERROR payment-api request failed status=500 route=/payments request_id=bc67f316-8935-4dad-a14a-3fa45cb6cc7f reason=simulated_failure amount=500.00
+2026-10-29T15:38:43Z ERROR payment-api request failed status=500 route=/payments request_id=bc8dca4b-6992-4603-a504-b2f6a4a31206 reason=simulated_failure amount=500.00
+2026-10-29T15:38:45Z INFO payment-api request completed status=200 route=/payments request_id=e010480d-3329-48bc-95a6-f6c1299a247c amount=500.00
+2026-10-29T15:38:47Z INFO payment-api request completed status=200 route=/payments request_id=bad3d294-0da0-40a7-b7be-05f92d060f95 amount=500.00
+2026-10-29T15:38:49Z INFO payment-api request completed status=200 route=/payments request_id=7ca84144-cfcd-4f8f-8e37-4083d062230d amount=500.00
+2026-10-29T15:38:51Z INFO payment-api request completed status=200 route=/payments request_id=c05967d4-c424-4c0c-8031-1592826c5888 amount=500.00
+2026-10-29T15:38:53Z INFO payment-api request completed status=200 route=/payments request_id=16b929b4-5539-42bd-b58d-5e9529c67297 amount=500.00
+2026-10-29T15:38:55Z ERROR payment-api request failed status=500 route=/payments request_id=7299750a-341f-4e0d-ae49-d6457dbd2ab0 reason=simulated_failure amount=500.00
+2026-10-29T15:38:57Z ERROR payment-api request failed status=500 route=/payments request_id=3a1d34ae-b4a4-44ba-ba4e-1f4994de807f reason=simulated_failure amount=500.00
+2026-10-29T15:38:59Z ERROR payment-api request failed status=500 route=/payments request_id=8c5d26d7-c6f5-460e-b787-a3d52b83eedd reason=simulated_failure amount=500.00
+2026-10-29T15:39:01Z INFO payment-api request completed status=200 route=/payments request_id=9b0ed2f0-c46c-45b3-82e7-d7486c22c325 amount=500.00
+2026-10-29T15:39:03Z INFO payment-api request completed status=200 route=/payments request_id=bbf493ab-4d1b-41ab-a28c-efb7df78367b amount=500.00
+2026-10-29T15:39:06Z INFO payment-api request completed status=200 route=/payments request_id=4cf1072f-121b-48d7-8d6b-684315d234d6 amount=500.00
+2026-10-29T15:39:08Z INFO payment-api request completed status=200 route=/payments request_id=c2faf104-a4aa-48be-9046-498174964571 amount=500.00
+2026-10-29T15:39:10Z INFO payment-api request completed status=200 route=/payments request_id=dd4212fd-fa31-44a4-8f20-b56fd6804b98 amount=500.00
+2026-10-29T15:39:12Z ERROR payment-api request failed status=500 route=/payments request_id=9ce403ee-d8fa-4b0e-b2a4-549e8118483a reason=simulated_failure amount=500.00
+2026-10-29T15:39:14Z ERROR payment-api request failed status=500 route=/payments request_id=bf03062c-c9b1-4dd3-914f-ef79ed63bc87 reason=simulated_failure amount=500.00
+2026-10-29T15:39:16Z ERROR payment-api request failed status=500 route=/payments request_id=c7478015-34a5-49fc-948c-b960fdc103f2 reason=simulated_failure amount=500.00
+2026-10-29T15:39:18Z INFO payment-api request completed status=200 route=/payments request_id=d51689df-6ad2-4445-9348-304a82da1ef9 amount=500.00
+2026-10-29T15:39:20Z INFO payment-api request completed status=200 route=/payments request_id=bf6d287f-0b6c-483c-8a5c-112d3e6c7ab2 amount=500.00
+2026-10-29T15:39:22Z INFO payment-api request completed status=200 route=/payments request_id=3a2a878f-e10e-4c54-8995-a2979846bd37 amount=500.00
+2026-10-29T15:39:24Z INFO payment-api request completed status=200 route=/payments request_id=cd521a81-543d-4c0a-8fd4-baf7802f3663 amount=500.00
+2026-10-29T15:39:26Z INFO payment-api request completed status=200 route=/payments request_id=31736fb6-641b-4232-990b-221874099692 amount=500.00
+2026-10-29T15:39:28Z ERROR payment-api request failed status=500 route=/payments request_id=dfcc9fa6-b922-4d65-8f9d-f1abfd180095 reason=simulated_failure amount=500.00
+2026-10-29T15:39:30Z ERROR payment-api request failed status=500 route=/payments request_id=b9f9bb08-662a-4cc6-8540-7f8147a42cc0 reason=simulated_failure amount=500.00
+2026-10-29T15:39:32Z ERROR payment-api request failed status=500 route=/payments request_id=e9931b2d-2bee-4e88-a02e-852e4a0eee61 reason=simulated_failure amount=500.00
+2026-10-29T15:39:34Z INFO payment-api request completed status=200 route=/payments request_id=5d74d1e4-7767-488d-bf6b-ae49db5e21df amount=500.00
+2026-10-29T15:39:36Z INFO payment-api request completed status=200 route=/payments request_id=57d530a4-bf55-4986-bd42-8ed0660e6663 amount=500.00
+2026-10-29T15:39:38Z INFO payment-api request completed status=200 route=/payments request_id=1d1b3418-be2c-4be2-9e48-e97b3de99319 amount=500.00
+2026-10-29T15:39:40Z INFO payment-api request completed status=200 route=/payments request_id=ff0d3cc5-5b5b-4b95-9565-4c395b2be7eb amount=500.00
+2026-10-29T15:39:42Z INFO payment-api request completed status=200 route=/payments request_id=39cd7bd2-aa99-40c2-9b91-57232a8eea63 amount=500.00
+2026-10-29T15:39:44Z ERROR payment-api request failed status=500 route=/payments request_id=106e5488-9f1d-4996-9937-c520305210ce reason=simulated_failure amount=500.00
+2026-10-29T15:39:46Z ERROR payment-api request failed status=500 route=/payments request_id=537ce86c-87b8-40ca-ba87-ce0cc03f47cd reason=simulated_failure amount=500.00
+2026-10-29T15:39:48Z ERROR payment-api request failed status=500 route=/payments request_id=ec88c36e-e062-4fb7-9d58-d343cbff9463 reason=simulated_failure amount=500.00
+2026-10-29T15:39:50Z INFO payment-api request completed status=200 route=/payments request_id=a7ce668b-d40d-47b9-94f7-389aa19a5c24 amount=500.00
+2026-10-29T15:39:52Z INFO payment-api request completed status=200 route=/payments request_id=cd8ea370-2e27-4043-88cd-6d6e7004e1d0 amount=500.00
+2026-10-29T15:39:54Z INFO payment-api request completed status=200 route=/payments request_id=9bba5a6c-5f4b-42cb-aed6-2a23c40d129c amount=500.00
+2026-10-29T15:39:56Z INFO payment-api request completed status=200 route=/payments request_id=8630430e-8bff-498a-81ae-85cd17801ca3 amount=500.00
+2026-10-29T15:39:58Z INFO payment-api request completed status=200 route=/payments request_id=e44af1b3-7533-4396-9c0f-a63a1f77ada4 amount=500.00
+2026-10-29T15:40:00Z ERROR payment-api request failed status=500 route=/payments request_id=7dd014f1-c8b3-4716-8efa-11d01fc65227 reason=simulated_failure amount=500.00
+2026-10-29T15:40:02Z ERROR payment-api request failed status=500 route=/payments request_id=463e0a0d-9bf8-4887-a0a0-2d0acc8362eb reason=simulated_failure amount=500.00
+2026-10-29T15:40:04Z ERROR payment-api request failed status=500 route=/payments request_id=8151a913-e5dc-411b-8168-37a7a335572c reason=simulated_failure amount=500.00
+2026-10-29T15:40:06Z INFO payment-api request completed status=200 route=/payments request_id=6df67854-8827-4b60-976c-cfb7caaa74ac amount=500.00
+2026-10-29T15:40:08Z INFO payment-api request completed status=200 route=/payments request_id=a43e6129-e4d5-4d5b-b61e-e6f159a126e1 amount=500.00
+2026-10-29T15:40:10Z INFO payment-api request completed status=200 route=/payments request_id=29815370-cd1e-4589-9a69-1a79bffc193e amount=500.00
+2026-10-29T15:40:12Z INFO payment-api request completed status=200 route=/payments request_id=7c89f627-1218-481a-afa7-eb9de0819776 amount=500.00
+2026-10-29T15:40:14Z INFO payment-api request completed status=200 route=/payments request_id=4d0d71bb-540d-4411-958d-7c38ab4f8b1f amount=500.00
+2026-10-29T15:40:16Z ERROR payment-api request failed status=500 route=/payments request_id=b2b020c3-79a4-40ec-b957-8a7d861620f8 reason=simulated_failure amount=500.00
+2026-10-29T15:40:18Z ERROR payment-api request failed status=500 route=/payments request_id=9b90178e-ef86-4168-adc6-8d994660a2f1 reason=simulated_failure amount=500.00
+2026-10-29T15:40:20Z ERROR payment-api request failed status=500 route=/payments request_id=47b5f863-87e0-46ab-852c-3d09ce1c0400 reason=simulated_failure amount=500.00
+2026-10-29T15:40:22Z INFO payment-api request completed status=200 route=/payments request_id=18fab396-77f3-4fa3-af3a-d798836aeac1 amount=500.00
+2026-10-29T15:40:24Z INFO payment-api request completed status=200 route=/payments request_id=438c1e84-aba5-43e6-bb30-131c11c48519 amount=500.00
+2026-10-29T15:40:26Z INFO payment-api request completed status=200 route=/payments request_id=6c8ee2ea-cf5a-4946-b4b5-1ef220fb4731 amount=500.00
+2026-10-29T15:40:28Z INFO payment-api request completed status=200 route=/payments request_id=9f4e914c-a647-46f7-a09b-5a2927d1394d amount=500.00
+2026-10-29T15:40:30Z INFO payment-api request completed status=200 route=/payments request_id=d1d52b26-08d2-4a8f-87d9-c1140542e091 amount=500.00
+2026-10-29T15:40:32Z ERROR payment-api request failed status=500 route=/payments request_id=83eb3020-f647-4a99-a387-5e35bed58684 reason=simulated_failure amount=500.00
+2026-10-29T15:40:34Z ERROR payment-api request failed status=500 route=/payments request_id=15cecc09-8a25-48ea-bf70-7cb7e9a56b42 reason=simulated_failure amount=500.00
+2026-10-29T15:40:36Z ERROR payment-api request failed status=500 route=/payments request_id=6c8be1cc-44dd-4f7b-826e-17b759355abc reason=simulated_failure amount=500.00
+2026-10-29T15:40:38Z INFO payment-api request completed status=200 route=/payments request_id=8b857bba-e120-4da9-9abf-426f75e86b05 amount=500.00
+2026-10-29T15:40:40Z INFO payment-api request completed status=200 route=/payments request_id=b92b42e5-c434-466a-b86a-82c3736087bc amount=500.00
+2026-10-29T15:40:42Z INFO payment-api request completed status=200 route=/payments request_id=bd19b7fd-51cb-4f38-87bc-fae75d3fd122 amount=500.00
+2026-10-29T15:40:44Z INFO payment-api request completed status=200 route=/payments request_id=e31e2230-0eb0-40ae-8b87-95302a2e220e amount=500.00
+2026-10-29T15:40:46Z INFO payment-api request completed status=200 route=/payments request_id=4ae93213-d417-46e4-be1b-39beefbc50e4 amount=500.00
+2026-10-29T15:40:48Z ERROR payment-api request failed status=500 route=/payments request_id=2f1cb742-bc0a-4d52-a99b-dd7abaf0509d reason=simulated_failure amount=500.00
+2026-10-29T15:40:50Z ERROR payment-api request failed status=500 route=/payments request_id=e160fced-c634-4620-b242-49cac396c828 reason=simulated_failure amount=500.00
+2026-10-29T15:40:52Z ERROR payment-api request failed status=500 route=/payments request_id=0fc9c6c0-3438-4cd7-840c-f06306006b7c reason=simulated_failure amount=500.00
+2026-10-29T15:40:54Z INFO payment-api request completed status=200 route=/payments request_id=6696bc4b-c8ee-4ef5-9f6f-012ac1c2fa29 amount=500.00
+2026-10-29T15:40:56Z INFO payment-api request completed status=200 route=/payments request_id=2efce7c0-e96f-4814-afb3-79d852f5ba47 amount=500.00
+2026-10-29T15:40:58Z INFO payment-api request completed status=200 route=/payments request_id=5ce98fdf-cff2-4936-b7e6-df934450413f amount=500.00
+2026-10-29T15:41:00Z INFO payment-api request completed status=200 route=/payments request_id=2b2354aa-7ca6-4e6a-89d2-846359233d02 amount=500.00
+2026-10-29T15:41:02Z INFO payment-api request completed status=200 route=/payments request_id=a905881f-0e3d-4d86-b496-31c195392a9d amount=500.00
+2026-10-29T15:41:04Z ERROR payment-api request failed status=500 route=/payments request_id=a475ec4f-af83-4451-8a34-11cdeb7ef71b reason=simulated_failure amount=500.00
+2026-10-29T15:41:06Z ERROR payment-api request failed status=500 route=/payments request_id=1dbbe290-b171-48d4-b37b-245240cd1747 reason=simulated_failure amount=500.00
+2026-10-29T15:41:08Z ERROR payment-api request failed status=500 route=/payments request_id=4aa194f7-cfd1-41f5-be6f-6ecac7fda394 reason=simulated_failure amount=500.00
+2026-10-29T15:41:10Z INFO payment-api request completed status=200 route=/payments request_id=1322765c-207f-4c53-815d-e1c7ce7c22c0 amount=500.00
+2026-10-29T15:41:12Z INFO payment-api request completed status=200 route=/payments request_id=bf456e18-46fe-49fa-bd49-fda6dd88cede amount=500.00
+2026-10-29T15:41:14Z INFO payment-api request completed status=200 route=/payments request_id=f0f5eceb-4b4f-4d07-9f82-4f3cb0d65ce6 amount=500.00
+2026-10-29T15:41:16Z INFO payment-api request completed status=200 route=/payments request_id=9b81e97a-5690-4ffa-b7c0-9d59172e031c amount=500.00
+2026-10-29T15:41:18Z INFO payment-api request completed status=200 route=/payments request_id=ec805b1e-c153-4bcd-8e50-d8508aea41a2 amount=500.00
+2026-10-29T15:41:20Z ERROR payment-api request failed status=500 route=/payments request_id=d37e6c4c-f867-4bf4-ab94-ab3f28ccafd3 reason=simulated_failure amount=500.00
+2026-10-29T15:41:22Z ERROR payment-api request failed status=500 route=/payments request_id=c9e055d5-5827-47f0-af5f-c19dd4838a87 reason=simulated_failure amount=500.00
+2026-10-29T15:41:24Z ERROR payment-api request failed status=500 route=/payments request_id=398cead0-4195-4110-8fbe-cef926745e6c reason=simulated_failure amount=500.00
+2026-10-29T15:41:26Z INFO payment-api request completed status=200 route=/payments request_id=a908d4f5-3ead-468e-9ac7-177e66eadaba amount=500.00
+2026-10-29T15:41:28Z INFO payment-api request completed status=200 route=/payments request_id=297ded2c-2dac-4c45-9d88-c01ae8d587e3 amount=500.00
+2026-10-30T12:33:43Z INFO payment-api request completed status=200 route=/payments request_id=bf10573f-a1e2-41f3-9135-c927dce7a63e amount=500.00
+2026-10-30T12:33:45Z INFO payment-api request completed status=200 route=/payments request_id=4075239d-24e4-41bd-8240-c3f91b087368 amount=500.00
+2026-10-30T12:33:47Z INFO payment-api request completed status=200 route=/payments request_id=f2a3dae9-e836-431e-a0aa-44fa83d12bcd amount=500.00
+2026-10-30T12:33:49Z INFO payment-api request completed status=200 route=/payments request_id=f9af1f69-97ce-47e3-aefb-60d6b427fb2e amount=500.00
+2026-10-30T12:33:51Z INFO payment-api request completed status=200 route=/payments request_id=575c4553-8ac8-433a-9213-9c9b4ab9d549 amount=500.00
+2026-10-30T12:33:53Z ERROR payment-api request failed status=500 route=/payments request_id=1598b844-c2ff-4e99-a439-a273cd46199b reason=simulated_failure amount=500.00
+2026-10-30T12:33:55Z ERROR payment-api request failed status=500 route=/payments request_id=6816eea6-fc69-4404-90bd-b09b8c4984b5 reason=simulated_failure amount=500.00
+2026-10-30T12:33:57Z ERROR payment-api request failed status=500 route=/payments request_id=13b743b4-9bc1-4712-8d01-bad755ce5dcb reason=simulated_failure amount=500.00
+2026-10-30T12:33:59Z INFO payment-api request completed status=200 route=/payments request_id=cfb8bda8-b39b-4b79-a339-8931f1bb9a6f amount=500.00
+2026-10-30T12:34:01Z INFO payment-api request completed status=200 route=/payments request_id=e13338b0-ef0a-48de-b281-baeb77556255 amount=500.00
+2026-10-30T12:34:03Z INFO payment-api request completed status=200 route=/payments request_id=4338eead-30bb-4d19-9f3c-55d2d7493405 amount=500.00
+2026-10-30T12:34:05Z INFO payment-api request completed status=200 route=/payments request_id=9b2df4cc-8d44-498e-a409-42db0496a100 amount=500.00
+2026-10-30T12:34:07Z INFO payment-api request completed status=200 route=/payments request_id=a91f623a-4b17-4fca-aba2-bbdc108adc01 amount=500.00
+2026-10-30T12:34:09Z ERROR payment-api request failed status=500 route=/payments request_id=031c5441-aeba-49eb-9b42-5466396223e9 reason=simulated_failure amount=500.00
+2026-10-30T12:34:11Z ERROR payment-api request failed status=500 route=/payments request_id=a9a84075-6312-4622-b3b7-bcfcbd433d16 reason=simulated_failure amount=500.00
+2026-10-30T12:34:13Z ERROR payment-api request failed status=500 route=/payments request_id=c2968a83-acfd-4376-9645-e9003d426f7b reason=simulated_failure amount=500.00
+2026-10-30T12:34:15Z INFO payment-api request completed status=200 route=/payments request_id=bca2855d-0553-42b8-8559-b086703bb435 amount=500.00
+2026-10-30T12:34:17Z INFO payment-api request completed status=200 route=/payments request_id=ab3a42db-9b72-43a9-a11a-9d7163ffb244 amount=500.00
+2026-10-30T12:34:19Z INFO payment-api request completed status=200 route=/payments request_id=998c5cdf-1e81-468f-ade8-902a3cc38d7e amount=500.00
+2026-10-30T12:34:21Z INFO payment-api request completed status=200 route=/payments request_id=d3a193c6-b290-4b86-b133-603aee1aab33 amount=500.00
+2026-10-30T12:34:23Z INFO payment-api request completed status=200 route=/payments request_id=212bf4aa-380c-4cdd-a2b7-2ad8d62e003a amount=500.00
+2026-10-30T12:34:25Z ERROR payment-api request failed status=500 route=/payments request_id=5892c5b7-95d7-447d-9adf-c82b31566dcb reason=simulated_failure amount=500.00
+2026-10-30T12:34:27Z ERROR payment-api request failed status=500 route=/payments request_id=2059c287-3868-4ec3-8f32-d36bbabdd46c reason=simulated_failure amount=500.00
+2026-10-30T12:34:29Z ERROR payment-api request failed status=500 route=/payments request_id=d45c0fe3-bdc0-4f8a-9eb8-9338151ae76b reason=simulated_failure amount=500.00
+2026-10-30T12:34:31Z INFO payment-api request completed status=200 route=/payments request_id=49d4f836-178d-4264-86fb-0bfb6dd7412e amount=500.00
+2026-10-30T12:34:33Z INFO payment-api request completed status=200 route=/payments request_id=ea59277a-ee50-436f-8999-9ed8408bf8d2 amount=500.00
+2026-10-30T12:34:35Z INFO payment-api request completed status=200 route=/payments request_id=ddf2fed1-3a66-4d18-ae9f-2f1a6a26208e amount=500.00
+2026-10-30T12:34:37Z INFO payment-api request completed status=200 route=/payments request_id=6a28752a-b015-4fa9-9a55-e6fd0bc3d41f amount=500.00
+2026-10-30T12:34:39Z INFO payment-api request completed status=200 route=/payments request_id=eaf42298-3c53-45d3-b238-d40bbaf6ef58 amount=500.00
+2026-10-30T12:34:41Z ERROR payment-api request failed status=500 route=/payments request_id=4e3fa57f-e13f-4c76-b299-2956d4930667 reason=simulated_failure amount=500.00
+2026-10-30T12:34:43Z ERROR payment-api request failed status=500 route=/payments request_id=fe793420-26a6-4014-864b-3796db3703bd reason=simulated_failure amount=500.00
+2026-10-30T12:34:45Z ERROR payment-api request failed status=500 route=/payments request_id=9f0c27cc-ed8d-4ef8-b518-fb46654f959f reason=simulated_failure amount=500.00
+2026-10-30T12:34:47Z INFO payment-api request completed status=200 route=/payments request_id=6e204142-6b0e-428f-94de-d3076e6c06d4 amount=500.00
+2026-10-30T12:34:49Z INFO payment-api request completed status=200 route=/payments request_id=bb962133-ea15-46fe-ae48-801815850c1a amount=500.00
+2026-10-30T12:34:51Z INFO payment-api request completed status=200 route=/payments request_id=670ad9a8-620a-4081-9445-11f873a703a3 amount=500.00
+2026-10-30T12:34:53Z INFO payment-api request completed status=200 route=/payments request_id=a0138805-843e-417a-819f-b7df154acac9 amount=500.00
+2026-10-30T12:34:55Z INFO payment-api request completed status=200 route=/payments request_id=27173678-fbd5-457d-8077-8ba3c4dff166 amount=500.00
+2026-10-30T12:34:57Z ERROR payment-api request failed status=500 route=/payments request_id=b47476ad-22ad-4994-857d-dcb2c0031c72 reason=simulated_failure amount=500.00
+2026-10-30T12:34:59Z ERROR payment-api request failed status=500 route=/payments request_id=e4858f56-d9af-4878-a666-677dbb86284a reason=simulated_failure amount=500.00
+2026-10-30T12:35:01Z ERROR payment-api request failed status=500 route=/payments request_id=845edafd-b8dd-4063-b87e-b13a8f9ee052 reason=simulated_failure amount=500.00
+2026-10-30T12:35:03Z INFO payment-api request completed status=200 route=/payments request_id=3889cc7d-e22d-4837-a94e-50a245bd9cc0 amount=500.00
+2026-10-30T12:35:05Z INFO payment-api request completed status=200 route=/payments request_id=ea92359c-aec6-4559-a97d-f50bf6c22f61 amount=500.00
+2026-10-30T12:35:07Z INFO payment-api request completed status=200 route=/payments request_id=e7b2787c-8cfb-4050-b823-f2bf7df2f693 amount=500.00
+2026-10-30T12:35:09Z INFO payment-api request completed status=200 route=/payments request_id=9a52c36e-c48f-4130-9f09-8224308126ce amount=500.00
+2026-10-30T12:35:11Z INFO payment-api request completed status=200 route=/payments request_id=6cb23143-77ff-45c1-b4ab-e565b79b1de1 amount=500.00
+2026-10-30T12:35:13Z ERROR payment-api request failed status=500 route=/payments request_id=65bc0d5e-4aaa-40f9-aa2f-e68e642e56f6 reason=simulated_failure amount=500.00
+2026-10-30T12:35:15Z ERROR payment-api request failed status=500 route=/payments request_id=e50e6ff8-8677-4a4c-8e8f-e4e77a172a73 reason=simulated_failure amount=500.00
+2026-10-30T12:35:17Z ERROR payment-api request failed status=500 route=/payments request_id=652b6974-5fe5-4dfe-b74c-796a2260fb25 reason=simulated_failure amount=500.00
+2026-10-30T12:35:19Z INFO payment-api request completed status=200 route=/payments request_id=66a536ee-0222-467a-b449-73d1941f0513 amount=500.00
+2026-10-30T12:35:21Z INFO payment-api request completed status=200 route=/payments request_id=ad8ffb35-1159-4fda-84cb-357a9b27e4c3 amount=500.00
+2026-10-30T12:35:23Z INFO payment-api request completed status=200 route=/payments request_id=398f6ec5-7d00-4458-8b2b-959aa1fbdb12 amount=500.00
+2026-10-30T12:35:25Z INFO payment-api request completed status=200 route=/payments request_id=30bdce34-ebd0-4d4e-a59a-35fb0ce568d3 amount=500.00
+2026-10-30T12:35:27Z INFO payment-api request completed status=200 route=/payments request_id=4ba1e015-1fdc-4ca2-a004-5ad4fb89501b amount=500.00
+2026-10-30T12:35:29Z ERROR payment-api request failed status=500 route=/payments request_id=2b62c403-2bb7-409a-9f77-47b6a38a8658 reason=simulated_failure amount=500.00
+2026-10-30T12:35:31Z ERROR payment-api request failed status=500 route=/payments request_id=903ccfa1-fc84-4317-a4cf-c45c4988afa3 reason=simulated_failure amount=500.00
+2026-10-30T12:35:33Z ERROR payment-api request failed status=500 route=/payments request_id=b71b2306-b489-4dce-b262-e558a4fa4740 reason=simulated_failure amount=500.00
+2026-10-30T12:35:35Z INFO payment-api request completed status=200 route=/payments request_id=53c609c9-1d42-4bf7-9f61-12f2c6068114 amount=500.00
+2026-10-30T12:35:37Z INFO payment-api request completed status=200 route=/payments request_id=e7732307-4aef-4f2b-b337-6d3b1de8eff5 amount=500.00
+2026-10-30T12:35:39Z INFO payment-api request completed status=200 route=/payments request_id=09e45b21-4b1b-4517-905c-9721a081a04c amount=500.00
+2026-10-30T12:35:41Z INFO payment-api request completed status=200 route=/payments request_id=d38dfca5-a095-47f8-8a35-eb87754054da amount=500.00
+2026-10-30T12:35:43Z INFO payment-api request completed status=200 route=/payments request_id=1e241e71-e747-4a53-8e1d-5a7c913dac1f amount=500.00
+2026-10-30T12:35:45Z ERROR payment-api request failed status=500 route=/payments request_id=8ed139ca-512a-4d2c-8a82-9d8f2e41576b reason=simulated_failure amount=500.00
+2026-10-30T12:35:47Z ERROR payment-api request failed status=500 route=/payments request_id=bc972beb-2847-4de4-aaa0-af089e3eda9b reason=simulated_failure amount=500.00
+2026-10-30T12:35:49Z ERROR payment-api request failed status=500 route=/payments request_id=d264faac-92ff-4271-919e-442e5711ee3e reason=simulated_failure amount=500.00
+2026-10-30T12:35:51Z INFO payment-api request completed status=200 route=/payments request_id=46ed90ae-7079-4b05-a9ee-04dd35f9234c amount=500.00
+2026-10-30T12:35:53Z INFO payment-api request completed status=200 route=/payments request_id=2fd4b4a9-58e9-47f7-a99f-69cb27d03e49 amount=500.00
+2026-10-30T12:35:55Z INFO payment-api request completed status=200 route=/payments request_id=f8b4d2f3-4557-4d70-92fd-c305625fb5fd amount=500.00
+2026-10-30T12:35:57Z INFO payment-api request completed status=200 route=/payments request_id=49830845-3224-4041-b5e1-8c6f6b2177c3 amount=500.00
+2026-10-30T12:35:59Z INFO payment-api request completed status=200 route=/payments request_id=d3690eca-cce1-43f9-9fe1-6ca2a5030a60 amount=500.00
+2026-10-30T12:36:01Z ERROR payment-api request failed status=500 route=/payments request_id=8de86154-75d2-4510-9969-1540405bef2b reason=simulated_failure amount=500.00
+2026-10-30T12:36:03Z ERROR payment-api request failed status=500 route=/payments request_id=47bf6cfc-9970-44a5-ae53-b0bac46d90b8 reason=simulated_failure amount=500.00
+2026-10-30T12:36:05Z ERROR payment-api request failed status=500 route=/payments request_id=62e65628-4228-4f49-9dd6-656bd6403eaf reason=simulated_failure amount=500.00
+2026-10-30T12:36:07Z INFO payment-api request completed status=200 route=/payments request_id=764883ac-731a-4458-b012-47c12837e1fa amount=500.00
+2026-10-30T12:36:09Z INFO payment-api request completed status=200 route=/payments request_id=af611b05-f995-49ca-824a-0ba3fab53c33 amount=500.00
+2026-10-30T12:36:11Z INFO payment-api request completed status=200 route=/payments request_id=d63222ff-f5ea-415b-9da7-31af6f743740 amount=500.00
+2026-10-30T12:36:13Z INFO payment-api request completed status=200 route=/payments request_id=9df0965a-8f28-44d1-ab82-37ea695bd69d amount=500.00
+2026-10-30T12:36:15Z INFO payment-api request completed status=200 route=/payments request_id=fd05a2ee-519c-4c55-a783-9fdc55f7abe2 amount=500.00
+2026-10-30T12:36:17Z ERROR payment-api request failed status=500 route=/payments request_id=773ae78b-8fd0-46cf-b6dc-7caa72e25046 reason=simulated_failure amount=500.00
+2026-10-30T12:36:19Z ERROR payment-api request failed status=500 route=/payments request_id=622c6f17-c64a-41b9-a5fe-0a323dd499e1 reason=simulated_failure amount=500.00
+2026-10-30T12:36:21Z ERROR payment-api request failed status=500 route=/payments request_id=902e975d-5432-4ecb-8fbf-42cea4123175 reason=simulated_failure amount=500.00
+2026-10-30T12:36:23Z INFO payment-api request completed status=200 route=/payments request_id=14ba586a-2f7e-44fe-b27c-7e592b94b27f amount=500.00
+2026-10-30T12:36:25Z INFO payment-api request completed status=200 route=/payments request_id=8aa60689-784a-49e3-ab97-8c7700ac1f4e amount=500.00
+2026-10-30T12:36:27Z INFO payment-api request completed status=200 route=/payments request_id=6ff2398c-b98f-4822-b08b-b393bfd2ab8a amount=500.00
+2026-10-30T12:36:29Z INFO payment-api request completed status=200 route=/payments request_id=9a3ea2f7-2c5d-4800-beb8-5d6c7a097f6e amount=500.00
+2026-10-30T12:36:31Z INFO payment-api request completed status=200 route=/payments request_id=98ce1c16-974b-4061-afcd-e247195d605c amount=500.00
+2026-10-30T12:36:33Z ERROR payment-api request failed status=500 route=/payments request_id=1ddf7577-6f0b-4433-b723-74d3bdbf123e reason=simulated_failure amount=500.00
+2026-10-30T12:36:35Z ERROR payment-api request failed status=500 route=/payments request_id=dcbed6d2-10ca-445d-a6b5-e5d405c956c1 reason=simulated_failure amount=500.00
+2026-10-30T12:36:37Z ERROR payment-api request failed status=500 route=/payments request_id=5dceb5f2-6985-4b07-8ec3-e7d6ca6ea366 reason=simulated_failure amount=500.00
+2026-10-30T12:36:39Z INFO payment-api request completed status=200 route=/payments request_id=9fedafc3-1555-48f4-a975-604202a1aff8 amount=500.00
+2026-10-30T12:36:41Z INFO payment-api request completed status=200 route=/payments request_id=ce7f11ab-49d9-4e10-b798-c51672b751ad amount=500.00
+2026-10-30T12:36:43Z INFO payment-api request completed status=200 route=/payments request_id=ecad5938-1979-43be-be91-504dacdc572c amount=500.00
+2026-10-30T12:36:45Z INFO payment-api request completed status=200 route=/payments request_id=db3a342f-c114-4884-8c1c-8a683cbfa748 amount=500.00
+2026-10-30T12:36:47Z INFO payment-api request completed status=200 route=/payments request_id=f4aaf2f0-93df-4779-96ea-3e9e98e74a30 amount=500.00
+2026-10-30T12:36:49Z ERROR payment-api request failed status=500 route=/payments request_id=720c3625-2aff-44c4-b9ff-7cec55fb6b60 reason=simulated_failure amount=500.00
+2026-10-30T12:36:51Z ERROR payment-api request failed status=500 route=/payments request_id=2ee57043-82e1-44b8-8b53-f355ba852426 reason=simulated_failure amount=500.00
+2026-10-30T12:36:53Z ERROR payment-api request failed status=500 route=/payments request_id=3e472833-65d6-4a4c-adca-2b1f4de9c96e reason=simulated_failure amount=500.00
+2026-10-30T12:36:56Z INFO payment-api request completed status=200 route=/payments request_id=03b0131b-2648-4c4d-9921-fe1cd173d7fd amount=500.00
+2026-10-30T12:36:58Z INFO payment-api request completed status=200 route=/payments request_id=7fbc519b-e465-4664-9085-baed68c8d5e3 amount=500.00
+2026-10-30T12:37:00Z INFO payment-api request completed status=200 route=/payments request_id=1b9d5bf9-e1c5-4564-ad65-611c45b246d6 amount=500.00
+2026-10-30T12:37:02Z INFO payment-api request completed status=200 route=/payments request_id=fc139992-4a19-4d0e-a509-837a7ea34171 amount=500.00
+2026-10-30T12:37:04Z INFO payment-api request completed status=200 route=/payments request_id=8d0bf508-5679-4d2a-b22d-1995c8e7a3f7 amount=500.00
+2026-10-30T12:37:06Z ERROR payment-api request failed status=500 route=/payments request_id=9c1598ca-fdde-4528-992b-aac4e9fed467 reason=simulated_failure amount=500.00
+2026-10-30T12:37:08Z ERROR payment-api request failed status=500 route=/payments request_id=8d72b9ec-f890-461b-bb3d-797043845916 reason=simulated_failure amount=500.00
+2026-10-30T12:37:10Z ERROR payment-api request failed status=500 route=/payments request_id=493a40d9-fd8a-47b3-aa67-5bc4bac7a42f reason=simulated_failure amount=500.00
+2026-10-30T12:37:12Z INFO payment-api request completed status=200 route=/payments request_id=db946628-d757-4442-bda9-1ae18fb2a3bf amount=500.00
+2026-10-30T12:37:14Z INFO payment-api request completed status=200 route=/payments request_id=f51fb39f-2bb9-4da2-98d5-ba7c2b81a414 amount=500.00
+2026-10-30T12:37:16Z INFO payment-api request completed status=200 route=/payments request_id=310c53c2-721e-4441-af39-9c846ee31bce amount=500.00
+2026-10-30T12:37:18Z INFO payment-api request completed status=200 route=/payments request_id=f251a5c2-ee92-471f-8a09-edc7f848be42 amount=500.00
+2026-10-30T12:37:20Z INFO payment-api request completed status=200 route=/payments request_id=d137c9df-5951-4034-ba6e-97219db2c1b9 amount=500.00
+2026-10-30T12:37:22Z ERROR payment-api request failed status=500 route=/payments request_id=c8026b67-2663-48a3-aeae-5e877f499ca4 reason=simulated_failure amount=500.00
+2026-10-30T12:37:24Z ERROR payment-api request failed status=500 route=/payments request_id=96a60660-5b61-4443-915a-b79b5cb0f623 reason=simulated_failure amount=500.00
+2026-10-30T12:37:26Z ERROR payment-api request failed status=500 route=/payments request_id=ec0dd805-88a0-4355-8978-ab245ab787e1 reason=simulated_failure amount=500.00
+2026-10-30T12:37:28Z INFO payment-api request completed status=200 route=/payments request_id=bb79f6ac-6bc3-478e-b0ca-aeccc6063725 amount=500.00
+2026-10-30T12:37:30Z INFO payment-api request completed status=200 route=/payments request_id=5e2a345c-8b20-489d-9f1e-91ededebf70c amount=500.00
+2026-10-30T12:37:32Z INFO payment-api request completed status=200 route=/payments request_id=aaf63139-379c-445b-bc17-9831f7ba700c amount=500.00
+2026-10-30T12:37:34Z INFO payment-api request completed status=200 route=/payments request_id=26cbdefc-56f8-42d3-ba9e-a3a2144de3c8 amount=500.00
+2026-10-30T12:37:36Z INFO payment-api request completed status=200 route=/payments request_id=32f842ec-4fad-4923-b195-3803bfa6e185 amount=500.00
+2026-10-30T12:37:38Z ERROR payment-api request failed status=500 route=/payments request_id=ffea2795-3d35-41ce-9c12-0e1167e9e16e reason=simulated_failure amount=500.00
+2026-10-30T12:37:40Z ERROR payment-api request failed status=500 route=/payments request_id=46397253-2d08-40b3-b336-29793ad9c15d reason=simulated_failure amount=500.00
+2026-10-30T12:37:42Z ERROR payment-api request failed status=500 route=/payments request_id=1f7772f9-88dd-43c5-9ecc-3144a72b9920 reason=simulated_failure amount=500.00
+2026-10-30T12:37:44Z INFO payment-api request completed status=200 route=/payments request_id=99911c96-7c6d-4697-b826-fbfed395cb7a amount=500.00
+2026-10-30T12:37:46Z INFO payment-api request completed status=200 route=/payments request_id=bb7172fd-fcac-4363-87ab-10714b28d576 amount=500.00
+2026-10-30T12:37:48Z INFO payment-api request completed status=200 route=/payments request_id=4ba670ce-127f-42e6-aff4-429b383e9593 amount=500.00
+2026-10-30T12:37:50Z INFO payment-api request completed status=200 route=/payments request_id=cfdfc40c-0c8c-4f9d-b035-30c026fccf93 amount=500.00
+2026-10-30T12:37:52Z INFO payment-api request completed status=200 route=/payments request_id=20eb1b6e-a3f4-4397-91c5-35ab4757cb68 amount=500.00
+2026-10-30T12:37:54Z ERROR payment-api request failed status=500 route=/payments request_id=2e8af61f-0c80-4f9f-b575-7ffb9e8ad0b8 reason=simulated_failure amount=500.00
+2026-10-30T12:37:56Z ERROR payment-api request failed status=500 route=/payments request_id=13f27914-ea1c-425b-aee4-95a0bb8e6241 reason=simulated_failure amount=500.00
+2026-10-30T12:37:58Z ERROR payment-api request failed status=500 route=/payments request_id=e5146d52-c389-46d5-8a92-3d369b3f3af0 reason=simulated_failure amount=500.00
+2026-10-30T12:38:00Z INFO payment-api request completed status=200 route=/payments request_id=b88dc8bd-bde0-4caa-bd4f-96f9b12c5c0a amount=500.00
+2026-10-30T12:38:02Z INFO payment-api request completed status=200 route=/payments request_id=7fd0d0b1-6125-44fe-913d-e10ed7733b59 amount=500.00
+2026-10-30T12:38:04Z INFO payment-api request completed status=200 route=/payments request_id=21ae75d3-b21c-4e38-bc7d-079feac2e7ad amount=500.00
+2026-10-30T12:38:06Z INFO payment-api request completed status=200 route=/payments request_id=836f4b73-b31c-4e8e-bce2-cd2116b3ba59 amount=500.00
+2026-10-30T12:38:08Z INFO payment-api request completed status=200 route=/payments request_id=b37a0e9a-88e9-417e-80e1-3d60c178d73d amount=500.00
+2026-10-30T12:38:10Z ERROR payment-api request failed status=500 route=/payments request_id=b9a121ec-ffa0-4b08-afbc-ef288b5559d1 reason=simulated_failure amount=500.00
+2026-10-30T12:38:12Z ERROR payment-api request failed status=500 route=/payments request_id=89c8ef1d-0bb3-4123-8ebc-2fb0208c4453 reason=simulated_failure amount=500.00
+2026-10-30T12:38:14Z ERROR payment-api request failed status=500 route=/payments request_id=b8bd2b09-2ccd-42ff-af9b-fd5ca3e76661 reason=simulated_failure amount=500.00
+2026-10-30T12:38:16Z INFO payment-api request completed status=200 route=/payments request_id=bba8ad32-37cd-4bfc-847e-f2e2d03300b2 amount=500.00
+2026-10-30T12:38:18Z INFO payment-api request completed status=200 route=/payments request_id=4635c161-ba04-49b4-8470-a85a2b36f58b amount=500.00
+2026-10-30T12:38:20Z INFO payment-api request completed status=200 route=/payments request_id=bbc2f49f-cda8-4eef-928a-caefa994eaa8 amount=500.00
+2026-10-30T12:38:22Z INFO payment-api request completed status=200 route=/payments request_id=d4124ded-8f69-46e3-9a3b-bb20e2ed442d amount=500.00
+2026-10-30T12:38:24Z INFO payment-api request completed status=200 route=/payments request_id=c9392fe0-5c82-4c08-90c1-5c245dc2906f amount=500.00
+2026-10-30T12:38:26Z ERROR payment-api request failed status=500 route=/payments request_id=355a3cc4-b440-4f0a-8ca9-acb6b57a8c8b reason=simulated_failure amount=500.00
+2026-10-30T12:38:28Z ERROR payment-api request failed status=500 route=/payments request_id=be5b838d-a763-4124-8180-0201fd3dc18b reason=simulated_failure amount=500.00
+2026-10-30T12:38:30Z ERROR payment-api request failed status=500 route=/payments request_id=192ac0f2-4f7f-45e4-b696-5cce36c70b28 reason=simulated_failure amount=500.00
+2026-10-30T12:38:32Z INFO payment-api request completed status=200 route=/payments request_id=40df2767-beef-44b3-b8d6-bd162424f161 amount=500.00
+2026-10-30T12:38:34Z INFO payment-api request completed status=200 route=/payments request_id=67c2691d-2aac-4eda-b6f4-87ea4e9e1aaf amount=500.00
+2026-10-30T12:38:36Z INFO payment-api request completed status=200 route=/payments request_id=de895bbf-4cee-467c-a5b0-2d92afeea49b amount=500.00
+2026-10-30T12:38:38Z INFO payment-api request completed status=200 route=/payments request_id=62e1fc1d-1d51-4585-8352-69dfd9a64e83 amount=500.00
+2026-10-30T12:38:40Z INFO payment-api request completed status=200 route=/payments request_id=049d504b-64df-4603-91dc-ab55b2c4d000 amount=500.00
+2026-10-30T12:38:42Z ERROR payment-api request failed status=500 route=/payments request_id=9c1a26f3-6189-4907-832f-91e963daa00b reason=simulated_failure amount=500.00
+2026-10-30T12:38:44Z ERROR payment-api request failed status=500 route=/payments request_id=9db85043-abf8-4979-855d-96f194daa1f3 reason=simulated_failure amount=500.00
+2026-10-30T12:38:46Z ERROR payment-api request failed status=500 route=/payments request_id=6638349b-fe8c-4ec5-b5ff-5ab66006b2e6 reason=simulated_failure amount=500.00
+2026-10-30T12:38:48Z INFO payment-api request completed status=200 route=/payments request_id=c6f07023-3a00-4ed0-9ca9-6822a3d7f8fd amount=500.00
+2026-10-30T12:38:50Z INFO payment-api request completed status=200 route=/payments request_id=53f6e6e0-cc5a-4dc7-a1c0-0ef71432a510 amount=500.00
+2026-10-30T12:38:52Z INFO payment-api request completed status=200 route=/payments request_id=7bd55f6d-4a50-4037-8276-01141138ef69 amount=500.00
+2026-10-30T12:38:54Z INFO payment-api request completed status=200 route=/payments request_id=41ce849a-e74b-40eb-bc16-3dbb26b5eac3 amount=500.00
+2026-10-30T12:38:56Z INFO payment-api request completed status=200 route=/payments request_id=b68c6faa-1882-4c66-951b-f56a22f31d3b amount=500.00
+2026-10-30T12:38:58Z ERROR payment-api request failed status=500 route=/payments request_id=bfc5acc7-2b4b-46ca-a510-89681842cc5c reason=simulated_failure amount=500.00
+2026-10-30T12:39:00Z ERROR payment-api request failed status=500 route=/payments request_id=5bbe0d05-0fe3-4009-acc9-885371d884c7 reason=simulated_failure amount=500.00
+2026-10-30T12:39:02Z ERROR payment-api request failed status=500 route=/payments request_id=bf42cdd8-9276-44b0-a7e7-5ac22867bddb reason=simulated_failure amount=500.00
+2026-10-30T12:39:04Z INFO payment-api request completed status=200 route=/payments request_id=18f137ed-2c52-4bf4-a2c4-2dcffa126eda amount=500.00
+2026-10-30T12:39:06Z INFO payment-api request completed status=200 route=/payments request_id=17e7506b-7383-4066-af2a-9d8f2ee85658 amount=500.00
+2026-10-30T12:39:08Z INFO payment-api request completed status=200 route=/payments request_id=4ec9484a-a122-4259-aba4-3d6d159d08cb amount=500.00
+2026-10-30T12:39:10Z INFO payment-api request completed status=200 route=/payments request_id=3d0d38b5-5a97-4fb3-a911-af86232ebdbb amount=500.00
+2026-10-30T12:39:12Z INFO payment-api request completed status=200 route=/payments request_id=2983c267-f4d0-45e4-b2b9-853c8fea8e44 amount=500.00
+2026-10-30T12:39:14Z ERROR payment-api request failed status=500 route=/payments request_id=3f71e73d-c9b5-4b64-9748-e2839a02d2df reason=simulated_failure amount=500.00
+2026-10-30T12:39:16Z ERROR payment-api request failed status=500 route=/payments request_id=1943d92c-09c3-42ec-af8d-1e561df27a24 reason=simulated_failure amount=500.00
+2026-10-30T12:39:18Z ERROR payment-api request failed status=500 route=/payments request_id=989dbf43-c6ac-4475-beb4-2e685da6774d reason=simulated_failure amount=500.00
+2026-10-30T12:39:20Z INFO payment-api request completed status=200 route=/payments request_id=deb7e34d-c1a9-445a-8369-df15943d6881 amount=500.00
+2026-10-30T12:39:22Z INFO payment-api request completed status=200 route=/payments request_id=b6215d1b-da56-472f-93f4-47affa4623e1 amount=500.00
+2026-10-30T12:39:24Z INFO payment-api request completed status=200 route=/payments request_id=6d0ef80d-b8ae-4297-8b07-8699840da4e6 amount=500.00
+2026-10-30T12:39:26Z INFO payment-api request completed status=200 route=/payments request_id=f87a3bdd-4ba3-4beb-a361-6272b935acc7 amount=500.00
+2026-10-30T12:39:28Z INFO payment-api request completed status=200 route=/payments request_id=ad13682f-3c1b-4a70-a193-55cfa430601b amount=500.00
+2026-10-30T12:39:30Z ERROR payment-api request failed status=500 route=/payments request_id=a7a1249e-f51c-418f-915a-8f75f9365b55 reason=simulated_failure amount=500.00
+2026-10-30T12:39:32Z ERROR payment-api request failed status=500 route=/payments request_id=60e77401-1c0c-4b89-a961-fe9907c62aac reason=simulated_failure amount=500.00
+2026-10-30T12:39:34Z ERROR payment-api request failed status=500 route=/payments request_id=9733c9aa-d7cf-4c19-9ac5-5da18eb6e72e reason=simulated_failure amount=500.00
+2026-10-30T12:39:36Z INFO payment-api request completed status=200 route=/payments request_id=89755cd2-9ac7-4c07-b9e3-908fe03a5b97 amount=500.00
+2026-10-30T12:39:38Z INFO payment-api request completed status=200 route=/payments request_id=55e646cf-3bdb-49c6-8425-d689cdd537e9 amount=500.00
+2026-10-30T12:39:40Z INFO payment-api request completed status=200 route=/payments request_id=ea1f84ed-e0fd-4b19-8745-b45cbc3065ef amount=500.00
+2026-10-30T12:39:42Z INFO payment-api request completed status=200 route=/payments request_id=ad9f38d5-4840-491b-a196-c77173d3e065 amount=500.00
+2026-10-30T12:39:44Z INFO payment-api request completed status=200 route=/payments request_id=df987bd5-1637-42b4-a69f-9bab7a70e72a amount=500.00
+2026-10-30T12:39:46Z ERROR payment-api request failed status=500 route=/payments request_id=89b34738-ece9-40eb-8215-0533940eef3f reason=simulated_failure amount=500.00
+2026-10-30T12:39:48Z ERROR payment-api request failed status=500 route=/payments request_id=615ebf45-a69b-46e4-9422-d62d05da3365 reason=simulated_failure amount=500.00
+2026-10-30T12:39:50Z ERROR payment-api request failed status=500 route=/payments request_id=08d7bf0c-0202-41e6-86f5-bf2ee46d4add reason=simulated_failure amount=500.00
+2026-10-30T12:39:52Z INFO payment-api request completed status=200 route=/payments request_id=c0dae723-569f-4985-bd80-0da8c9e125e7 amount=500.00
+2026-10-30T12:39:54Z INFO payment-api request completed status=200 route=/payments request_id=98f2f5d5-1478-474a-999c-1ba9690711ca amount=500.00
+2026-10-30T12:39:56Z INFO payment-api request completed status=200 route=/payments request_id=adc0bea0-f72c-4400-be7e-f62edf68aaef amount=500.00
+2026-10-30T12:39:58Z INFO payment-api request completed status=200 route=/payments request_id=48a7a4ca-0d9b-4bba-8888-7fe5c1adfbbd amount=500.00
+2026-10-30T12:40:00Z INFO payment-api request completed status=200 route=/payments request_id=1cb00953-7700-4430-a869-41a462ba8364 amount=500.00
+2026-10-30T12:40:02Z ERROR payment-api request failed status=500 route=/payments request_id=c8dc55b1-abec-4793-8b02-c40d2d9cdd1e reason=simulated_failure amount=500.00
+2026-10-30T12:40:04Z ERROR payment-api request failed status=500 route=/payments request_id=20b5c64a-ad28-4e76-af18-4bdebf44514c reason=simulated_failure amount=500.00
+2026-10-30T12:40:06Z ERROR payment-api request failed status=500 route=/payments request_id=d2abbd00-1a28-4976-b204-12e2994723fd reason=simulated_failure amount=500.00
+2026-10-30T12:40:08Z INFO payment-api request completed status=200 route=/payments request_id=395da34f-61f3-449f-8535-f2f38a716101 amount=500.00
+2026-10-30T12:40:11Z INFO payment-api request completed status=200 route=/payments request_id=2ef44bcb-0c4a-498b-8392-5d1a3c4be19f amount=500.00
+2026-10-30T12:40:13Z INFO payment-api request completed status=200 route=/payments request_id=6abe86e6-8970-4087-8c23-c38be9e79c1b amount=500.00
+2026-10-30T12:40:15Z INFO payment-api request completed status=200 route=/payments request_id=67e2d7f6-1e38-448d-a310-49dd0cec7ecd amount=500.00
+2026-10-30T12:40:17Z INFO payment-api request completed status=200 route=/payments request_id=64736244-54a8-47ed-91ae-eb77e2e5ce4b amount=500.00
+2026-10-30T12:40:19Z ERROR payment-api request failed status=500 route=/payments request_id=f09c9036-8b0b-4e8a-87d7-1c78a341778c reason=simulated_failure amount=500.00
+2026-10-30T12:40:21Z ERROR payment-api request failed status=500 route=/payments request_id=1e530562-30c9-4fc5-a9fe-8ed6c3f39883 reason=simulated_failure amount=500.00
+2026-10-30T12:40:23Z ERROR payment-api request failed status=500 route=/payments request_id=5b0f3ce8-a39a-4596-8643-2a464269352f reason=simulated_failure amount=500.00
+2026-10-30T12:40:25Z INFO payment-api request completed status=200 route=/payments request_id=76b88a65-68f0-4af4-a3e7-c780465fa7c0 amount=500.00
+2026-10-30T12:40:27Z INFO payment-api request completed status=200 route=/payments request_id=9985b3ca-29f9-40c4-b540-d63d9f4d6adb amount=500.00
+2026-10-30T12:40:29Z INFO payment-api request completed status=200 route=/payments request_id=b033f6c7-1bea-479d-ad87-ae66ee2baaf1 amount=500.00
+2026-10-30T12:40:31Z INFO payment-api request completed status=200 route=/payments request_id=8a7a9826-93fd-4013-a9ad-4bc572670dff amount=500.00
+2026-10-30T12:40:33Z INFO payment-api request completed status=200 route=/payments request_id=ce5800f4-3505-4589-b1e5-296f1c839bdc amount=500.00
+2026-10-30T12:40:35Z ERROR payment-api request failed status=500 route=/payments request_id=ce20f008-e1fe-4673-9d89-0ff4f77da1dc reason=simulated_failure amount=500.00
+2026-10-30T12:40:37Z ERROR payment-api request failed status=500 route=/payments request_id=283df715-1170-4d55-b1b5-7d6287f4dd2c reason=simulated_failure amount=500.00
+2026-10-30T12:40:39Z ERROR payment-api request failed status=500 route=/payments request_id=28237e5e-f042-44f8-8bad-5080843ca389 reason=simulated_failure amount=500.00
+2026-10-30T12:40:41Z INFO payment-api request completed status=200 route=/payments request_id=eb7bd389-3dac-4918-8017-91d887b40d1e amount=500.00
+2026-10-30T12:40:43Z INFO payment-api request completed status=200 route=/payments request_id=501da72a-af7a-49ca-9280-05fd4a775b5a amount=500.00
+2026-10-30T12:40:45Z INFO payment-api request completed status=200 route=/payments request_id=73072e31-c9f0-4e0c-9d2f-60f32cba5716 amount=500.00
+2026-10-30T12:40:47Z INFO payment-api request completed status=200 route=/payments request_id=f8bcd495-b586-44d4-8a2f-63cd2a04097d amount=500.00
+2026-10-30T12:40:49Z INFO payment-api request completed status=200 route=/payments request_id=86502e9b-a86f-4ba3-9d31-a344cc223cd8 amount=500.00
+2026-10-30T12:40:51Z ERROR payment-api request failed status=500 route=/payments request_id=085aaa7c-8879-4415-b685-41ab959ac9c8 reason=simulated_failure amount=500.00
+2026-10-30T12:40:53Z ERROR payment-api request failed status=500 route=/payments request_id=d5640bda-e353-4100-86ae-7142bddeb227 reason=simulated_failure amount=500.00
+2026-10-30T12:40:55Z ERROR payment-api request failed status=500 route=/payments request_id=0b2dcad6-ac27-4deb-8b7f-2c9fcc2dec64 reason=simulated_failure amount=500.00
+2026-10-30T12:40:57Z INFO payment-api request completed status=200 route=/payments request_id=965d5975-2775-443c-a2c4-4edb8bcdb2ab amount=500.00
+2026-10-30T12:40:59Z INFO payment-api request completed status=200 route=/payments request_id=545d79a9-67cb-4fab-8782-47cf99497ffd amount=500.00
+2026-10-30T12:41:01Z INFO payment-api request completed status=200 route=/payments request_id=053e9dbe-a220-4e1d-9f13-bcb8038b74a6 amount=500.00
+2026-10-30T12:41:03Z INFO payment-api request completed status=200 route=/payments request_id=86241437-411d-4641-b41d-64294c56ed75 amount=500.00
+2026-10-30T12:41:05Z INFO payment-api request completed status=200 route=/payments request_id=d0da9fb7-70e8-4b67-a886-9acffb90d909 amount=500.00
+2026-10-30T12:41:07Z ERROR payment-api request failed status=500 route=/payments request_id=7470ff34-2ed1-40f3-af39-0d2fe6f6355a reason=simulated_failure amount=500.00
+2026-10-30T12:41:09Z ERROR payment-api request failed status=500 route=/payments request_id=924ebe5b-3fa3-4096-881c-8360f17693a5 reason=simulated_failure amount=500.00
+2026-10-30T12:41:11Z ERROR payment-api request failed status=500 route=/payments request_id=48b7e7a7-2907-4498-985b-b66f107a367a reason=simulated_failure amount=500.00
+2026-10-30T12:41:13Z INFO payment-api request completed status=200 route=/payments request_id=ecf7fbf7-92b4-4f8f-b8db-c9cb32bb0350 amount=500.00
+2026-10-30T12:41:15Z INFO payment-api request completed status=200 route=/payments request_id=f8e6bd03-0dbc-4d15-a49f-80bc75029495 amount=500.00
+2026-10-30T12:41:17Z INFO payment-api request completed status=200 route=/payments request_id=780b3cbd-d35a-41af-b9e5-923b672af610 amount=500.00
+2026-10-30T12:41:19Z INFO payment-api request completed status=200 route=/payments request_id=9e2cc910-6c24-48d4-b039-22cd8a1ffe87 amount=500.00
+2026-10-30T12:41:21Z INFO payment-api request completed status=200 route=/payments request_id=b2f1ee23-246a-4569-a1cf-e2b776ebc0ed amount=500.00
+2026-10-30T12:41:23Z ERROR payment-api request failed status=500 route=/payments request_id=971d6b11-fb44-415e-a835-07b5c12a3254 reason=simulated_failure amount=500.00
+2026-10-30T12:41:25Z ERROR payment-api request failed status=500 route=/payments request_id=8007faa5-88d1-4e16-9580-e401fcb6eb45 reason=simulated_failure amount=500.00
+2026-10-30T12:41:27Z ERROR payment-api request failed status=500 route=/payments request_id=12b5e8b6-c084-4512-a975-a00abdb61806 reason=simulated_failure amount=500.00
+2026-10-30T12:41:29Z INFO payment-api request completed status=200 route=/payments request_id=a76203dc-76b0-4169-9adc-e3d85647e3ec amount=500.00
+2026-10-30T12:41:31Z INFO payment-api request completed status=200 route=/payments request_id=8239d86c-07b9-4169-81ab-f1bcc6ded061 amount=500.00
+2026-10-30T12:41:33Z INFO payment-api request completed status=200 route=/payments request_id=440b4394-e5cd-4490-a132-4f6ba16ca238 amount=500.00
+2026-10-30T12:41:35Z INFO payment-api request completed status=200 route=/payments request_id=a5bc4f5f-0fd4-40cc-bfe7-aa42ea9cae95 amount=500.00
+2026-10-30T12:41:37Z INFO payment-api request completed status=200 route=/payments request_id=e456f270-34ec-4805-8438-c86d48d10f23 amount=500.00
+2026-10-30T12:41:39Z ERROR payment-api request failed status=500 route=/payments request_id=e0df0a3c-6871-45c1-bb81-f824fe537c47 reason=simulated_failure amount=500.00
+2026-10-30T12:41:41Z ERROR payment-api request failed status=500 route=/payments request_id=6e5bc6d9-ef2b-4688-a7b8-d86e9a8ebe0d reason=simulated_failure amount=500.00
+2026-10-30T12:41:43Z ERROR payment-api request failed status=500 route=/payments request_id=b81720c4-74fe-4ef7-956b-8838190dede7 reason=simulated_failure amount=500.00
+2026-10-30T12:41:45Z INFO payment-api request completed status=200 route=/payments request_id=cb4a0997-b20a-4d95-a2c8-85376de3345c amount=500.00
+2026-10-30T12:41:47Z INFO payment-api request completed status=200 route=/payments request_id=2428796a-162d-41da-ab60-198f318704e4 amount=500.00
+2026-10-30T12:41:49Z INFO payment-api request completed status=200 route=/payments request_id=5839a5fe-376f-4130-9e02-6e327cea4694 amount=500.00
+2026-10-30T12:41:51Z INFO payment-api request completed status=200 route=/payments request_id=0d86c877-19f9-4d64-98d4-b73b3f3cee36 amount=500.00
+2026-10-30T12:41:53Z INFO payment-api request completed status=200 route=/payments request_id=3e1baff6-23ee-4cc3-b34e-bdd3b5a804ab amount=500.00
+2026-10-30T12:41:55Z ERROR payment-api request failed status=500 route=/payments request_id=dbde196e-d588-4a5c-8a9a-c3a27e364432 reason=simulated_failure amount=500.00
+2026-10-30T12:41:57Z ERROR payment-api request failed status=500 route=/payments request_id=ce3e8596-e8ef-4b8f-9868-5607ae62dfc6 reason=simulated_failure amount=500.00
+2026-10-30T12:41:59Z ERROR payment-api request failed status=500 route=/payments request_id=45a71998-c8cf-4246-adcc-bf2bbd5959bf reason=simulated_failure amount=500.00
+2026-10-30T12:42:01Z INFO payment-api request completed status=200 route=/payments request_id=197410a3-f857-4869-a5a1-5bd76916d46c amount=500.00
+2026-10-30T12:42:03Z INFO payment-api request completed status=200 route=/payments request_id=7a2105b0-0527-450f-b685-29bba9d39c4a amount=500.00
+2026-10-30T12:42:05Z INFO payment-api request completed status=200 route=/payments request_id=166466b6-58fc-4db4-9043-e11fe28edf02 amount=500.00
+2026-10-30T12:42:07Z INFO payment-api request completed status=200 route=/payments request_id=f939eef8-5d48-462d-87dd-7acd50a3cd9d amount=500.00
+2026-10-30T12:42:09Z INFO payment-api request completed status=200 route=/payments request_id=f19e6a10-2e86-401d-a5e7-1fd821866667 amount=500.00
+2026-10-30T12:42:11Z ERROR payment-api request failed status=500 route=/payments request_id=4da347c4-3434-4a54-b4b1-7f13a8e2913a reason=simulated_failure amount=500.00
+2026-10-30T12:42:13Z ERROR payment-api request failed status=500 route=/payments request_id=ff1f915b-9797-4f7f-ad5f-7334f800cdb6 reason=simulated_failure amount=500.00
+2026-10-30T12:42:15Z ERROR payment-api request failed status=500 route=/payments request_id=ee05f44d-5958-45e0-865f-17dc915fa2e6 reason=simulated_failure amount=500.00
+2026-10-30T12:42:17Z INFO payment-api request completed status=200 route=/payments request_id=74975ad3-14d7-4bec-90ee-c917d1e886a7 amount=500.00
+2026-10-30T12:42:19Z INFO payment-api request completed status=200 route=/payments request_id=1e265234-24d5-45a6-8fa0-5484f92c9e84 amount=500.00
+2026-10-30T12:42:21Z INFO payment-api request completed status=200 route=/payments request_id=dc78da28-0375-4dda-b207-0df6affde80b amount=500.00
+2026-10-30T12:42:23Z INFO payment-api request completed status=200 route=/payments request_id=ff2d8c50-6087-436d-883f-8959d0abc982 amount=500.00
+2026-10-30T12:42:25Z INFO payment-api request completed status=200 route=/payments request_id=9e46c130-0c56-44a8-8f39-8f147d9264ce amount=500.00
+2026-10-30T12:42:27Z ERROR payment-api request failed status=500 route=/payments request_id=b0ef9247-f09a-4195-b17d-4f0ab57ee51b reason=simulated_failure amount=500.00
+2026-10-30T12:42:29Z ERROR payment-api request failed status=500 route=/payments request_id=b711aad8-2d27-47c2-825d-edf07fafdfb5 reason=simulated_failure amount=500.00
+2026-10-30T12:42:31Z ERROR payment-api request failed status=500 route=/payments request_id=dff10dba-5ce6-4f05-b542-68ce74813e6f reason=simulated_failure amount=500.00
+2026-10-30T12:42:33Z INFO payment-api request completed status=200 route=/payments request_id=82199552-41b2-4ce4-af0d-c2b3a02e9283 amount=500.00
+2026-10-30T12:42:35Z INFO payment-api request completed status=200 route=/payments request_id=4963b538-ce2e-4cd2-82a9-dee861c3769b amount=500.00
+2026-10-30T12:42:37Z INFO payment-api request completed status=200 route=/payments request_id=28cc065b-fcaa-4912-9c85-e99eae501531 amount=500.00
+2026-10-30T12:42:39Z INFO payment-api request completed status=200 route=/payments request_id=9d20598d-5bff-405b-b68b-124368bfd859 amount=500.00
+2026-10-30T12:42:41Z INFO payment-api request completed status=200 route=/payments request_id=f60a228f-cca8-479d-b653-7161e4051778 amount=500.00
+2026-10-30T12:42:43Z ERROR payment-api request failed status=500 route=/payments request_id=615e5aa7-3740-4bbb-a35c-e7da1a1e85c8 reason=simulated_failure amount=500.00
+2026-10-30T12:42:45Z ERROR payment-api request failed status=500 route=/payments request_id=e61e297b-de89-4690-9094-a130fb994337 reason=simulated_failure amount=500.00
+2026-10-30T12:42:47Z ERROR payment-api request failed status=500 route=/payments request_id=e33e637e-0c54-43d0-b86d-d1beb5d6b974 reason=simulated_failure amount=500.00
+2026-10-30T12:42:49Z INFO payment-api request completed status=200 route=/payments request_id=de48fbf8-5924-4f20-a398-220256c6647c amount=500.00
+2026-10-30T12:42:51Z INFO payment-api request completed status=200 route=/payments request_id=f12615c8-6736-4f1c-95b6-4be3474f228a amount=500.00
+2026-10-30T12:42:53Z INFO payment-api request completed status=200 route=/payments request_id=4b2471da-03df-45c4-b14d-b1ac0c72c33d amount=500.00
+2026-10-30T12:42:55Z INFO payment-api request completed status=200 route=/payments request_id=c8e0dcf6-f309-437e-9870-8d0ebfbff6b3 amount=500.00
+2026-10-30T12:42:57Z INFO payment-api request completed status=200 route=/payments request_id=0e90c101-eb18-4e36-9ae1-cd13db616940 amount=500.00
+2026-10-30T12:42:59Z ERROR payment-api request failed status=500 route=/payments request_id=fb99f767-c651-4487-8ed5-6f2c1f886915 reason=simulated_failure amount=500.00
+2026-10-30T12:43:01Z ERROR payment-api request failed status=500 route=/payments request_id=7b6001c9-3751-4593-ba79-e7368ebf6f4e reason=simulated_failure amount=500.00
+2026-10-30T12:43:03Z ERROR payment-api request failed status=500 route=/payments request_id=c90ccccb-2d32-458c-ad05-3087b23cc6e2 reason=simulated_failure amount=500.00
+2026-10-30T12:43:05Z INFO payment-api request completed status=200 route=/payments request_id=27d8ed08-7a7f-4b9b-853d-bf76951cbb2f amount=500.00
+2026-10-30T12:43:07Z INFO payment-api request completed status=200 route=/payments request_id=d320ec08-d849-4b8d-b854-d738ed92b422 amount=500.00
+2026-10-30T12:43:09Z INFO payment-api request completed status=200 route=/payments request_id=9b75235a-a112-4057-8763-68e76f509139 amount=500.00
+2026-10-30T12:43:11Z INFO payment-api request completed status=200 route=/payments request_id=836917c1-b959-4c97-9c49-0d3d0df84279 amount=500.00
+2026-10-30T12:43:13Z INFO payment-api request completed status=200 route=/payments request_id=7ea09aa5-455f-45a7-b6cf-09902bc50f96 amount=500.00
+2026-10-30T12:43:15Z ERROR payment-api request failed status=500 route=/payments request_id=037a6c2e-bf5a-466c-8ee0-876982ee603b reason=simulated_failure amount=500.00
+2026-10-30T12:43:17Z ERROR payment-api request failed status=500 route=/payments request_id=a3e2a54b-6209-4b07-9c91-a82f77f4518e reason=simulated_failure amount=500.00
+2026-10-30T12:43:19Z ERROR payment-api request failed status=500 route=/payments request_id=e1fa5a0f-07d3-4576-8a25-67c98303029e reason=simulated_failure amount=500.00
+2026-10-30T12:43:22Z INFO payment-api request completed status=200 route=/payments request_id=3ebc8d47-1401-4a92-b534-ded008113b73 amount=500.00
+2026-10-30T12:43:24Z INFO payment-api request completed status=200 route=/payments request_id=1272d7c2-1d59-4986-a7d8-ee0fa5bbbc5e amount=500.00
+2026-10-30T12:43:26Z INFO payment-api request completed status=200 route=/payments request_id=adae9537-673f-4b64-9225-5806e9b5ffe9 amount=500.00
+2026-10-30T12:43:28Z INFO payment-api request completed status=200 route=/payments request_id=3d33c6f6-ae45-410a-a87c-1cb4fed04586 amount=500.00
+2026-10-30T12:43:30Z INFO payment-api request completed status=200 route=/payments request_id=869c5adc-7ffe-4a48-b804-f312092fcdfa amount=500.00
+2026-10-30T12:43:32Z ERROR payment-api request failed status=500 route=/payments request_id=e1ed1c6a-0086-447a-a5ee-9fc793afbcd0 reason=simulated_failure amount=500.00
+2026-10-30T12:43:34Z ERROR payment-api request failed status=500 route=/payments request_id=70aab1a8-7eee-4c03-bb8f-029b03d8ef9a reason=simulated_failure amount=500.00
+2026-10-30T12:43:36Z ERROR payment-api request failed status=500 route=/payments request_id=9b9c8727-2413-41b9-8e1f-960e5614aa95 reason=simulated_failure amount=500.00
+2026-10-30T12:43:38Z INFO payment-api request completed status=200 route=/payments request_id=35c25b43-3298-4fc8-8b23-4653e26a50bd amount=500.00
+2026-10-30T12:43:40Z INFO payment-api request completed status=200 route=/payments request_id=e69ca330-2034-4817-9c8d-e1236ac0edf0 amount=500.00
+2026-10-30T12:43:42Z INFO payment-api request completed status=200 route=/payments request_id=d11e9354-72bd-4679-95f4-1ca0ebe5aaea amount=500.00
+2026-10-30T12:43:44Z INFO payment-api request completed status=200 route=/payments request_id=681ce43c-a0be-47aa-9c90-94f0503c9045 amount=500.00
+2026-10-30T12:43:46Z INFO payment-api request completed status=200 route=/payments request_id=3e44f182-c88d-4863-9fa3-9f85e585df9f amount=500.00
+2026-10-30T12:43:48Z ERROR payment-api request failed status=500 route=/payments request_id=d7f2de91-4e41-4260-b211-9f2b507888eb reason=simulated_failure amount=500.00
+2026-10-30T12:43:50Z ERROR payment-api request failed status=500 route=/payments request_id=5a879757-b358-4856-896f-1f9d31943f8e reason=simulated_failure amount=500.00
+2026-10-30T12:43:52Z ERROR payment-api request failed status=500 route=/payments request_id=ce237949-a1e6-4e76-b265-a25ed10c4602 reason=simulated_failure amount=500.00
+2026-10-30T12:43:54Z INFO payment-api request completed status=200 route=/payments request_id=92b8ee74-05ce-4543-80c8-9e8e8723ca72 amount=500.00
+2026-10-30T12:43:56Z INFO payment-api request completed status=200 route=/payments request_id=0711c1e8-ff53-4ea3-8f14-5ddf570729e8 amount=500.00
+2026-10-30T12:43:58Z INFO payment-api request completed status=200 route=/payments request_id=92bb592f-64d9-479e-9353-167cc2325c18 amount=500.00
+2026-10-30T12:44:00Z INFO payment-api request completed status=200 route=/payments request_id=a5ddeec1-b86c-4c08-9ebf-006103dc51b7 amount=500.00
+2026-10-30T12:44:02Z INFO payment-api request completed status=200 route=/payments request_id=89aa7903-2f36-4f72-8590-f4fa8023cc72 amount=500.00
+2026-10-30T12:44:04Z ERROR payment-api request failed status=500 route=/payments request_id=07582a20-dcbf-45d3-bc82-3f33f8e10cd3 reason=simulated_failure amount=500.00
+2026-10-30T12:44:06Z ERROR payment-api request failed status=500 route=/payments request_id=db82b130-9136-462e-afbe-2c81fe4b9f5a reason=simulated_failure amount=500.00
+2026-10-30T12:44:08Z ERROR payment-api request failed status=500 route=/payments request_id=86418981-6e6a-41a2-82c9-1613b19f14d8 reason=simulated_failure amount=500.00
+2026-10-30T12:44:10Z INFO payment-api request completed status=200 route=/payments request_id=fe1d6525-836a-45a9-89bc-c4114719ddfb amount=500.00
+2026-10-30T12:44:12Z INFO payment-api request completed status=200 route=/payments request_id=4a9fa981-3ac2-4d00-ad98-61279bac13e1 amount=500.00
+2026-10-30T12:44:14Z INFO payment-api request completed status=200 route=/payments request_id=10f99066-5821-4c32-972c-261069e12113 amount=500.00
+2026-10-30T12:44:16Z INFO payment-api request completed status=200 route=/payments request_id=2ef92b9f-44d5-4f7f-8c80-6f2955e11e16 amount=500.00
+2026-10-30T12:44:18Z INFO payment-api request completed status=200 route=/payments request_id=d5d4a05b-9464-40a7-aaaa-de8dab9cb356 amount=500.00
+2026-10-30T12:44:20Z ERROR payment-api request failed status=500 route=/payments request_id=95824a64-84ce-48ab-9adb-5836a3a68e35 reason=simulated_failure amount=500.00
+2026-10-30T12:44:22Z ERROR payment-api request failed status=500 route=/payments request_id=21b3ea9a-fb73-4b6c-8c8c-460a26689c0b reason=simulated_failure amount=500.00
+2026-10-30T12:44:24Z ERROR payment-api request failed status=500 route=/payments request_id=4888b58a-136c-4d48-9c40-8613ccc1d836 reason=simulated_failure amount=500.00
+2026-10-30T12:44:26Z INFO payment-api request completed status=200 route=/payments request_id=e66956d9-b580-4cef-a587-5dbdccf9030e amount=500.00
+2026-10-30T12:44:28Z INFO payment-api request completed status=200 route=/payments request_id=468179ca-5b1a-4250-a5d6-ca7d229a8719 amount=500.00
+2026-10-30T12:44:30Z INFO payment-api request completed status=200 route=/payments request_id=e1cda513-9ac5-43dd-87bc-3c7fe7aa73ee amount=500.00
+2026-10-30T12:44:32Z INFO payment-api request completed status=200 route=/payments request_id=83c1b4f7-24b0-42b9-ae34-e12346591c4b amount=500.00
+2026-10-30T12:44:34Z INFO payment-api request completed status=200 route=/payments request_id=e858648f-41ae-4716-ac01-4f7ae8f4e4d4 amount=500.00
+2026-10-30T12:44:36Z ERROR payment-api request failed status=500 route=/payments request_id=1c2d35fb-a9e8-46f5-a3e2-dba497915957 reason=simulated_failure amount=500.00
+2026-10-30T12:44:38Z ERROR payment-api request failed status=500 route=/payments request_id=238e4eda-e025-47d8-aabe-6e068261ccef reason=simulated_failure amount=500.00
+2026-10-30T12:44:40Z ERROR payment-api request failed status=500 route=/payments request_id=4991ba31-6918-48a3-943e-493992c81e7c reason=simulated_failure amount=500.00
+2026-10-30T12:44:42Z INFO payment-api request completed status=200 route=/payments request_id=3e7c85b6-e9ec-4431-a84b-e19adf3eab21 amount=500.00
+2026-10-30T12:44:44Z INFO payment-api request completed status=200 route=/payments request_id=7a6887fc-08d9-4f43-9a6e-070cb83d4817 amount=500.00
+2026-10-30T12:44:46Z INFO payment-api request completed status=200 route=/payments request_id=cba8664a-9b2a-40c7-bb54-f08ac2fcec62 amount=500.00
+2026-10-30T12:44:48Z INFO payment-api request completed status=200 route=/payments request_id=129703b1-1955-4fd7-842f-348d73e18a82 amount=500.00
+2026-10-30T12:44:50Z INFO payment-api request completed status=200 route=/payments request_id=dd5b6101-32d6-4a83-b19d-d20dbf72fc41 amount=500.00
+2026-10-30T12:44:52Z ERROR payment-api request failed status=500 route=/payments request_id=5ab15c94-c850-47c9-8730-5dbda4691a60 reason=simulated_failure amount=500.00
+2026-10-30T12:44:54Z ERROR payment-api request failed status=500 route=/payments request_id=b79820a3-06fd-403b-a484-5f2e6767f73d reason=simulated_failure amount=500.00
+2026-10-30T12:44:56Z ERROR payment-api request failed status=500 route=/payments request_id=b5735e36-0795-4ff5-aab8-20c02473f959 reason=simulated_failure amount=500.00
+2026-10-30T12:44:58Z INFO payment-api request completed status=200 route=/payments request_id=5cba7037-897b-4ea0-94e8-7899c07cab20 amount=500.00
+2026-10-30T12:45:00Z INFO payment-api request completed status=200 route=/payments request_id=c3cc0831-0eab-4404-a96b-3917dec69256 amount=500.00
+2026-10-30T12:45:02Z INFO payment-api request completed status=200 route=/payments request_id=d4829d78-e515-4c03-9a36-b18405b1437d amount=500.00
+2026-10-30T12:45:04Z INFO payment-api request completed status=200 route=/payments request_id=0bba1993-050d-477b-ac1f-0e6725ab61cd amount=500.00
+2026-10-30T12:45:06Z INFO payment-api request completed status=200 route=/payments request_id=20139e59-0459-4b13-b6c9-54b2a268c2f2 amount=500.00
+2026-10-30T12:45:08Z ERROR payment-api request failed status=500 route=/payments request_id=73272955-b013-49ee-acf3-d53459e51fc7 reason=simulated_failure amount=500.00
+2026-10-30T12:45:10Z ERROR payment-api request failed status=500 route=/payments request_id=96fb6937-534d-4c90-b6d6-3e5890ba9b65 reason=simulated_failure amount=500.00
+2026-10-30T12:45:12Z ERROR payment-api request failed status=500 route=/payments request_id=3f4c1a11-d2c6-46f3-89c3-20d2ef692c75 reason=simulated_failure amount=500.00
+2026-10-30T12:45:14Z INFO payment-api request completed status=200 route=/payments request_id=a5c1b1f8-2d34-4f02-8723-0201bfe35cb4 amount=500.00
+2026-10-30T12:45:16Z INFO payment-api request completed status=200 route=/payments request_id=eeaf30b8-d26e-491c-8130-21eef0944bdc amount=500.00
+2026-10-30T12:45:18Z INFO payment-api request completed status=200 route=/payments request_id=4cbaf99b-fca0-4046-8fe4-0bde52f2a82e amount=500.00
+2026-10-30T12:45:20Z INFO payment-api request completed status=200 route=/payments request_id=f59b6b09-8708-46eb-aeed-b3ada221dae0 amount=500.00
+2026-10-30T12:45:22Z INFO payment-api request completed status=200 route=/payments request_id=cf32ee2b-1894-4616-8dad-de74a72f13c6 amount=500.00
+2026-10-30T12:45:24Z ERROR payment-api request failed status=500 route=/payments request_id=b321ced2-5306-4f95-8a8c-7d583df1e1e3 reason=simulated_failure amount=500.00
+2026-10-30T12:45:26Z ERROR payment-api request failed status=500 route=/payments request_id=139e9a23-fa71-45e8-b47d-ffb755bc8399 reason=simulated_failure amount=500.00
+2026-10-30T12:45:28Z ERROR payment-api request failed status=500 route=/payments request_id=39620e8a-e285-4456-ae7d-74153a61fd06 reason=simulated_failure amount=500.00
+2026-10-30T12:45:30Z INFO payment-api request completed status=200 route=/payments request_id=2848a657-ca19-4589-8606-1feef48abf72 amount=500.00
+2026-10-30T12:45:32Z INFO payment-api request completed status=200 route=/payments request_id=1c160264-ae88-4a02-8a93-04102ed611c2 amount=500.00
+2026-10-30T12:45:34Z INFO payment-api request completed status=200 route=/payments request_id=531683a5-62a3-4a8f-9dc7-86acd1ae10c3 amount=500.00
+2026-10-30T12:45:36Z INFO payment-api request completed status=200 route=/payments request_id=6f02ed42-33f5-44a5-a6ce-2717ee3e7535 amount=500.00
+2026-10-30T12:45:38Z INFO payment-api request completed status=200 route=/payments request_id=71ef547f-c252-42f6-82ad-1133bc1cd577 amount=500.00
+2026-10-30T12:45:40Z ERROR payment-api request failed status=500 route=/payments request_id=abd82a83-5572-46a1-a9aa-65e58001b683 reason=simulated_failure amount=500.00
+2026-10-30T12:45:42Z ERROR payment-api request failed status=500 route=/payments request_id=ff7a8172-a858-44e0-9070-b9a785e82bc9 reason=simulated_failure amount=500.00
+2026-10-30T12:45:44Z ERROR payment-api request failed status=500 route=/payments request_id=721ba972-003b-4c0c-b9e4-92e9142dc9f9 reason=simulated_failure amount=500.00
+2026-10-30T12:45:46Z INFO payment-api request completed status=200 route=/payments request_id=df225a96-d900-415c-8ce9-4dfbd13afc85 amount=500.00
+2026-10-30T12:45:48Z INFO payment-api request completed status=200 route=/payments request_id=cb0b63c8-5aed-4cda-99f2-f8df5237443a amount=500.00
+2026-10-30T12:45:50Z INFO payment-api request completed status=200 route=/payments request_id=9bfba9d2-8eb5-4d60-89e3-cbd08a4f3e89 amount=500.00
+2026-10-30T12:45:52Z INFO payment-api request completed status=200 route=/payments request_id=bfbdbecd-c183-4b29-85cc-813841f79742 amount=500.00
+2026-10-30T12:45:54Z INFO payment-api request completed status=200 route=/payments request_id=27d67cce-037d-457c-9ef5-ae74fa3e4080 amount=500.00
+2026-10-30T12:45:56Z ERROR payment-api request failed status=500 route=/payments request_id=f84fc75c-dd8b-42b4-830c-78eda9b877dc reason=simulated_failure amount=500.00
+2026-10-30T12:45:58Z ERROR payment-api request failed status=500 route=/payments request_id=b5962b77-3d41-412a-92a6-1ebf1a5f5e80 reason=simulated_failure amount=500.00
+2026-10-30T12:46:00Z ERROR payment-api request failed status=500 route=/payments request_id=602c6a03-5106-4706-99f6-b497d9ae07aa reason=simulated_failure amount=500.00
+2026-10-30T12:46:02Z INFO payment-api request completed status=200 route=/payments request_id=e13aa534-f995-40b2-91b3-59d9edc30a05 amount=500.00
+2026-10-30T12:46:04Z INFO payment-api request completed status=200 route=/payments request_id=d5b5f6e3-c9a0-403a-a70c-5603aec1a642 amount=500.00
+2026-10-30T12:46:06Z INFO payment-api request completed status=200 route=/payments request_id=a0334252-8732-45f9-beda-33c8798c8be2 amount=500.00
+2026-10-30T12:46:08Z INFO payment-api request completed status=200 route=/payments request_id=899aa706-2178-48c2-9ba3-8cfea3b5fc01 amount=500.00
+2026-10-30T12:46:10Z INFO payment-api request completed status=200 route=/payments request_id=512b9166-9cc4-4392-a920-71d90d717b1d amount=500.00
+2026-10-30T12:46:12Z ERROR payment-api request failed status=500 route=/payments request_id=f428fdf5-7c6b-40c4-b392-a53eb7a2b9cb reason=simulated_failure amount=500.00
+2026-10-30T12:46:14Z ERROR payment-api request failed status=500 route=/payments request_id=afe6b6ac-e986-4c34-a823-85a684e5ed8e reason=simulated_failure amount=500.00
+2026-10-30T12:46:16Z ERROR payment-api request failed status=500 route=/payments request_id=b7e0fff6-c3bd-4045-beac-dcc286411c03 reason=simulated_failure amount=500.00
+2026-10-30T12:46:18Z INFO payment-api request completed status=200 route=/payments request_id=4cca6a68-9756-4e84-98f9-97327995ae9d amount=500.00
+2026-10-30T12:46:20Z INFO payment-api request completed status=200 route=/payments request_id=0c7365a6-069a-4ad3-a587-ddf750e52cbb amount=500.00
+2026-10-30T12:46:22Z INFO payment-api request completed status=200 route=/payments request_id=924657e6-ffa4-4ede-b781-afec8f36627c amount=500.00
+2026-10-30T12:46:24Z INFO payment-api request completed status=200 route=/payments request_id=f7ae1de4-7e8c-4f5f-b96d-a61aded5dea7 amount=500.00
+2026-10-30T12:46:26Z INFO payment-api request completed status=200 route=/payments request_id=a140ac59-bf89-4ac8-b07b-9fc4de474276 amount=500.00
+2026-10-30T12:46:28Z ERROR payment-api request failed status=500 route=/payments request_id=58c0d23a-cf48-46c1-b3e4-f36f11efe164 reason=simulated_failure amount=500.00
+2026-10-30T12:46:30Z ERROR payment-api request failed status=500 route=/payments request_id=8767bd55-5f70-4c76-b84d-28ea2ac6791b reason=simulated_failure amount=500.00
+2026-10-30T12:46:32Z ERROR payment-api request failed status=500 route=/payments request_id=8ec8ed75-856f-4d9d-8df4-588857aeb07a reason=simulated_failure amount=500.00
+2026-10-30T12:46:34Z INFO payment-api request completed status=200 route=/payments request_id=29446fe1-e00b-442d-bc6e-cf5140e3e578 amount=500.00
+2026-10-30T12:46:36Z INFO payment-api request completed status=200 route=/payments request_id=b521233b-6c03-4500-bcc3-02a446dceacc amount=500.00
+2026-10-30T12:46:38Z INFO payment-api request completed status=200 route=/payments request_id=32ee3151-390d-4ced-ba2e-c4197fc44e2f amount=500.00
+2026-10-30T12:46:40Z INFO payment-api request completed status=200 route=/payments request_id=205adaba-5348-414b-90de-46b74589865e amount=500.00
+2026-10-30T12:46:42Z INFO payment-api request completed status=200 route=/payments request_id=eaa2ebf0-e9bd-43df-a626-afac06022ec5 amount=500.00
+2026-10-30T12:46:44Z ERROR payment-api request failed status=500 route=/payments request_id=d7da3b99-a943-4745-b526-c5ff1c5399af reason=simulated_failure amount=500.00
+2026-10-30T12:46:46Z ERROR payment-api request failed status=500 route=/payments request_id=637504bb-266e-4142-9022-d053bc21ebe0 reason=simulated_failure amount=500.00
+2026-10-30T12:46:48Z ERROR payment-api request failed status=500 route=/payments request_id=c4c5fb93-ef21-43ac-8fd7-4ca3bed07db7 reason=simulated_failure amount=500.00
+2026-10-30T12:46:50Z INFO payment-api request completed status=200 route=/payments request_id=41135ff7-9441-4e3e-ab33-d957df659445 amount=500.00
+2026-10-30T12:46:52Z INFO payment-api request completed status=200 route=/payments request_id=bd22c929-6828-4039-962e-18c31a5027e6 amount=500.00
+2026-10-30T12:46:55Z INFO payment-api request completed status=200 route=/payments request_id=2863e535-4bd3-42a3-a0ca-869ec5a867a2 amount=500.00
+2026-10-30T12:46:57Z INFO payment-api request completed status=200 route=/payments request_id=f7c2b5d7-f2a7-4e22-a81c-acf3a9398799 amount=500.00
+2026-10-30T12:46:59Z INFO payment-api request completed status=200 route=/payments request_id=eb6595f8-6d81-461e-98dd-6889a1048a4b amount=500.00
+2026-10-30T12:47:01Z ERROR payment-api request failed status=500 route=/payments request_id=fe999fcd-9812-497b-ba68-b58652be480b reason=simulated_failure amount=500.00
+2026-10-30T12:47:03Z ERROR payment-api request failed status=500 route=/payments request_id=302b3c68-8cb1-42ef-b44d-783a8daa2618 reason=simulated_failure amount=500.00
+2026-10-30T12:47:05Z ERROR payment-api request failed status=500 route=/payments request_id=9bc0af02-1879-4e55-942b-38805f20f6dc reason=simulated_failure amount=500.00
+2026-10-30T12:47:07Z INFO payment-api request completed status=200 route=/payments request_id=47e9f355-0248-490a-9e4b-8bd6494a24eb amount=500.00
+2026-10-30T12:47:09Z INFO payment-api request completed status=200 route=/payments request_id=1751cfdd-4d17-405a-8476-bc91d4837809 amount=500.00
+2026-10-30T12:47:11Z INFO payment-api request completed status=200 route=/payments request_id=df8f1d62-e411-4a97-a8a9-49cf0b7ea9e4 amount=500.00
+2026-10-30T12:47:13Z INFO payment-api request completed status=200 route=/payments request_id=8e5b088c-452b-4825-b84b-53c30bdc7f05 amount=500.00
+2026-10-30T12:47:15Z INFO payment-api request completed status=200 route=/payments request_id=21777e6a-9a36-4074-ac50-7bb17a319e2f amount=500.00
+2026-10-30T12:47:17Z ERROR payment-api request failed status=500 route=/payments request_id=38105930-635b-414c-b6f5-d2dfee416b07 reason=simulated_failure amount=500.00
+2026-10-30T12:47:19Z ERROR payment-api request failed status=500 route=/payments request_id=afc524ab-b29e-47c7-b2d2-1f79bba000fa reason=simulated_failure amount=500.00
+2026-10-30T12:47:21Z ERROR payment-api request failed status=500 route=/payments request_id=ba7329e2-9724-455e-9d6e-a0d54eb175f0 reason=simulated_failure amount=500.00
+2026-10-30T12:47:23Z INFO payment-api request completed status=200 route=/payments request_id=3cf9ed11-e08f-4374-bee5-a6b70689c842 amount=500.00
+2026-10-30T12:47:25Z INFO payment-api request completed status=200 route=/payments request_id=a15e596d-45d3-48ac-b5dd-1389b0c9453a amount=500.00
+2026-10-30T12:47:27Z INFO payment-api request completed status=200 route=/payments request_id=fc3e7575-97d0-48be-b38e-15ebeb774d6c amount=500.00
+2026-10-30T12:47:29Z INFO payment-api request completed status=200 route=/payments request_id=9f1ded3d-6a13-4a2e-af3d-e6f1a584cc52 amount=500.00
+2026-10-30T12:47:31Z INFO payment-api request completed status=200 route=/payments request_id=a647d343-c99b-4afa-971f-13d5d6b31595 amount=500.00
+2026-10-30T12:47:33Z ERROR payment-api request failed status=500 route=/payments request_id=4ae27b7e-d17d-4e3b-a119-cb67466bdf1c reason=simulated_failure amount=500.00
+2026-10-30T12:47:35Z ERROR payment-api request failed status=500 route=/payments request_id=95b2b581-2429-4a72-b8e5-20cfc4b903f9 reason=simulated_failure amount=500.00
+2026-10-30T12:47:37Z ERROR payment-api request failed status=500 route=/payments request_id=ea34f5b0-d2a8-4af0-9df6-e73d95f7724e reason=simulated_failure amount=500.00
+2026-10-30T12:47:39Z INFO payment-api request completed status=200 route=/payments request_id=f8297142-b55c-4f73-9577-fbf48a167c19 amount=500.00
+2026-10-30T12:47:41Z INFO payment-api request completed status=200 route=/payments request_id=dabe96ad-7afe-417a-89e7-625cebfb8073 amount=500.00
+2026-10-30T12:47:43Z INFO payment-api request completed status=200 route=/payments request_id=b3b3c569-f505-4b1f-8292-fcd76337ac03 amount=500.00
+2026-10-30T12:47:45Z INFO payment-api request completed status=200 route=/payments request_id=25ebf67e-577b-4731-ad4d-69a7200ec1e3 amount=500.00
+2026-10-30T12:47:47Z INFO payment-api request completed status=200 route=/payments request_id=a6a02347-e977-4297-90db-6ac442ff3961 amount=500.00
+2026-10-30T12:47:49Z ERROR payment-api request failed status=500 route=/payments request_id=52c241e2-a24d-4140-9217-87a534ea2dce reason=simulated_failure amount=500.00
+2026-10-30T12:47:51Z ERROR payment-api request failed status=500 route=/payments request_id=b8ad8a4e-5595-4877-8c3e-d15632104204 reason=simulated_failure amount=500.00
+2026-10-30T12:47:53Z ERROR payment-api request failed status=500 route=/payments request_id=ee988012-992b-4ffd-a073-9aa95d5df05d reason=simulated_failure amount=500.00
+2026-10-30T12:47:55Z INFO payment-api request completed status=200 route=/payments request_id=1d2ca896-2b5d-43ac-bc2e-c5071f14c7a7 amount=500.00
+2026-10-30T12:47:57Z INFO payment-api request completed status=200 route=/payments request_id=0be7fe27-de78-47cc-a9da-1b05793fab40 amount=500.00
+2026-10-30T12:47:59Z INFO payment-api request completed status=200 route=/payments request_id=7f0f43af-acfb-43cb-b236-a82d522d31c9 amount=500.00
+2026-10-30T12:48:01Z INFO payment-api request completed status=200 route=/payments request_id=0f011306-d8a6-4b9f-a27a-4d4a70e37849 amount=500.00
+2026-10-30T12:48:03Z INFO payment-api request completed status=200 route=/payments request_id=59a80114-5c19-49d2-8020-dccfa16b61c5 amount=500.00
+2026-10-30T12:48:05Z ERROR payment-api request failed status=500 route=/payments request_id=06db1bce-84fd-4ed2-8fd3-9c2c159cd1e1 reason=simulated_failure amount=500.00
+2026-10-30T12:48:07Z ERROR payment-api request failed status=500 route=/payments request_id=32073385-2745-4f2e-922e-856c471ba1fe reason=simulated_failure amount=500.00
+2026-10-30T12:48:09Z ERROR payment-api request failed status=500 route=/payments request_id=a2d9da11-ae21-4ac7-bb90-59cc5dcd8b04 reason=simulated_failure amount=500.00
+2026-10-30T12:48:11Z INFO payment-api request completed status=200 route=/payments request_id=84aae8c1-4033-4436-9396-e087968fdf46 amount=500.00
+2026-10-30T12:48:13Z INFO payment-api request completed status=200 route=/payments request_id=4bd5146f-9d08-489c-b3ac-17c5b7ceaa9b amount=500.00
+2026-10-30T12:48:15Z INFO payment-api request completed status=200 route=/payments request_id=f832d269-2fa1-4fbd-bee0-73f900b92000 amount=500.00
+2026-10-30T12:48:17Z INFO payment-api request completed status=200 route=/payments request_id=4ec54959-20db-4a23-976a-22a99635cf3a amount=500.00
+2026-10-30T12:48:19Z INFO payment-api request completed status=200 route=/payments request_id=40b65f27-7abd-4dba-bc8b-a08b2984e775 amount=500.00
+2026-10-30T12:48:21Z ERROR payment-api request failed status=500 route=/payments request_id=79a493fb-ef12-4a09-a667-97bdabe0e0af reason=simulated_failure amount=500.00
+2026-10-30T12:48:23Z ERROR payment-api request failed status=500 route=/payments request_id=2f300a6a-445c-4d92-952a-2d13e61206a6 reason=simulated_failure amount=500.00
+2026-10-30T12:48:25Z ERROR payment-api request failed status=500 route=/payments request_id=294f36b8-8d4b-4a3c-b328-a52a6d3789df reason=simulated_failure amount=500.00
+2026-10-30T12:48:27Z INFO payment-api request completed status=200 route=/payments request_id=45fe4d31-16a7-4c50-b648-2eaaddd37ffc amount=500.00
+2026-10-30T12:48:29Z INFO payment-api request completed status=200 route=/payments request_id=7760abf4-51bb-4d80-b65f-fccd612056d9 amount=500.00
+2026-10-30T12:48:31Z INFO payment-api request completed status=200 route=/payments request_id=2d7b6808-3b16-4179-936a-11ac8f156db2 amount=500.00
+2026-10-30T12:48:33Z INFO payment-api request completed status=200 route=/payments request_id=ac32b243-6f65-4f4d-a4bc-036d8ad9b05c amount=500.00
+2026-10-30T12:48:35Z INFO payment-api request completed status=200 route=/payments request_id=fc0dc53d-53fa-49e1-b721-cdfa8d5d9612 amount=500.00
+2026-10-30T12:48:37Z ERROR payment-api request failed status=500 route=/payments request_id=5919ef97-ad2d-4447-9ad3-c860cfc64ebc reason=simulated_failure amount=500.00
+2026-10-30T12:48:39Z ERROR payment-api request failed status=500 route=/payments request_id=964442ee-0a75-4785-abe0-b551475eb124 reason=simulated_failure amount=500.00
+2026-10-30T12:48:41Z ERROR payment-api request failed status=500 route=/payments request_id=5f64f452-ca63-42aa-a92f-420d6ef6e2ef reason=simulated_failure amount=500.00
+2026-10-30T12:48:43Z INFO payment-api request completed status=200 route=/payments request_id=a42a68d5-3870-469a-a6a3-ca0d74777229 amount=500.00
+2026-10-30T12:48:45Z INFO payment-api request completed status=200 route=/payments request_id=089b06de-e5fe-4c70-ac0e-cae413356f58 amount=500.00
+2026-10-30T12:48:47Z INFO payment-api request completed status=200 route=/payments request_id=b4a5aabe-6bdf-439b-8df7-98685e19a416 amount=500.00
+2026-10-30T12:48:49Z INFO payment-api request completed status=200 route=/payments request_id=5ee38fea-840d-4324-a64f-0223a65c2ce5 amount=500.00
+2026-10-30T12:48:51Z INFO payment-api request completed status=200 route=/payments request_id=f31d1914-f1c1-44ed-a988-1edd33b440f0 amount=500.00
+2026-10-30T12:48:53Z ERROR payment-api request failed status=500 route=/payments request_id=451d3c4c-26dd-40a4-9400-407f2ad775b8 reason=simulated_failure amount=500.00
+2026-10-30T12:48:55Z ERROR payment-api request failed status=500 route=/payments request_id=d97afa44-fec3-49de-b3ff-9071be1e3a2a reason=simulated_failure amount=500.00
+2026-10-30T12:48:57Z ERROR payment-api request failed status=500 route=/payments request_id=19202d31-01dc-45e2-b4b9-e239f49421f8 reason=simulated_failure amount=500.00
+2026-10-30T12:48:59Z INFO payment-api request completed status=200 route=/payments request_id=4915bb01-93c9-45fc-ab4e-773f950a2a71 amount=500.00
+2026-10-30T12:49:01Z INFO payment-api request completed status=200 route=/payments request_id=29ff558e-04dd-4f8d-b701-f5883d87bdbb amount=500.00
+2026-10-30T12:49:03Z INFO payment-api request completed status=200 route=/payments request_id=38d37c67-5140-4d57-b58b-27344e0bb838 amount=500.00
+2026-10-30T12:49:05Z INFO payment-api request completed status=200 route=/payments request_id=91426af7-02ec-4e9a-817d-dfb5c771be6d amount=500.00
+2026-10-30T12:49:07Z INFO payment-api request completed status=200 route=/payments request_id=be254f26-a07a-4c9b-a787-db33b99d4be8 amount=500.00
+2026-10-30T12:49:09Z ERROR payment-api request failed status=500 route=/payments request_id=36a97a2a-5e1c-4e10-adfa-b57139a68a12 reason=simulated_failure amount=500.00
+2026-10-30T12:49:11Z ERROR payment-api request failed status=500 route=/payments request_id=b1d5dd9d-014a-4976-a7a6-58c2851ebdae reason=simulated_failure amount=500.00
+2026-10-30T12:49:13Z ERROR payment-api request failed status=500 route=/payments request_id=e9f8dd08-ba0f-4584-8263-361cf32eeeb2 reason=simulated_failure amount=500.00
+2026-10-30T12:49:15Z INFO payment-api request completed status=200 route=/payments request_id=cce42503-191b-4188-a3fe-c6287d482be0 amount=500.00
+2026-10-30T12:49:17Z INFO payment-api request completed status=200 route=/payments request_id=3ac490f5-f386-4a9e-9f97-6d29b8176fe0 amount=500.00
+2026-10-30T12:49:19Z INFO payment-api request completed status=200 route=/payments request_id=e4847225-7d4f-4800-810f-02a5c352f6b2 amount=500.00
+2026-10-30T12:49:21Z INFO payment-api request completed status=200 route=/payments request_id=cd200413-7694-43e5-9b32-8002d7fda366 amount=500.00
+2026-10-30T12:49:23Z INFO payment-api request completed status=200 route=/payments request_id=01d686b1-c78d-4608-8f39-c9605f29112a amount=500.00
+2026-10-30T12:49:25Z ERROR payment-api request failed status=500 route=/payments request_id=c934e7e0-385d-4554-809d-a84b7a6817e1 reason=simulated_failure amount=500.00
+2026-10-30T12:49:27Z ERROR payment-api request failed status=500 route=/payments request_id=f83add20-7fe7-40df-b2df-12963d6391c3 reason=simulated_failure amount=500.00
+2026-10-30T12:49:29Z ERROR payment-api request failed status=500 route=/payments request_id=08b60eef-bec5-4752-9af5-7b130aa73874 reason=simulated_failure amount=500.00
+2026-10-30T12:49:31Z INFO payment-api request completed status=200 route=/payments request_id=0db5837b-fffb-4c39-856e-bdf89af0d699 amount=500.00
+2026-10-30T12:49:33Z INFO payment-api request completed status=200 route=/payments request_id=e2085096-1db4-448b-bdf4-3416d102a164 amount=500.00
+2026-10-30T12:49:35Z INFO payment-api request completed status=200 route=/payments request_id=219c9efe-00c8-4457-b140-ba1c9fdf55ef amount=500.00
+2026-10-30T12:49:37Z INFO payment-api request completed status=200 route=/payments request_id=4d240034-3438-4a6f-8f9e-c816ea6ce52b amount=500.00
+2026-10-30T12:49:39Z INFO payment-api request completed status=200 route=/payments request_id=f8e9a5cf-6635-4ef3-93d7-34ad41aea0c3 amount=500.00
+2026-10-30T12:49:41Z ERROR payment-api request failed status=500 route=/payments request_id=b724d0e1-8b08-4b3a-b40c-b150e8e9b7cb reason=simulated_failure amount=500.00
+2026-10-30T12:49:43Z ERROR payment-api request failed status=500 route=/payments request_id=c348a365-8745-451c-b4f8-14231f0c5c58 reason=simulated_failure amount=500.00
+2026-10-30T12:49:45Z ERROR payment-api request failed status=500 route=/payments request_id=7d4542b5-327d-4afc-807a-7ab7dfe938aa reason=simulated_failure amount=500.00
+2026-10-30T12:49:47Z INFO payment-api request completed status=200 route=/payments request_id=c6e415c8-e181-464b-82c0-56a75fbadd0c amount=500.00
+2026-10-30T12:49:49Z INFO payment-api request completed status=200 route=/payments request_id=9c6f99f1-1c7c-4114-8f66-30c875d418fc amount=500.00
+2026-10-30T12:49:51Z INFO payment-api request completed status=200 route=/payments request_id=d68b29c5-7a06-4efb-874e-81bce193cf91 amount=500.00
+2026-10-30T12:49:53Z INFO payment-api request completed status=200 route=/payments request_id=f353817d-5d60-4d79-b897-bc5909ff9425 amount=500.00
+2026-10-30T12:49:56Z INFO payment-api request completed status=200 route=/payments request_id=d73abc8e-d638-48f7-8c99-5c15634f82ad amount=500.00
+2026-10-30T12:49:58Z ERROR payment-api request failed status=500 route=/payments request_id=bb9721cb-47ff-4a6a-ad73-a5b1cd8b3616 reason=simulated_failure amount=500.00
+2026-10-30T12:50:00Z ERROR payment-api request failed status=500 route=/payments request_id=502659a8-3f27-44e3-b6b4-6e0dd35fe869 reason=simulated_failure amount=500.00
+2026-10-30T12:50:02Z ERROR payment-api request failed status=500 route=/payments request_id=2b5a0f83-0c26-4133-ace9-d19a2ca46d23 reason=simulated_failure amount=500.00
+2026-10-30T12:50:04Z INFO payment-api request completed status=200 route=/payments request_id=35b09121-e2df-4086-9346-9057434bdc66 amount=500.00
+2026-10-30T12:50:06Z INFO payment-api request completed status=200 route=/payments request_id=7c383c73-a2fb-4ae2-ac13-c4b10c95bee2 amount=500.00
+2026-10-30T12:50:08Z INFO payment-api request completed status=200 route=/payments request_id=44db0c97-6076-404d-bbf3-3edf6ed538b8 amount=500.00
+2026-10-30T12:50:10Z INFO payment-api request completed status=200 route=/payments request_id=fb726542-137a-48c5-8a01-07cccbd49d8c amount=500.00
+2026-10-30T12:50:12Z INFO payment-api request completed status=200 route=/payments request_id=4014bfcc-71f6-4c27-b71b-2b3f738dc452 amount=500.00
+2026-10-30T12:50:14Z ERROR payment-api request failed status=500 route=/payments request_id=1d353c43-0963-4b5d-810b-8ce5b6fc68a6 reason=simulated_failure amount=500.00
+2026-10-30T12:50:16Z ERROR payment-api request failed status=500 route=/payments request_id=4ab75e74-480a-4c21-951b-b952193b0387 reason=simulated_failure amount=500.00
+2026-10-30T12:50:18Z ERROR payment-api request failed status=500 route=/payments request_id=c31fd980-3150-45be-8a5d-7c79feb336bb reason=simulated_failure amount=500.00
+2026-10-30T12:50:20Z INFO payment-api request completed status=200 route=/payments request_id=77f2c494-6be5-484a-95b6-6f9cbddbad9d amount=500.00
+2026-10-30T12:50:22Z INFO payment-api request completed status=200 route=/payments request_id=3f8c4520-3f51-4090-9f6c-fe228a96981e amount=500.00
+2026-10-30T12:50:24Z INFO payment-api request completed status=200 route=/payments request_id=26b3b5fb-680d-44f4-be4d-104e500d17e2 amount=500.00
+2026-10-30T12:50:26Z INFO payment-api request completed status=200 route=/payments request_id=b75db58d-163d-41d5-af8e-6ac19bdb4b13 amount=500.00
+2026-10-30T12:50:28Z INFO payment-api request completed status=200 route=/payments request_id=bcfa04df-05dc-41fe-b1bb-e4163c634984 amount=500.00
+2026-10-30T12:50:30Z ERROR payment-api request failed status=500 route=/payments request_id=65b9febf-a9ba-4008-a715-57a8585c637f reason=simulated_failure amount=500.00
+2026-10-30T12:50:32Z ERROR payment-api request failed status=500 route=/payments request_id=a6c96624-d15e-4654-bcd6-1f1a27628dd7 reason=simulated_failure amount=500.00
+2026-10-30T12:50:34Z ERROR payment-api request failed status=500 route=/payments request_id=97ec8dc4-078e-4652-854e-8ecfa4198b15 reason=simulated_failure amount=500.00
+2026-10-30T12:50:36Z INFO payment-api request completed status=200 route=/payments request_id=0ea61e82-f64e-4c2a-b7a1-7392f2b57e3e amount=500.00
+2026-10-30T12:50:38Z INFO payment-api request completed status=200 route=/payments request_id=d55467c5-8aa0-495b-8d21-cd35e19aeb47 amount=500.00
+2026-10-30T12:50:40Z INFO payment-api request completed status=200 route=/payments request_id=30fd77c8-d771-4c7f-b5d9-97eae798f744 amount=500.00
+2026-10-30T12:50:42Z INFO payment-api request completed status=200 route=/payments request_id=d624bf0c-b62a-49d0-97fb-d6ac1b20218b amount=500.00
+2026-10-30T12:50:44Z INFO payment-api request completed status=200 route=/payments request_id=a87b77fb-19b8-46d0-85b1-9b629981d9b8 amount=500.00
+2026-10-30T12:50:46Z ERROR payment-api request failed status=500 route=/payments request_id=75bb3d60-b232-4aa2-b247-17904c1845ca reason=simulated_failure amount=500.00
+2026-10-30T12:50:48Z ERROR payment-api request failed status=500 route=/payments request_id=c03c554d-fd03-44d9-b48c-bbd721d0733a reason=simulated_failure amount=500.00
+2026-10-30T12:50:50Z ERROR payment-api request failed status=500 route=/payments request_id=117a1449-387b-40c8-94d1-b5e5b4652e71 reason=simulated_failure amount=500.00
+2026-10-30T12:50:52Z INFO payment-api request completed status=200 route=/payments request_id=2bec8d14-cf74-4d86-9665-60a66d4b6cef amount=500.00
+2026-10-30T12:50:54Z INFO payment-api request completed status=200 route=/payments request_id=5f5f9b4b-3ed2-44f7-a52a-b73af2fd1338 amount=500.00
+2026-10-30T12:50:56Z INFO payment-api request completed status=200 route=/payments request_id=e9962284-0f9b-4c0f-9e28-06073a2fa3e5 amount=500.00
+2026-10-30T12:50:58Z INFO payment-api request completed status=200 route=/payments request_id=ca930756-6608-45e8-ac0a-2d319601c5f0 amount=500.00
+2026-10-30T12:51:00Z INFO payment-api request completed status=200 route=/payments request_id=920626c7-ba25-40fa-8d0f-7aaa14a301a4 amount=500.00
+2026-10-30T12:51:02Z ERROR payment-api request failed status=500 route=/payments request_id=a2b98db0-8e5c-4088-b060-91cfef930a26 reason=simulated_failure amount=500.00
+2026-10-30T12:51:04Z ERROR payment-api request failed status=500 route=/payments request_id=07e89280-9fd9-4b2b-8f0d-05999e771c08 reason=simulated_failure amount=500.00
+2026-10-30T12:51:06Z ERROR payment-api request failed status=500 route=/payments request_id=538c1ff2-e1ae-4ea4-86ba-961d1bd60e90 reason=simulated_failure amount=500.00

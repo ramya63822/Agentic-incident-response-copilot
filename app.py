@@ -1,78 +1,125 @@
 
 import streamlit as st
+from datetime import datetime
 
 from incident_copilot.log_parser import analyze_log_text
-from streamlit_autorefresh import st_autorefresh
-from datetime import datetime
 from incident_copilot.sample_data import load_sample_log
+
 from incident_copilot.monitor import (
-    SAMPLE_ALERT_LOGS,
     check_for_incident,
     load_payment_api_logs,
 )
+
+from incident_copilot.incident_store import (
+    record_incident,
+    list_incidents,
+    recover_stale_incidents,
+)
+
+from incident_copilot.investigation_engine import (
+    investigate_incident,
+)
+
+
+# ==================================================
+# 1. PAGE CONFIGURATION
+# ==================================================
 
 st.set_page_config(
     page_title="Agentic Incident Response Copilot",
     page_icon="🔎",
     layout="wide",
 )
-# Refresh the dashboard every 3 seconds
-refresh_count = st_autorefresh(
-    interval=3000,
-    limit=None,
-    key="incident_monitor_refresh",
+
+st.title("🔎 Agentic Incident Response Copilot")
+
+st.caption(
+    "Monitor simulated services, detect incidents, "
+    "retrieve operational evidence, and investigate failures using AI."
 )
 
-st.info(f"Dashboard refresh count: {refresh_count}")
 st.caption(
-    f"Dashboard last rerun: "
+    f"Dashboard last refreshed: "
     f"{datetime.now().astimezone().strftime('%H:%M:%S')}"
 )
 
-st.title("🔎 Agentic Incident Response Copilot")
-st.caption("A step-by-step AI engineering portfolio project")
-
 st.write(
-    "Investigate software incidents by examining logs, deployment context, "
-    "runbooks, and historical incidents. This version includes incident intake, "
-    "rule-based log analysis, and simulated monitoring."
+    "An AI-powered incident response system that monitors "
+    "simulated services, detects recurring errors, retrieves "
+    "operational evidence, and investigates potential root causes "
+    "using an LLM."
 )
 
 
-
-# --------------------------------------------------
-# 1. Automatic Incident Monitoring
-# --------------------------------------------------
+# ==================================================
+# 2. AUTOMATIC INCIDENT MONITORING
+# ==================================================
 
 st.divider()
 st.subheader("1. Automatic Incident Monitoring")
 
 st.caption(
-    "Dashboard refreshes every 3 seconds and checks the latest "
-    "Payment API logs automatically."
+    "Monitoring uses the latest Payment API logs whenever "
+    "the dashboard runs. Refresh the browser to check again."
 )
 
 log_text = load_payment_api_logs()
 
 if log_text.strip():
+
     monitor_result = check_for_incident(log_text)
 
     if monitor_result:
+
+        # Save or update the active incident.
+        saved_incident = record_incident(monitor_result)
+
         st.error("Incident detected!")
 
-        m1, m2, m3 = st.columns(3)
-        m1.metric("Service", monitor_result["service"])
-        m2.metric("Errors detected", monitor_result["error_count"])
-        m3.metric(
+        col1, col2, col3 = st.columns(3)
+
+        col1.metric(
+            "Service",
+            monitor_result["service"],
+        )
+
+        col2.metric(
+            "Errors detected",
+            monitor_result["error_count"],
+        )
+
+        col3.metric(
             "Detection window",
             f'{monitor_result["window_seconds"]} sec',
         )
 
-        st.markdown(f"### {monitor_result['title']}")
-        st.warning(f"Severity: {monitor_result['severity']}")
-        st.write(monitor_result["description"])
+        st.markdown(
+            f"### {monitor_result['title']}"
+        )
+
+        st.warning(
+            f"Severity: {monitor_result['severity']}"
+        )
+
+        st.write(
+            monitor_result["description"]
+        )
+
+        st.caption(
+            f"Incident ID: {saved_incident['id']} | "
+            f"Status: {saved_incident['status']}"
+        )
+
+        st.caption(
+            f"First seen (UTC): {monitor_result['first_seen']}"
+        )
+
+        st.caption(
+            f"Latest error event (UTC): {monitor_result['last_seen']}"
+        )
 
         st.markdown("**Evidence collected**")
+
         for line in monitor_result["evidence"]:
             st.code(line, language="text")
 
@@ -80,21 +127,325 @@ if log_text.strip():
             "The detector found an error pattern. "
             "This is not a confirmed root cause."
         )
+
     else:
-        st.info("No incident detected in the current logs.")
+
+        recovered_count = recover_stale_incidents(
+            recovery_after_seconds=30
+        )
+
+        if recovered_count:
+            st.success(
+                f"{recovered_count} incident(s) marked as recovered."
+            )
+        else:
+            st.info(
+                "No incident detected in the recent log window."
+            )
+
 else:
     st.info(
-        "Waiting for Payment API logs. Start the API and traffic simulator."
+        "Waiting for Payment API logs. "
+        "Start the API and traffic simulator to generate test events."
     )
 
-# --------------------------------------------------
-# 2. Manual incident intake
-# --------------------------------------------------
+
+# ==================================================
+# 3. INCIDENT HISTORY
+# ==================================================
 
 st.divider()
+st.subheader("2. Incident History")
+
+incidents = list_incidents(limit=50)
+
+# Preserve reports during Streamlit reruns.
+if "investigation_reports" not in st.session_state:
+    st.session_state["investigation_reports"] = {}
+
+
+if incidents:
+
+    st.caption(
+        f"Showing {len(incidents)} most recent saved incidents."
+    )
+
+    active_count = sum(
+        1
+        for incident in incidents
+        if incident["status"] == "Active"
+    )
+
+    recovered_count = sum(
+        1
+        for incident in incidents
+        if incident["status"] == "Recovered"
+    )
+
+    col1, col2, col3 = st.columns(3)
+
+    col1.metric(
+        "Saved incidents",
+        len(incidents),
+    )
+
+    col2.metric(
+        "Active incidents",
+        active_count,
+    )
+
+    col3.metric(
+        "Recovered incidents",
+        recovered_count,
+    )
+
+    # Display every saved incident.
+    for saved in incidents:
+
+        incident_id = saved["id"]
+
+        with st.expander(
+            f"#{incident_id} — {saved['title']} "
+            f"({saved['status']})"
+        ):
+
+            # --------------------------------------
+            # Incident details
+            # --------------------------------------
+
+            st.markdown("### Incident Details")
+
+            st.write(
+                f"**Service:** {saved['service']}"
+            )
+
+            st.write(
+                f"**Severity:** {saved['severity']}"
+            )
+
+            st.write(
+                f"**Status:** {saved['status']}"
+            )
+
+            st.write(
+                f"**Errors detected:** {saved['error_count']}"
+            )
+
+            st.write(
+                f"**First seen (UTC):** {saved['first_seen']}"
+            )
+
+            st.write(
+                f"**Latest error (UTC):** {saved['last_seen']}"
+            )
+
+            st.write(
+                f"**Record created (UTC):** {saved['created_at']}"
+            )
+
+            if saved.get("recovered_at"):
+                st.write(
+                    f"**Recovered at (UTC):** "
+                    f"{saved['recovered_at']}"
+                )
+
+            # --------------------------------------
+            # Stored evidence
+            # --------------------------------------
+
+            st.divider()
+            st.markdown("### Stored Evidence")
+
+            if saved["evidence"]:
+
+                for line in saved["evidence"]:
+                    st.code(line, language="text")
+
+            else:
+                st.info(
+                    "No evidence is stored for this incident."
+                )
+
+            # --------------------------------------
+            # AI investigation
+            # --------------------------------------
+
+            st.divider()
+            st.markdown("### AI Incident Investigation")
+
+            if st.button(
+                "Investigate with AI",
+                key=f"investigate_{incident_id}",
+                type="primary",
+            ):
+
+                try:
+
+                    with st.spinner(
+                        "AI is retrieving evidence and investigating "
+                        "the incident. Please wait..."
+                    ):
+
+                        report = investigate_incident(saved)
+
+                        st.session_state[
+                            "investigation_reports"
+                        ][incident_id] = report
+
+                    st.success(
+                        "AI investigation completed successfully!"
+                    )
+
+                except Exception as error:
+
+                    st.error(
+                        f"Investigation failed: {error}"
+                    )
+
+            # --------------------------------------
+            # Display AI investigation report
+            # --------------------------------------
+
+            report = st.session_state[
+                "investigation_reports"
+            ].get(incident_id)
+
+            if report:
+
+                st.divider()
+
+                st.markdown("## AI Investigation Report")
+
+                # Incident summary
+                st.markdown("### Incident Summary")
+
+                st.write(
+                    report["incident_summary"]
+                )
+
+                # Observed facts
+                st.markdown("### Observed Facts")
+
+                for fact in report["observed_facts"]:
+                    st.write(f"- {fact}")
+
+                # Possible causes
+                st.markdown("### Possible Root Causes")
+
+                if report["possible_causes"]:
+
+                    for index, cause in enumerate(
+                        report["possible_causes"],
+                        start=1,
+                    ):
+
+                        st.markdown(
+                            f"#### Hypothesis {index}: "
+                            f"{cause['hypothesis']}"
+                        )
+
+                        st.write(
+                            f"**Confidence:** {cause['confidence']}"
+                        )
+
+                        st.markdown("**Supporting Evidence**")
+
+                        for evidence in cause[
+                            "supporting_evidence"
+                        ]:
+                            st.write(f"- {evidence}")
+
+                        st.markdown("**Missing Evidence**")
+
+                        for evidence in cause[
+                            "missing_evidence"
+                        ]:
+                            st.write(f"- {evidence}")
+
+                        st.divider()
+
+                else:
+                    st.info(
+                        "The AI did not identify any possible causes."
+                    )
+
+                # Recommended checks
+                st.markdown(
+                    "### Recommended Diagnostic Checks"
+                )
+
+                for check in report["recommended_checks"]:
+                    st.write(f"- {check}")
+
+                # Root cause status
+                st.markdown("### Root Cause Assessment")
+
+                if report["root_cause_confirmed"]:
+
+                    st.success(
+                        "The AI report indicates a confirmed root cause. "
+                        "Verify the supporting evidence before acting."
+                    )
+
+                else:
+
+                    st.warning(
+                        "Root cause is not confirmed. "
+                        "Further investigation is required."
+                    )
+
+                # Limitations
+                st.markdown(
+                    "### Investigation Limitations"
+                )
+
+                for limitation in report["limitations"]:
+                    st.write(f"- {limitation}")
+
+                # Evidence sources
+                st.markdown("### Evidence Sources")
+
+                sources = report["evidence_sources"]
+
+                st.markdown("**Current incident logs**")
+                for source in sources["current_logs"]:
+                    st.write(f"- {source}")
+
+                st.markdown("**Runbooks**")
+                for source in sources["runbooks"]:
+                    st.write(f"- {source}")
+
+                st.markdown("**Historical incidents**")
+                for source in sources["historical_incidents"]:
+                    st.write(f"- {source}")
+
+                # Model information
+                st.divider()
+
+                usage = report.get("usage", {})
+
+                st.caption(
+                    f"Model: {report.get('model', 'Unknown')} | "
+                    f"Tokens used: {usage.get('total_tokens', 'Unknown')}"
+                )
+
+
+else:
+
+    st.info(
+        "No incidents have been saved yet. "
+        "Start the API and traffic simulator to generate test events."
+    )
+
+
+# ==================================================
+# 4. MANUAL INCIDENT INTAKE
+# ==================================================
+
+st.divider()
+st.subheader("3. Manual Incident Intake")
 
 with st.form("incident_form"):
-    st.subheader("2. Incident Intake")
 
     title = st.text_input(
         "Incident title",
@@ -109,7 +460,10 @@ with st.form("incident_form"):
 
     description = st.text_area(
         "What happened?",
-        value="Payment requests started failing after the latest deployment.",
+        value=(
+            "Payment requests started failing after "
+            "the latest deployment."
+        ),
         height=120,
     )
 
@@ -118,41 +472,63 @@ with st.form("incident_form"):
         type="primary",
     )
 
+
 if submitted:
+
     if not title.strip() or not description.strip():
-        st.error("Please provide both an incident title and description.")
+
+        st.error(
+            "Please provide both an incident title and description."
+        )
+
     else:
+
         st.session_state["incident"] = {
             "title": title.strip(),
             "severity": severity,
             "description": description.strip(),
         }
-        st.success("Incident captured for investigation.")
 
-# --------------------------------------------------
-# 3. Existing incident summary and log analysis
-# --------------------------------------------------
+        st.success(
+            "Incident captured for initial investigation."
+        )
+
+
+# ==================================================
+# 5. INCIDENT SUMMARY AND INITIAL LOG ANALYSIS
+# ==================================================
 
 incident = st.session_state.get("incident")
 
 if incident:
+
     st.divider()
-    st.subheader("3. Incident Summary")
+    st.subheader("4. Incident Summary")
 
-    c1, c2 = st.columns([3, 1])
+    col1, col2 = st.columns([3, 1])
 
-    with c1:
-        st.markdown(f"**Title:** {incident['title']}")
-        st.markdown(f"**Description:** {incident['description']}")
+    with col1:
 
-    with c2:
-        st.metric("Severity", incident["severity"])
+        st.markdown(
+            f"**Title:** {incident['title']}"
+        )
 
-    st.subheader("4. Initial Log Analysis")
+        st.markdown(
+            f"**Description:** {incident['description']}"
+        )
+
+    with col2:
+
+        st.metric(
+            "Severity",
+            incident["severity"],
+        )
+
+    st.subheader("5. Initial Log Analysis")
 
     st.write(
-        "This section uses transparent rules to identify common error signals. "
-        "It does not yet use an LLM or determine the confirmed root cause."
+        "Transparent rules identify common error signals. "
+        "This analysis does not confirm the incident's root cause."
     )
 
     sample_log = load_sample_log()
@@ -162,48 +538,71 @@ if incident:
         value=sample_log,
         height=220,
         key="incident_log_text",
-        help="Use the sample log or replace it with non-sensitive test logs.",
+        help="Use sample logs or paste non-sensitive test logs.",
     )
 
     if st.button("Analyze logs"):
+
         result = analyze_log_text(log_text)
 
-        a, b, c = st.columns(3)
-        a.metric("Total lines", result["total_lines"])
-        b.metric("Error-like lines", result["error_count"])
-        c.metric("Warning-like lines", result["warning_count"])
+        col1, col2, col3 = st.columns(3)
+
+        col1.metric(
+            "Total lines",
+            result["total_lines"],
+        )
+
+        col2.metric(
+            "Error-like lines",
+            result["error_count"],
+        )
+
+        col3.metric(
+            "Warning-like lines",
+            result["warning_count"],
+        )
 
         if result["signals"]:
+
             st.markdown("**Detected signals**")
+
             for signal in result["signals"]:
                 st.write(f"- {signal}")
+
         else:
-            st.info("No error or warning keywords were detected.")
+
+            st.info(
+                "No error or warning keywords were detected."
+            )
 
         if result["matching_lines"]:
+
             st.markdown("**Matching log lines**")
+
             for line in result["matching_lines"]:
                 st.code(line, language="text")
 
         st.caption(
-            "Rule-based output is a starting point, not a confirmed diagnosis. "
-            "Evidence retrieval and AI investigation will be added later."
+            "Rule-based output is a starting point, not a confirmed diagnosis."
         )
 
-# --------------------------------------------------
-# 4. Project roadmap
-# --------------------------------------------------
+
+# ==================================================
+# 6. PROJECT ROADMAP
+# ==================================================
 
 st.divider()
-st.subheader("Planned Modules")
+st.subheader("Project Modules")
 
 st.markdown(
     """
-    - **Monitoring:** simulate incoming logs and detect error patterns.
-    - **Log analysis:** detect and summarize error signals.
-    - **Knowledge retrieval:** search runbooks and historical incidents.
-    - **Investigation agent:** coordinate tools and compare evidence.
-    - **Report generation:** produce hypotheses, evidence, uncertainty, and next steps.
-    - **Evaluation:** test against incidents with known causes.
+    - **Monitoring:** Detect recurring errors in simulated service logs.
+    - **Incident persistence:** Store incidents and their history in SQLite.
+    - **Log analysis:** Identify and summarize error signals.
+    - **Evidence retrieval:** Search operational runbooks and historical incidents.
+    - **AI investigation:** Compare possible causes against retrieved evidence.
+    - **Report generation:** Present findings, uncertainty, and next steps.
+    - **Agent orchestration:** Coordinate investigation steps using LangGraph.
+    - **Evaluation:** Test the system against incidents with known causes.
     """
 )
