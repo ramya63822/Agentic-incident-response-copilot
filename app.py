@@ -67,7 +67,9 @@ log_text = load_payment_api_logs()
 
 if log_text.strip():
 
-    monitor_result = check_for_incident(log_text)
+    monitor_result = check_for_incident(
+    log_text=log_text,
+    lookback_seconds=60,)
 
     if monitor_result:
 

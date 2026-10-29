@@ -24,24 +24,30 @@ def load_payment_api_logs() -> str:
     return PAYMENT_LOG_FILE.read_text(encoding="utf-8")
 
 
+
 def check_for_incident(
     log_text: str = SAMPLE_ALERT_LOGS,
     error_threshold: int = 3,
     window_seconds: int = 60,
-    lookback_seconds: int = 60,
+    lookback_seconds: int | None = None,
 ) -> dict | None:
-    """Detect repeated errors within a recent time window."""
-    if lookback_seconds < 1:
-        raise ValueError("lookback_seconds must be at least 1")
+    """Detect repeated errors, optionally restricting logs to a recent window."""
 
-    cutoff = datetime.now(timezone.utc) - timedelta(
-        seconds=lookback_seconds
-    )
+    if lookback_seconds is not None and lookback_seconds < 1:
+        raise ValueError("lookback_seconds must be at least 1")
 
     recent_lines = []
 
+    cutoff = None
+
+    if lookback_seconds is not None:
+        cutoff = datetime.now(timezone.utc) - timedelta(
+            seconds=lookback_seconds
+        )
+
     for line in log_text.splitlines():
         parts = line.split(maxsplit=2)
+
         if len(parts) < 3:
             continue
 
@@ -53,9 +59,11 @@ def check_for_incident(
             continue
 
         if timestamp.tzinfo is None:
-            timestamp = timestamp.replace(tzinfo=timezone.utc)
+            timestamp = timestamp.replace(
+                tzinfo=timezone.utc
+            )
 
-        if timestamp >= cutoff:
+        if cutoff is None or timestamp >= cutoff:
             recent_lines.append(line)
 
     return detect_incident(
