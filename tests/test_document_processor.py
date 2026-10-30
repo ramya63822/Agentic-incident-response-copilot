@@ -4,13 +4,19 @@ from incident_copilot.document_processor import (
     build_chunks,
 )
 
-documents = load_documents()
-chunks = build_chunks()
 
-print("Documents loaded:", len(documents))
-print("Chunks created:", len(chunks))
+def test_documents_are_loaded():
+    documents = load_documents()
 
-for chunk in chunks:
-    print("\nSource:", chunk["metadata"]["source"])
-    print("Type:", chunk["metadata"]["type"])
-    print("Chunk:", chunk["content"][:200])
+    assert len(documents) > 0
+
+
+def test_chunks_are_created():
+    chunks = build_chunks()
+
+    assert len(chunks) > 0
+
+    for chunk in chunks:
+        assert "content" in chunk
+        assert "metadata" in chunk
+        assert chunk["content"].strip()

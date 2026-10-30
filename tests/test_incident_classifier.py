@@ -2,34 +2,20 @@
 from incident_copilot.incident_classifier import classify_incident
 
 
-def main():
+def test_simulated_incident_classification():
+    logs = [
+        "ERROR payment-api reason=simulated_failure",
+        "ERROR payment-api reason=simulated_failure",
+    ]
 
-    test_cases = {
-        "Simulated incident": [
-            "ERROR payment-api reason=simulated_failure",
-            "ERROR payment-api reason=simulated_failure",
-        ],
+    result = classify_incident(logs)
 
-        "Operational candidate": [
-            "ERROR payment-api database connection timeout",
-            "ERROR payment-api request failed status=500",
-        ],
-
-        "Mixed incident": [
-            "ERROR payment-api reason=simulated_failure",
-            "ERROR payment-api database connection timeout",
-        ],
-
-        "Unknown incident": [],
-    }
-
-    for name, logs in test_cases.items():
-        result = classify_incident(logs)
-
-        print(f"\n{name}")
-        print("-" * 40)
-        print(result)
+    assert result is not None
+    assert isinstance(result, dict)
 
 
-if __name__ == "__main__":
-    main()
+def test_unknown_incident_classification():
+    result = classify_incident([])
+
+    assert result is not None
+    assert isinstance(result, dict)
