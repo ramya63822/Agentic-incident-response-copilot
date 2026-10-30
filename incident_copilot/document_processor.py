@@ -67,12 +67,14 @@ def load_documents() -> list[dict]:
     return documents
 
 
+
 def chunk_text(
     text: str,
     chunk_size: int = CHUNK_SIZE,
     overlap: int = CHUNK_OVERLAP,
 ) -> list[str]:
-    """Split text into overlapping chunks."""
+    """Split text into overlapping chunks using natural boundaries."""
+
     if chunk_size < 1:
         raise ValueError("chunk_size must be positive")
 
@@ -82,6 +84,7 @@ def chunk_text(
         )
 
     text = text.strip()
+
     if not text:
         return []
 
@@ -91,9 +94,19 @@ def chunk_text(
     while start < len(text):
         end = min(start + chunk_size, len(text))
 
-        # Prefer ending at a paragraph or word boundary.
         if end < len(text):
-            boundary = text.rfind("\n", start, end)
+            # Prefer paragraph boundary.
+            boundary = text.rfind("\n\n", start, end)
+
+            # Otherwise prefer sentence boundary.
+            if boundary == -1:
+                boundary = max(
+                    text.rfind(". ", start, end),
+                    text.rfind("? ", start, end),
+                    text.rfind("! ", start, end),
+                )
+
+            # Otherwise prefer word boundary.
             if boundary == -1:
                 boundary = text.rfind(" ", start, end)
 
@@ -108,10 +121,15 @@ def chunk_text(
         if end >= len(text):
             break
 
-        start = max(end - overlap, start + 1)
+        # Calculate overlap and align the next start to a word.
+        next_start = max(start + 1, end - overlap)
+
+        while next_start < end and text[next_start].isalnum():
+            next_start += 1
+
+        start = next_start
 
     return chunks
-
 
 def build_chunks() -> list[dict]:
     """Convert loaded documents into chunks with stable IDs."""

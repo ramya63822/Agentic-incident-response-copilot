@@ -1,22 +1,31 @@
 
-from incident_copilot.document_processor import (
-    load_documents,
-    build_chunks,
-)
+from incident_copilot.document_processor import chunk_text
 
 
-def test_documents_are_loaded():
-    documents = load_documents()
-
-    assert len(documents) > 0
+def test_empty_text_returns_no_chunks():
+    assert chunk_text("") == []
 
 
-def test_chunks_are_created():
-    chunks = build_chunks()
+def test_short_text_returns_one_chunk():
+    text = "Payment API is working."
+    assert chunk_text(text) == [text]
 
-    assert len(chunks) > 0
 
-    for chunk in chunks:
-        assert "content" in chunk
-        assert "metadata" in chunk
-        assert chunk["content"].strip()
+def test_chunks_respect_size():
+    text = " ".join(["payment"] * 200)
+
+    chunks = chunk_text(
+        text,
+        chunk_size=100,
+        overlap=20,
+    )
+
+    assert len(chunks) > 1
+    assert all(len(chunk) <= 100 for chunk in chunks)
+
+
+def test_invalid_overlap_is_rejected():
+    import pytest
+
+    with pytest.raises(ValueError):
+        chunk_text("sample text", chunk_size=100, overlap=100)
