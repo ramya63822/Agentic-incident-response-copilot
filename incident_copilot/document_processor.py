@@ -13,8 +13,8 @@ HISTORICAL_INCIDENTS_FILE = (
     BASE_DIR / "data" / "incidents" / "historical_incidents.json"
 )
 
-CHUNK_SIZE = 500
-CHUNK_OVERLAP = 80
+CHUNK_SIZE = 800
+CHUNK_OVERLAP = 120
 
 
 def load_documents() -> list[dict]:

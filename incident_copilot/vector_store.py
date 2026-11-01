@@ -31,9 +31,17 @@ collection = client.get_or_create_collection(
 )
 
 
+
 def index_documents() -> int:
-    """Generate embeddings and index knowledge chunks."""
+    """Rebuild the knowledge base using current document chunks."""
+
     chunks = build_chunks()
+
+    # Remove old records to prevent stale chunks.
+    existing = collection.get()
+
+    if existing["ids"]:
+        collection.delete(ids=existing["ids"])
 
     if not chunks:
         return 0
@@ -43,7 +51,7 @@ def index_documents() -> int:
         normalize_embeddings=True,
     ).tolist()
 
-    collection.upsert(
+    collection.add(
         ids=[chunk["id"] for chunk in chunks],
         documents=[chunk["content"] for chunk in chunks],
         metadatas=[chunk["metadata"] for chunk in chunks],
@@ -53,18 +61,31 @@ def index_documents() -> int:
     return len(chunks)
 
 
+
+
 def search_knowledge(
     query: str,
     top_k: int = 3,
+    max_per_source: int = 2,
+    max_distance: float = 0.75,
 ) -> list[dict]:
-    """Retrieve relevant knowledge using semantic similarity."""
+    """Retrieve relevant and diverse knowledge chunks."""
+
     if not query.strip():
         raise ValueError("Query cannot be empty")
 
     if top_k < 1:
         raise ValueError("top_k must be at least 1")
 
-    if collection.count() == 0:
+    if max_per_source < 1:
+        raise ValueError("max_per_source must be at least 1")
+
+    if not 0 <= max_distance <= 2:
+        raise ValueError("max_distance must be between 0 and 2")
+
+    count = collection.count()
+
+    if count == 0:
         return []
 
     query_embedding = embedding_model.encode(
@@ -74,19 +95,40 @@ def search_knowledge(
 
     results = collection.query(
         query_embeddings=[query_embedding],
-        n_results=min(top_k, collection.count()),
+        n_results=min(count, max(top_k * 3, top_k)),
         include=["documents", "metadatas", "distances"],
     )
 
     retrieved = []
+    source_counts = {}
 
     for index, content in enumerate(results["documents"][0]):
+
+        metadata = results["metadatas"][0][index]
+        distance = results["distances"][0][index]
+
+        if distance > max_distance:
+            continue
+
+        source = metadata["source"]
+
+        source_counts.setdefault(source, 0)
+
+        if source_counts[source] >= max_per_source:
+            continue
+
         retrieved.append({
             "content": content,
-            "source": results["metadatas"][0][index]["source"],
-            "type": results["metadatas"][0][index]["type"],
-            "metadata": results["metadatas"][0][index],
-            "distance": results["distances"][0][index],
+            "source": source,
+            "type": metadata["type"],
+            "metadata": metadata,
+            "distance": distance,
         })
 
+        source_counts[source] += 1
+
+        if len(retrieved) >= top_k:
+            break
+
     return retrieved
+
